@@ -306,7 +306,7 @@
 /* About Section */
 /***********************************************/
 	#about-section {
-		padding: 120px 120px;
+		padding: 120px 0px;
 		background: #607d8b;
 		color: #FFFFFF;
 	}
@@ -329,7 +329,7 @@
 /* Hire Section */
 /***********************************************/
 	#hire-section {
-		padding: 120px 120px;
+		padding: 120px 0px;
 		background: #607d8b;
 		color: #FFFFFF;
 	}
@@ -477,7 +477,7 @@
 /* Social Section */
 /***********************************************/
 	#social-section {
-		padding: 120px 120px;
+		padding: 120px 0px;
 		background-color: #009688;
 		text-align: center;
 		color: #FFFFFF;
@@ -488,7 +488,7 @@
 	}
 	#social-section .social i.fa {
 		font-size: x-large;
-		padding: 4px 5px;
+		padding: 4px 4px;
 		color: #FFFFFF;
 		transition: all 0.5s;
 	}

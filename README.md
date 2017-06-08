@@ -1,4 +1,5 @@
-# Knhash.github.io
-Show case website | Portfolio | Blog
+# knhash.github.io
 
-Find my works and stuff
+### Show case website | Portfolio | Blog
+
+### Find my works and stuff

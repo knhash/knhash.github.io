@@ -4,7 +4,6 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-  text-transform: lowercase;
   margin: 0;
   padding: 0; }
 
@@ -12,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Lucida Console", Monaco, monospace;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -474,20 +473,9 @@ pre {
 /* Home Section */
 /***********************************************/
   #home-section {
-    background: #3498db;/*url(../img/header-bg.jpg) no-repeat bottom right;*//*
-    background-size: cover;
-    color: #cfcfcf;
-    position: relative;
-    height: 100%;*/
-  }
-  .intro-text {
-    position: relative;
+    background: #3498db;
     padding-top: 50vh;
     height: 100vh;
-  }
-  .intro-text H1 {
-    font-size: x-large;
-    letter-spacing: 1px;
     color: #fff;
   }
 /***********************************************/
@@ -518,12 +506,6 @@ pre {
     color: #FFFFFF;
     height: 100vh;
   }
-  #skills-section i.fa {
-    font-size: medium;
-    margin-bottom: 20px;
-    transition: all 0.5s;
-    color: #ffffff;
-  }
 /***********************************************/
 /* Hire Section */
 /***********************************************/
@@ -532,27 +514,4 @@ pre {
     background: #34495e;
     color: #FFFFFF;
     height: 100vh;
-  }
-/***********************************************/
-/* Social Section */
-/***********************************************/
-  #social-section {
-    padding-top: 40vh;
-    background-color: #27ae60;
-    text-align: center;
-    color: #FFFFFF;
-    height: 100vh;
-  }
-  #social-section .social ul li {
-    display: inline-block;
-    margin: 0 20px;
-  }
-  #social-section .social i.fa {
-    font-size: x-large;
-    padding: 4px 4px;
-    color: #FFFFFF;
-    transition: all 0.5s;
-  }
-  #social-section .social i.fa:hover {
-    color: #666;
   }

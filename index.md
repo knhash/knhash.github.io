@@ -10,7 +10,7 @@ layout: default
 <!-- About Section -->
 <div id="about-section">
   <div class="container">
-    <div class="section-title text-center center">
+    <div class="text-center">
       <h5><strong>about</strong><i> (preposition):</i> on the subject of; concerning.</h5>
       <hr>
       <div class="clearfix"></div>
@@ -19,11 +19,8 @@ layout: default
       <div class="col-md-6"> <img src="assets/img/face.jpg" class="img-responsive about-img center-block"> </div>
       <div class="col-md-6">
         <div class="about-text">
-          <h4 class="text-center"><strong>Who</strong></h4>
-          <p class="text-center">In the physical world people call me <strong>Shashank</strong>. I am a third year Computer Science undergraduate student</p>
-          <h4 class="text-center"><strong>What</strong></h4>
-          <p class="text-center">Writer | Doodler | Designer | Thinker | Student | Developer | Orator.</p>
-          <p class="text-center">I have worn many hats. Sometimes multiple simultaneously. (They fit)</p>
+          <p class="text-center"><strong>Who</strong><br>In the physical world people call me <strong>Shashank</strong>. I am a third year computer science undergraduate student</p>
+          <p class="text-center"><strong>What</strong><br>Writer | Doodler | Designer | Thinker | Student | Developer | Orator.<br>I have worn many hats. Sometimes multiple simultaneously. (They fit)</p>
         </div>
       </div>
     </div>
@@ -32,7 +29,7 @@ layout: default
 <!-- Skills Section -->
 <div id="skills-section" class="text-center">
   <div class="container">
-    <div class="section-title text-center center">
+    <div class="text-center">
       <h5><strong>skills</strong><i> (noun):</i> the ability to do something well; expertise.</h5>
       <hr>
       <div class="clearfix"></div>
@@ -48,11 +45,11 @@ layout: default
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-android"></i>
         <h5>App Development</h5>
-        <p>android</p>
+        <p>ANDROID</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
         <h5>Tools and frameworks</h5>
-        <p>Linux | git | mysql</p>
+        <p>LINUX | GIT | MYSQL</p>
       </div>
     </div>
   </div>
@@ -60,13 +57,13 @@ layout: default
 <!-- Hire Section -->
 <div id="hire-section">
   <div class="container">
-    <div class="section-title text-center center">
+    <div class="text-center">
       <h5><strong>hire</strong><i> (verb):</i> obtain the temporary use of (something) for an agreed payment.</h5>
       <hr>
       <div class="clearfix"></div>
     </div>
     <div class="row">
-      <div class="col-md-6 text-center center"><h5>take the first step, download: </h5> 
+      <div class="col-md-6 text-center"><h5>take the first step, download: </h5> 
       </div>
       <div class="col-md-6 text-center center">
         <a href="assets/resources/Résumé.pdf" class="btn btn-default btn-lg page-scroll"><i class="fa fa-file-o"></i> resume / cv</a>

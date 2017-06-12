@@ -4,7 +4,7 @@ layout: default
 <!-- Header -->
   <div class="text-center" id="home-section">
     <div class="intro-text">
-      <h1>Hello. I am <strong>Knhash.</strong></h1>
+      <h1>Hello.<br> I am <strong>Knhash.</strong></h1>
     </div>
   </div>
 <!-- About Section -->

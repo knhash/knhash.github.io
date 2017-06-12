@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
-<!-- Header -->
-  <div class="text-center" id="home-section">
-    <div class="intro-text">
-      <h1>Hello<br> I am <strong>Knhash</strong></h1>
+<!-- Home Section -->
+<div id="home-section">
+  <div class="container">
+    <div class="text-center intro-text">
+      <h1>Hello</h1> 
+      <hr>
+      <h1>I am <strong>Knhash</strong></h1>
     </div>
   </div>
+</div>
 <!-- About Section -->
 <div id="about-section">
   <div class="container">

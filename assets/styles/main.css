@@ -490,6 +490,7 @@ a:hover.post-link {
     padding-top: 30vh;
     height: 100vh;
     color: #FFF;
+    padding-bottom: 30vh;
   }
 /***********************************************/
 /* About Section */
@@ -500,6 +501,7 @@ a:hover.post-link {
     background: #9b59b6;
     color: #FFFFFF;
     min-height: 100vh;
+    padding-bottom: 20vh;
   }
   .row.row-eq-height {
     display: -webkit-box;
@@ -509,6 +511,7 @@ a:hover.post-link {
   }
   img.about-img.img-responsive {
     border: 5px solid #607d8b;
+    max-width: 50%;
     margin: 0 auto;
   }
 /***********************************************/
@@ -520,6 +523,7 @@ a:hover.post-link {
     background: #e74c3c;
     color: #FFFFFF;
     min-height: 100vh;
+    padding-bottom: 20vh;
   }
 /***********************************************/
 /* Hire Section */
@@ -530,4 +534,5 @@ a:hover.post-link {
     background: #34495e;
     color: #FFFFFF;
     min-height: 100vh;
+    padding-bottom: 30vh;
   }

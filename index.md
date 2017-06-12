@@ -13,7 +13,6 @@ layout: default
     <div class="text-center">
       <h5><strong>about</strong><i> (preposition):</i> on the subject of; concerning.</h5>
       <hr>
-      <div class="clearfix"></div>
     </div>
     <div class="row">
       <div class="col-md-6"> <img src="assets/img/face.jpg" class="img-responsive about-img center-block"> </div>
@@ -32,7 +31,6 @@ layout: default
     <div class="text-center">
       <h5><strong>skills</strong><i> (noun):</i> the ability to do something well; expertise.</h5>
       <hr>
-      <div class="clearfix"></div>
     </div>
     <div class="row">
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
@@ -60,7 +58,6 @@ layout: default
     <div class="text-center">
       <h5><strong>hire</strong><i> (verb):</i> obtain the temporary use of (something) for an agreed payment.</h5>
       <hr>
-      <div class="clearfix"></div>
     </div>
     <div class="row">
       <div class="col-md-6 text-center"><h5>take the first step, download: </h5> 

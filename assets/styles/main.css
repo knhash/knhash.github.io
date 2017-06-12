@@ -1,9 +1,8 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
   padding: 0; }
 
@@ -11,7 +10,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Lucida Console", Monaco, monospace;
+  font: 400 16px/1.5 'Roboto Mono', monospace;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -116,6 +115,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+  font-family: 'Roboto Mono', monospace;
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
@@ -473,6 +473,7 @@ pre {
 /* Home Section */
 /***********************************************/
   #home-section {
+    font-family: 'Roboto Mono', monospace;
     background: #3498db;
     padding-top: 50vh;
     min-height: 100vh;
@@ -482,6 +483,7 @@ pre {
 /* About Section */
 /***********************************************/
   #about-section {
+    font-family: 'Roboto Mono', monospace;
     padding-top: 10vh;
     background: #9b59b6;
     color: #FFFFFF;
@@ -501,6 +503,7 @@ pre {
 /* Skills Section */
 /***********************************************/
   #skills-section {
+    font-family: 'Roboto Mono', monospace;
     padding-top: 20vh;
     background: #e74c3c;
     color: #FFFFFF;
@@ -510,6 +513,7 @@ pre {
 /* Hire Section */
 /***********************************************/
   #hire-section {
+    font-family: 'Roboto Mono', monospace;
     padding-top: 40vh;
     background: #34495e;
     color: #FFFFFF;

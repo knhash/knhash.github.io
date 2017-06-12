@@ -488,8 +488,8 @@ a:hover.post-link {
     font-family: 'Roboto Mono', monospace;
     background: #3498db;
     padding-top: 50vh;
-    min-height: 100vh;
-    color: #fff;
+    height: 100vh;
+    color: #FFF;
   }
 /***********************************************/
 /* About Section */

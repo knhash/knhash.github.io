@@ -2,11 +2,11 @@
 layout: default
 ---
 <!-- Header -->
-  <header class="text-center" id="home-section">
+  <div class="text-center" id="home-section">
     <div class="intro-text">
       <h1>Hello. I am <strong>Knhash.</strong></h1>
     </div>
-  </header>
+  </div>
 <!-- About Section -->
 <div id="about-section">
   <div class="container">

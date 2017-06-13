@@ -67,7 +67,7 @@ layout: default
       <div class="col-md-6 text-center"><h5>take the first step, download: </h5> 
       </div>
       <div class="col-md-6 text-center center">
-        <a href="assets/resources/Résumé.pdf" class="btn btn-default btn-lg page-scroll"><i class="fa fa-file-o"></i> resume / cv</a>
+        <a href="https://docs.google.com/document/d/1edosG5gd5XDkyU7QpVQZkDFr7ct0cJ7iLn5Uf1lPcIY/edit?usp=sharing" class="btn btn-default btn-lg page-scroll"><i class="fa fa-file-o"></i> resume / cv</a>
       </div>
     </div>
   </div>

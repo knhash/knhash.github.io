@@ -73,7 +73,7 @@ layout: default
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-6 text-center"><h5>take the first step, check out my </h5> 
+      <div class="col-md-6 text-center"><h5>Take the first step, check out my </h5> 
       </div>
       <div class="col-md-6 text-center center">
         <a href="https://docs.google.com/document/d/1edosG5gd5XDkyU7QpVQZkDFr7ct0cJ7iLn5Uf1lPcIY/edit?usp=sharing" class="btn btn-default btn-lg"><i class="fa fa-file-text"></i> CV</a>

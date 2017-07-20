@@ -23,11 +23,15 @@ layout: default
       <div class="col-md-6">
         <div class="about-text">
           <br>
-          <p class="text-center"><strong>WHO</strong><br>In the physical world people call me <strong>Shashank</strong>. I am a third year computer science undergraduate student</p>
+          <p class="text-center">In the physical world people call me <strong>Shashank</strong> or <strong>Shank</strong></p>
+          <br> 
+          <p class="text-center">I am a fourth year Computer Science and Engineering undergrad</p>
           <br>
+          <p class="text-center">Riddler | Coder | Doodler | Writer | Designer | Developer | Orator</p>
           <br>
+          <p class="text-center">Can build abstract mental constructs of varying complexity ("dream"). Love puzzles and Math. My instruments of choice are pencils and fountain ink pens. I am accompanied in my cyber adventures by my trusty ThinkPad T430, currently running Arch + GNOME. Together we can handle anything you may want. I can string together words quite well. Check out my blog for a taste.</p>
           <br>
-          <p class="text-center"><strong>WHAT</strong><br>Writer | Doodler | Designer | Thinker | Student | Developer | Orator.<br>I have worn many hats. Sometimes multiple simultaneously.</p>
+          <p class="text-center">Scroll all the way down to explore more. You will find the portal to my blog on your top right.</p>
           <br>
         </div>
       </div>
@@ -42,21 +46,21 @@ layout: default
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code fa-2x"></i>
         <h5>Languages</h5>
         <p>C | C++ | JAVA | PYTHON</p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop"></i>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop fa-2x"></i>
         <h5>Web Design</h5>
         <p>HTML | CSS | JAVASCRIPT</p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-android"></i>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-android fa-2x"></i>
         <h5>App Development</h5>
         <p>ANDROID</p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears fa-2x"></i>
         <h5>Tools and frameworks</h5>
-        <p>LINUX | GIT | MYSQL</p>
+        <p>OPENGL | LINUX | GIT | MYSQL</p>
       </div>
     </div>
   </div>
@@ -69,10 +73,10 @@ layout: default
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-6 text-center"><h5>take the first step, download: </h5> 
+      <div class="col-md-6 text-center"><h5>take the first step, check out my </h5> 
       </div>
       <div class="col-md-6 text-center center">
-        <a href="https://docs.google.com/document/d/1edosG5gd5XDkyU7QpVQZkDFr7ct0cJ7iLn5Uf1lPcIY/edit?usp=sharing" class="btn btn-default btn-lg page-scroll"><i class="fa fa-file-o"></i> resume / cv</a>
+        <a href="https://docs.google.com/document/d/1edosG5gd5XDkyU7QpVQZkDFr7ct0cJ7iLn5Uf1lPcIY/edit?usp=sharing" class="btn btn-default btn-lg"><i class="fa fa-file-text"></i> CV</a>
       </div>
     </div>
   </div>

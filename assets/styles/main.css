@@ -142,6 +142,8 @@ pre {
  */
 .icon > svg {
   display: inline-block;
+  width: 32px;
+  height: 32px;
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
@@ -225,8 +227,8 @@ pre {
  * Site footer
  */
 .site-footer {
-  background-color: #cccccc;
-  border-top: 0px solid #e8e8e8;
+  background-color: #002B36;
+  border-top: 1px solid #FFF;
   padding: 30px 0; }
 
 .footer-heading {
@@ -278,9 +280,9 @@ pre {
  * Page content
  */
 .page-content {
-  background-color: #34495e;
-  min-height: 100vh;
-  padding: 30px 0; }
+  background-color: #002B36;
+  padding-top: 30px;
+  min-height: 100vh; }
 
 .page-heading {
   font-size: 20px; }
@@ -313,7 +315,7 @@ a:hover.post-link {
   margin-bottom: 30px; }
 
 .post-title {
-  color: #1abc9c;
+  color: #2AA198;
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
@@ -322,7 +324,7 @@ a:hover.post-link {
       font-size: 36px; } }
 
 .post-content {
-  color: #f1c40f;
+  color: #839496;
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
@@ -520,7 +522,7 @@ a:hover.post-link {
   #skills-section {
     font-family: 'Roboto Mono', monospace;
     padding-top: 20vh;
-    background: #e74c3c;
+    background: #27ae60;
     color: #FFFFFF;
     min-height: 100vh;
     padding-bottom: 20vh;

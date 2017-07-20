@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Who Is Mr Paratap?"
+title:  "Who Is Mr Pratap?"
 date:   2017-07-19 21:59:59 +0530
 ---
 

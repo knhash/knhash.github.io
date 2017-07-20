@@ -22,8 +22,13 @@ layout: default
       <div class="col-md-6"> <img src="assets/img/face.jpg" class="img-responsive about-img center-block"> </div>
       <div class="col-md-6">
         <div class="about-text">
-          <p class="text-center"><strong>Who</strong><br>In the physical world people call me <strong>Shashank</strong>. I am a third year computer science undergraduate student</p>
-          <p class="text-center"><strong>What</strong><br>Writer | Doodler | Designer | Thinker | Student | Developer | Orator.<br>I have worn many hats. Sometimes multiple simultaneously. (They fit)</p>
+          <br>
+          <p class="text-center"><strong>WHO</strong><br>In the physical world people call me <strong>Shashank</strong>. I am a third year computer science undergraduate student</p>
+          <br>
+          <br>
+          <br>
+          <p class="text-center"><strong>WHAT</strong><br>Writer | Doodler | Designer | Thinker | Student | Developer | Orator.<br>I have worn many hats. Sometimes multiple simultaneously.</p>
+          <br>
         </div>
       </div>
     </div>

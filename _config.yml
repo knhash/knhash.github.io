@@ -25,6 +25,3 @@ github_username:  knhash
 
 # Build settings
 markdown: kramdown
-# theme: minima
-# gems:
-#  - jekyll-feed

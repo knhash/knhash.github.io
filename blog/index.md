@@ -5,7 +5,6 @@ permalink: /blog/
 ---
 
 <div class="home">
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -14,7 +13,4 @@ permalink: /blog/
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
 </div>

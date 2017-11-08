@@ -76,7 +76,7 @@ layout: default
       <div class="col-md-6 text-center"><h5>Take the first step, check out my </h5> 
       </div>
       <div class="col-md-6 text-center center">
-        <a href="https://docs.google.com/document/d/1Y_zRl8WSfv0l_oV_n_dQyMqSgJbVID2z7-t-3yUROgY/edit?usp=sharing" class="btn btn-default btn-lg"><i class="fa fa-file-text"></i> CV</a>
+        <a href="https://docs.google.com/document/d/1GIbu6QS6kBNaST9hFmv_PaCOzQMIqyglCCx5RqyFwMI/edit?usp=sharing" class="btn btn-default btn-lg"><i class="fa fa-file-text"></i> CV</a>
       </div>
     </div>
   </div>

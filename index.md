@@ -29,8 +29,6 @@ layout: default
           <br>
           <p class="text-center">Riddler | Coder | Doodler | Writer | Designer | Developer | Orator</p>
           <br>
-          <p class="text-center">Can build abstract mental constructs of varying complexity ("dream"). Love puzzles and Math. My instruments of choice are pencils and fountain ink pens. I am accompanied in my cyber adventures by my trusty ThinkPad T430, currently running Arch + GNOME. Together we can handle anything you may want. I can string together words quite well. Check out my blog for a taste.</p>
-          <br>
           <p class="text-center">Scroll all the way down to explore more. You will find the portal to my blog on your top right.</p>
           <br>
         </div>

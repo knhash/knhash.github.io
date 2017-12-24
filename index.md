@@ -71,7 +71,7 @@ layout: default
       <hr>
     </div>
     <div class="row">
-      <div class="col-md-6 text-center center">
+      <div class="text-center center">
         <h5>For a detailed professional summary, check out my </h5> <a href="https://docs.google.com/document/d/1GIbu6QS6kBNaST9hFmv_PaCOzQMIqyglCCx5RqyFwMI/edit?usp=sharing" class="btn btn-default btn-lg"><i class="fa fa-file-text"></i> Résumé</a>
       </div>
     </div>

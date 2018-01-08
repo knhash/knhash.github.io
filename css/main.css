@@ -2,7 +2,7 @@
 /* =Colors */
 /* =Base */
 body {
-  font-family: "Inconsolata", sans-serif;
+  font-family: "Inconsolata", monospace, sans-serif;
   color: #EEE;
   background-color: #002b36; }
 

@@ -1,31 +1,30 @@
-<header class="site-header" role="banner">
+<header class="header">
+    <div class="navigation">
+        <a href="/" class="logo">{{ site.title }}</a>
 
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  
-    <nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container"> 
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span> 
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> </button>
-          <a class="navbar-brand page-scroll" href="/">{{ site.title }}</a>
-      </div>      
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          {% for path in page_paths %}
-          {% assign my_page = site.pages | where: "path", path | first %}
-          {% if my_page.title %}
-          <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-          {% endif %}
-        {% endfor %}
+        <ul class="menu">
+            <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+            <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
         </ul>
-      </div>
-      </div>
-    </nav>
-  </div>
+    </div>
+
+    <ul class="social-links">
+        {% if site.author.email %}
+            <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-envelope-square"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.github %}
+            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        {% endif %}
+
+        {% if site.author.linkedin %}
+            <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        {% endif %}
+    </ul>
 </header>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Knhash
-subtitle: 
+title: KnHash
+subtitle: The k is silent
 sitemap:
   priority: 0.9
 ---

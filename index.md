@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Knhash
-subtitle: Okleyo Ghulem Wersei So Verdaq Muxbrie Skalazax
+subtitle: 
 sitemap:
   priority: 0.9
 ---

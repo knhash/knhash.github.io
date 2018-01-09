@@ -14,7 +14,7 @@ I swear I had looked at it just the second before. Mr Pratap seemed insistent th
 
 **"Don't you have to get to school? Why did you follow me? Stop looking at the bag! You need to stay away from the bag!"**
 
-I point out that the bag is gone. Mr Pratap seems relieved. **"It is better this way, trust me."**. I wiggle away from him just as I spot a girl looking over some bag, at the bus stop on the opposite side of the road. Mr Pratap's bag. The attache is quite distinctive looking. I start crossing the road.
+I point out that the bag is gone. Mr Pratap seems relieved. **"It is better this way, trust me."**. I wiggle away from him just as I spot a girl looking over some bag, at the bus stop on the opposite side of the road. Mr Pratap's bag. The attaché is quite distinctive looking. I start crossing the road.
 
 **"Kid, listen to me, do not go near that bag! It is trouble, stay away from it!"**
 

@@ -30,4 +30,4 @@ This _thing_ isn't Mr Pratap. Mr Pratap smiles warmly. Mr Pratap has a traveller
 
 It would be awesome if this actually were a clone. But I may be delusional, making a big thing out of a mole hill? Ah, mountain out of a mole hill. But the curious behavior... I can't explain it. It doesn't make sense. Expecially the part about the pass. Asking the clone is out of question, I couldn't possibly believe anything it says when its entire existence is in question. All I can do is observe it. Him. It. 
 
-> _I will to find out._ 
+> _I will find out._ 

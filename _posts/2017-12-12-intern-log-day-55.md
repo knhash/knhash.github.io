@@ -28,7 +28,7 @@ A week goes by. I get a mail asking for preferred internship dates. Another week
 
 ### And so started the four month journey. 
 
-My friend [Abhijith C](https://medium.com/u/266c18c429cc) (Jith) and I arrived, bright eyed and bushy tailed, on the morning of the first day of the month. We meet our mentor at the gate and she shows us to our office space. We are assigned two **monster** (more on that later) computer systems and handed a bunch of research papers and documentation. Our task for the day is to get to know the work and the systems. That’s our moment of realisation…this is going to be huge. 
+My friend [Jith](https://medium.com/u/266c18c429cc) and I arrived, bright eyed and bushy tailed, on the morning of the first day of the month. We meet our mentor at the gate and she shows us to our office space. We are assigned two **monster computer systems** (more on that later) and handed a bunch of research papers and documentation. Our task for the day is to get to know the work and the systems. That’s our moment of realisation…this is going to be huge. 
 
 > This is a **production grade** **_machine learning_** **application project** in a **multi national corporation**.
 
@@ -56,7 +56,7 @@ We were responsible for three projects. One was a **_classification_** problem s
 
 > Takeaway #3: Laziness is **good**. It instils **efficiency**.
 
-We made scripts. A **lot** of them. We had _scripts in place to run tests, scripts to manage input data, scripts to process images, to move batches of images, rename images, and scripts to automate GUI sequences of processing input data_. That was one of the **cool** ones. We would run the script, sit back and watch as the cursor would move around the screen clicking buttons, selecting stuff, typing paths and saving images. Jith wrote a whole article on our scripting adventure. 
+We made scripts. A **lot** of them. We had _scripts in place to run tests, scripts to manage input data, scripts to process images, to move batches of images, rename images, and scripts to automate GUI sequences of processing input data_. That was one of the **cool** ones. We would run the script, sit back and watch as the cursor would move around the screen clicking buttons, selecting stuff, typing paths and saving images. Jith wrote a whole article on our scripting adventure, [here](https://medium.com/@abhijith0505/d-r-y-automation-has-you-covered-b470682a65a3). 
 
 The scripts were our secret weapon. We would be able to complete our tasks in one tenth the time it took the previous interns. We managed to complete a long standing dataset cleaning task with a convoluted series of instructions and scripts. Without the scripts though it would have been a _nightmare_. 
 

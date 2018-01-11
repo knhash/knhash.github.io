@@ -28,7 +28,7 @@ A week goes by. I get a mail asking for preferred internship dates. Another week
 
 ### And so started the four month journey. 
 
-My friend [Jith](abhijithc.ml) and I arrived, bright eyed and bushy tailed, on the morning of the first day of the month. We meet our mentor at the gate and she shows us to our office space. We are assigned two **monster computer systems** (more on that later) and handed a bunch of research papers and documentation. Our task for the day is to get to know the work and the systems. That’s our moment of realisation…this is going to be huge. 
+My friend [Jith](https://abhijithc.ml) and I arrived, bright eyed and bushy tailed, on the morning of the first day of the month. We meet our mentor at the gate and she shows us to our office space. We are assigned two **monster computer systems** (more on that later) and handed a bunch of research papers and documentation. Our task for the day is to get to know the work and the systems. That’s our moment of realisation…this is going to be huge. 
 
 > This is a **production grade** **_machine learning_** **application project** in a **multi national corporation**.
 

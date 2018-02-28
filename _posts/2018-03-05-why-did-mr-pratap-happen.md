@@ -34,7 +34,7 @@ The class is silent. _Even Rahul, who usually sleeps through the second period, 
 
 **"That's it. I'm here."**
 
-**"So miss Kiran, "** started my teacher, after a good minute of silence, **" that was, well, a long twenty minutes. "** And she smiled. **"I stand corrected. I had not heard every reason there is. And this is probably the most compelling reason I have heard till date. You can go sit."**
+**"So miss Kiran, "** started my teacher, after a good minute of silence, **" that was, well, a long ten minutes. "** And she smiled. **"I stand corrected. I had not heard every reason there is. And this is probably the most compelling reason I have heard till date. You can go sit."**
 
 **"Are you sure you that's the end of it though? Your, um, excuse? "**
 

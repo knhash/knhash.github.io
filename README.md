@@ -7,7 +7,7 @@ Daktilo is a [Jekyll](jekyllrb.com) theme with a minimal design inspired from ty
 [Click here](http://daktilo.github.io/) to see the theme in action.
 
 # Features
-- Fully responsive
+- Fully responsive.
 - [Disqus](https://disqus.com/) integration for comments.
 - Google Analytics integration.
 - Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).

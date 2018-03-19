@@ -4,7 +4,7 @@
 body {
   font-family: "Inconsolata", sans-serif;
   color: #EEE;
-  background-color: #002b36; }
+  background-color: #020302; }
 
 a {
   color: #A2A2A2;
@@ -12,8 +12,8 @@ a {
   text-decoration: none; }
 
 p {
-  font-size: 20px;
-  line-height: 32px; }
+  font-size: 13pt;
+  line-height: 1.5; }
 
 img {
   margin: 40px auto;
@@ -72,8 +72,8 @@ strong {
 
 /* =Header */
 .wrapper {
-  max-width: 800px;
-  margin: 100px auto; }
+  max-width: 70%;
+  margin: 3% auto; }
 
 .header {
   overflow: hidden; }
@@ -82,8 +82,8 @@ strong {
   float: left; }
 
 .logo {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 33pt;
+  font-weight: 600;
   color: #e74c3c;
   display: block; }
 
@@ -116,28 +116,24 @@ strong {
 
 /* =Titles */
 .page-title {
-  margin-top: 100px;
-  margin-bottom: 125px;
+  margin-bottom: 10%;
   text-align: center; }
 
 .page-title__text {
   color: #16a085;
   font-weight: 700;
-  font-size: 70px; }
+  font-size: 35pt; }
 
 .page-title__subtitle {
   font-weight: 400;
-  font-size: 22px;
+  font-size: 15pt;
   color: #828282; }
 
-.post-title {
-  margin-bottom: 110px; }
-
 .post-title__text {
-  font-size: 40px; }
+  font-size: 35pt; }
 
 .post-title__subtitle {
-  font-size: 20px; }
+  font-size: 15pt; }
 
 /* =Post teasers */
 .list-posts {
@@ -168,9 +164,10 @@ strong {
 .explore {
   text-align: center;
   color: #828282;
-  margin-top: 140px; }
+  margin-top: 5%; }
 
-.explore__devider {
+.explore__divider {
+  align-content: center;
   font-size: 18px;
   letter-spacing: 8.18px; }
 
@@ -203,13 +200,13 @@ strong {
 /* =Post page */
 .about {
   color: #828282;
-  margin-top: 70px;
+  margin-top: 5%;
   text-align: center;
   line-height: 24px; }
 
 .about__devider {
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
   letter-spacing: 9.09px; }
 
 .about__text {
@@ -483,43 +480,16 @@ strong {
 .go-home {
   text-align: center; }
 
-
-/*********************************************************************************************************************************************/
-/* From 2017 version */
-/*********************************************************************************************************************************************/
-
 /***********************************************/
 /* About Section */
 /***********************************************/
-  #about-section {
-    text-align: center;
-    padding-top: 10vh;
-    min-height: 30vh;
-    color: #FFF;
-  }
-  img.about-img.img-responsive {
-    border: 0px solid #607d8b;
-    border-radius: 33%;
-    max-width: 23%;
-    margin: 0 auto;
-  }
 
-/***********************************************/
-/* Skills Section */
-/***********************************************/
-  #skills-section {
-    padding-top: 20vh;
-    color: #FFFFFF;
-    text-align: center;
-    min-height: 30vh;
-  }
+.center-text {
+  text-align: center;
+}
 
-/***********************************************/
-/* Hire Section */
-/***********************************************/
-  #hire-section {
-    padding-top: 20vh;
-    color: #FFFFFF;
-    text-align: center;
-    min-height: 30vh;
-  }
+img.about-img.img-responsive {
+  border-radius: 13%;
+  max-width: 150px;
+  margin-top: -7%;
+}

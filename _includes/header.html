@@ -2,28 +2,34 @@
     <div class="navigation">
         <a href="/" class="logo">{{ site.title }}</a>
 
-        <ul class="menu">
+
+        <!-- <ul class="menu">
             <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
             <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
-        </ul>
+        </ul> -->
     </div>
 
     <ul class="social-links">
+
+        <a href="{{ '/blog' | prepend: site.baseurl }}">
+            <strong><i class="fa fa-book"></i></strong>
+        </a>
+
         {% if site.author.email %}
             <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-envelope-square"></i>
+                <strong><i class="fa fa-envelope-square"></i></strong>
             </a>
         {% endif %}
 
         {% if site.author.github %}
             <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github"></i>
+                <strong><i class="fa fa-github"></i></strong>
             </a>
         {% endif %}
 
         {% if site.author.linkedin %}
             <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-linkedin"></i>
+                <strong><i class="fa fa-linkedin"></i></strong>
             </a>
         {% endif %}
     </ul>

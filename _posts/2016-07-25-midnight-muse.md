@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: poem
 title:  "Midnight Muse"
 date:   2016-07-25 00:20:21 +0530
 categories: [literature]
@@ -24,4 +24,4 @@ But before you go to sleep this night,
 Or when you wake up in the morn  
 Always remember  
 Never go silent into the dark night  
-Fight, fight, against the dying light.  
+Fight, fight, against the dying light. 

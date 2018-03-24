@@ -3,8 +3,8 @@
   body {
     font-family: 'Quicksand', sans-serif;  
     font-size: 100%;
-    color: #CCC;
-    background-color: #000; }
+    color: #012;
+    background-color: #FFF; }
 
   a {
     color: #57A;
@@ -35,19 +35,11 @@
       letter-spacing: 0px;
       left: 0px;
       right: 0px; }
-      blockquote footer:before {
-        content: "** "; }
-      blockquote footer:after {
-        content: " **"; }
     blockquote p {
       display: inline;
       font-size: 120%;
       color: #828282;
       font-weight: 400; }
-      blockquote p:before {
-        content: "“ "; }
-      blockquote p:after {
-        content: " ”"; }
 
   strong {
     color: #16a085; }

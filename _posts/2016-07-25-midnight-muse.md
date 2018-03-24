@@ -2,7 +2,7 @@
 layout: poem
 title:  "Midnight Muse"
 date:   2016-07-25 00:20:21 +0530
-categories: [literature]
+categories: [Poetry]
 ---
 
 Here I am, in the night  

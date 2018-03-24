@@ -1,16 +1,21 @@
 ---
-layout: post
+layout: page
 title:  "How Did Mr Pratap Vanish?"
 subtitle: "The Pratap Story: Page Four"
-date:   2018-03-02 21:21:21 +0530
-categories: [literature]
+date:   2018-02-23 21:21:21 +0530
+categories: ["Fiction"]
 ---
 
-[Previous in series]({% post_url 2018-03-02-what-happened-to-mr-pratap %})
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
 
----
-
-> The bag is gone. 
+_The bag is gone._ 
 
 I swear I had looked at it just the second before. Mr Pratap seemed insistent that I walk away from the bag and I was finding it difficult to come out of his grasp. I kept glancing backward and one moment it was there, the next it was gone. 
 
@@ -31,7 +36,3 @@ The girl is pretty. One of the rag-pickers it looks like. Ponytailed and wearing
 By the time I reach the bus stop she is gone. The bag itself lay abandoned on the seat. It’s empty. It’s a small attaché, leather, with a strap. Quite sturdy from the looks of it but couldn’t hold much. _Exactly like the one Mr Pratap left_. But not quite. I look back, Mr Pratap is no longer standing on the other side of the road. He had been looking over from a distance but seems to have left. I look at the bag again. I am very sure it is the same bag, exact same color, and texture. But it is not. It no longer said Mr Pratap
 
 > It said **Miss Kiran.**
-
----
-
-[Next in series]({% post_url 2018-03-05-why-did-mr-pratap-happen %})

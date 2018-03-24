@@ -1,14 +1,16 @@
 ---
-layout: post
+layout: page
 title:  "Why did Mr Pratap happen?"
 subtitle: "The Pratap Story: The Final Page"
-date:   2018-03-05 21:21:21 +0530
-categories: [literature]
+date:   2018-02-26 21:21:21 +0530
+categories: ["Fiction"]
 ---
 
-[Previous in series]({% post_url 2018-03-02-how-did-mr-pratap-vanish %})
-
----
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+</div>
 
 **"I looked at my watch. I was late by half an hour. It would take me another ten minutes to reach school. So if I hurry I could be just in time for the second period. I walked towards the bus stop and waited. The second bus to arrive was mine. It dropped me in front of my school."**
 
@@ -30,7 +32,7 @@ The class is silent. _Even Rahul, who usually sleeps through the second period, 
 
 **"That's it. I'm here."**
 
-**"So miss Kiran, "** started my teacher, after a good minute of silence, **" that was, well, a long twenty minutes. "** And she smiled. **"I stand corrected. I had not heard every reason there is. And this is probably the most compelling reason I have heard till date. You can go sit."**
+**"So miss Kiran, "** started my teacher, after a good minute of silence, **" that was, well, a long ten minutes. "** And she smiled. **"I stand corrected. I had not heard every reason there is. And this is probably the most compelling reason I have heard till date. You can go sit."**
 
 **"Are you sure you that's the end of it though? Your, um, excuse? "**
 

@@ -1,14 +1,19 @@
 ---
-layout: post
+layout: page
 title:  "What Happened To Mr Pratap?"
 subtitle: "The Pratap Story: Page Three"
-date:   2018-02-27 21:21:21 +0530
-categories: [literature]
+date:   2018-02-20 21:21:21 +0530
+categories: ["Fiction"]
 ---
 
-[Previous in series]({% post_url 2018-02-24-where-is-mr-pratap %})
-
----
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
 
 We have a games period today. Oh and library period too. No assignments to be submitted and no exams or tests today. It’s been ages since I’ve taken a leave, I don’t think anyone would notice. Also, this seems much more interesting than sitting in class. **Justification. Making up reasons.** Why? I’m following Mr Pratap. Not Mr Not Pratap. But Mr Pratap. Yeah, I’ve been thinking, the whole _malicious clone taking his place_ seemed a bit off to me as well. I read the newspaper occasionally. Cloning technology is a ways off. So that means Mr Pratap is just being weird. Just a tiny bit. Just the smile bit. But I noticed. So I’m following Mr Pratap. 
 
@@ -29,7 +34,3 @@ Mr Pratap seems worried. Or horrified I think. His mouth is open but he is not s
 His hand is rapidly doing a pushing away motion. He wants me to leave. He wants me to go away. He seems desperate that I go away from there. But I’m standing still. I still can’t get his face out of my mind. It didn’t make any sense. People like having their stuff. Why was Mr Pratap worried? Why did he leave his bag behind? **And why was Mr Pratap holding me by the shoulders and steering me away from the bus stop?** 
 
 > There are just too many questions today. I need to calm down. I need to think. 
-
----
-
-[Next in series]({% post_url 2018-03-02-how-did-mr-pratap-vanish %})

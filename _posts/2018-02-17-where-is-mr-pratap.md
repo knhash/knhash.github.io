@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  "Where Is Mr Pratap?"
 subtitle: "The Pratap Story: Page Two"
-date:   2018-02-24 21:21:21 +0530
-categories: [literature]
+date:   2018-02-17 21:21:21 +0530
+categories: ["Fiction"]
 ---
 
 <div class="PageNavigation">
@@ -14,8 +14,6 @@ categories: [literature]
     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
   {% endif %}
 </div>
-
----
 
 Somebody *else* did. Attaché, spectacles and dark chocolate waistcoat. Neat hair, pressed shirt. Exactly like Mr Pratap. But this wasn’t Mr Pratap. He walked, dressed just like Mr Pratap. He took the window seat, just like Mr Pratap. But he didn’t smile at me. 
 
@@ -42,5 +40,3 @@ This _thing_ isn't Mr Pratap. Mr Pratap smiles warmly. Mr Pratap has a traveler'
 It would be awesome if this actually were a clone. I may be delusional, making a big thing out of a molehill? Ah, mountain out of a molehill. But the curious behavior... I can't explain it. It doesn't make sense. Especially the part about the pass. Asking the clone is out of the question, I couldn't possibly believe anything it says when its entire existence is in question. All I can do is observe it. Him. It. 
 
 > _I will find out._ 
-
----

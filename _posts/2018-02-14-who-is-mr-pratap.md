@@ -1,10 +1,19 @@
 ---
-layout: post
+layout: page
 title:  "Who Is Mr Pratap?"
 subtitle: "The Pratap Story: Page One"
-date:   2018-02-21 21:21:21 +0530
-categories: [literature]
+date:   2018-02-14 21:21:21 +0530
+categories: ["Fiction"]
 ---
+
+<div class="PageNavigation">
+  {% if page.url %}
+    <a class="prev" href="#"></a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
 
 Mr Pratap is a _quiet_ man. 
 
@@ -21,7 +30,3 @@ I know Mr Pratap. I sit in the seat behind him. I once peeked at his attaché. I
 Mr Pratap travels every day, Monday to Friday. I don't know about the weekends because I don't commute on weekends. He never misses the bus, never takes a day off. Every morning he takes the seat in front of me, but before he does that he always smiles at me. We don't talk, Mr Pratap and I. _Our conversations begin, is comprised of, and end at that particular moment_. The smile.
 
 > Today is Monday. Mr Pratap didn't get on the bus.
-
----
-
-[Next in series]({% post_url 2018-02-24-where-is-mr-pratap %})

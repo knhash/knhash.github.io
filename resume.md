@@ -5,8 +5,6 @@ subtitle: Developer | Designer
 permalink: /resume/
 ---
 
-> (991)-(667)-six-triple-zero - [GitHub](github.com/knhash) - [LinkedIn](linkedin.com/in/knhash) - [e-mail](mailto:Mr.Knhash@gmail)
-
 ---
 
 ### SKILLS
@@ -95,3 +93,5 @@ Android SDK; Google Maps API; OneSignal(Push notification); smooch.io(Chat);
 - INSPIRE Scholarship by DST, on pursuit of Pure Science  
 - AIR 28, RR 5 in Junior Mathematical Olympiad - 2012  
 - Merit Certificate and Cash prize for exceptional performance - AISSE 2012, 10th Board, SBM  
+
+---

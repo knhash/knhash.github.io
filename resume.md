@@ -1,23 +1,28 @@
 ---
 layout: page
-title: Shashank S
+title: Résumé
 subtitle: Developer | Designer
 permalink: /resume/
 ---
 
----
+<style type="text/css">
+	
+	p, ul, ol, dl, li {
+		font-size: 100%;
+		line-height: 120%; 
+	}
+
+</style>
+
 
 ### SKILLS
-``` linux; android; c; c++; python; java; html; css; javascript;  ```  
-``` shell; mysql; opengl; jekyll; git; english; hindi; kannada; tamil; sanskrit;  ```  
-
----
+``` linux; android; c; c++; python; java; html; css; javascript; shell; mysql; opengl; jekyll; git; english; hindi; kannada; tamil; sanskrit;  ```  
 
 ### PROJECTS
 **Pretty Pixel** - Computer Graphics Mini Project <span style="float: right; ">MAY 2017</span>  
 _Manipulate a 3D playing field to find the right perspective;_ | C++; OpenGL; FreeGLUT;
 
-**Portfolio website** - knhash.github.io <span style="float: right; ">2017 - current</span>2017  
+**Portfolio website** - knhash.github.io <span style="float: right; ">2017 - PRESENT</span>2017  
 _A personal webpage for resume and blog as a static website;_ | HTML; CSS; Jekyll;
 
 **Android Nanodegree projects** - Udacity <span style="float: right; ">JAN’16 - JAN’17</span>  
@@ -34,8 +39,6 @@ _Back-end of the annual college fest registration page;_ | PHP; MySQL; HTML;
  
 **AuReader** - HackIndia2015 - PESIT <span style="float: right; ">JUL’15</span>  
 _Immersive book reader that plays ambient contextual music;_ | Android; Sentimental Analysis: Synesketch; SQL;
-
----
 
 ### EDUCATION
 
@@ -54,8 +57,6 @@ Udacity - Google <span style="float: right; ">JAN’16 - JAN’17</span>
  
 Kendriya Vidyalaya, IISc <span style="float: right; ">2012 - 2014</span>  
 **PCM with Computer Science** | 95.6%  
-
----
 
 ### EXPERIENCE
 
@@ -77,8 +78,6 @@ Android Developer Intern - **SuperText** <span style="float: right; ">SEP’15 -
 _Android application for delivery personnel tracking and notification;_  
 Android SDK; Google Maps API; OneSignal(Push notification); smooch.io(Chat);
 
----
-
 ### RECOGNITION & INTERESTS
 
 - Android Scholarship by Google and TATA Trusts - Udacity, 2016 - 17  
@@ -93,5 +92,3 @@ Android SDK; Google Maps API; OneSignal(Push notification); smooch.io(Chat);
 - INSPIRE Scholarship by DST, on pursuit of Pure Science  
 - AIR 28, RR 5 in Junior Mathematical Olympiad - 2012  
 - Merit Certificate and Cash prize for exceptional performance - AISSE 2012, 10th Board, SBM  
-
----

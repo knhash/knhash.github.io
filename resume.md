@@ -5,15 +5,8 @@ subtitle: Developer | Designer
 permalink: /resume/
 ---
 
-<style type="text/css">
-	
-	p, ul, ol, dl, li {
-		font-size: 100%;
-		line-height: 120%; 
-	}
-
-</style>
-
+<span style="float: right; "><a href="/resume.pdf"><strong>> Download as PDF</strong></a> </span>
+<br>
 
 ### SKILLS
 ``` linux; android; c; c++; python; java; html; css; javascript; shell; mysql; opengl; jekyll; git; english; hindi; kannada; tamil; sanskrit;  ```  

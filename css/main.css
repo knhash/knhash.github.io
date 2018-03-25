@@ -46,7 +46,7 @@
 
   .wrapper {
     max-width: 90%;
-    margin: 15px auto; }
+    margin: 60px auto; }
 
 /* =Header *//*************************************************************/
   .header {
@@ -90,7 +90,7 @@
 
 /* =Titles *//*************************************************************/
   .page-title {
-    margin: 15px auto;
+    margin: 30px auto;
     text-align: center; }
 
   .page-title__text {

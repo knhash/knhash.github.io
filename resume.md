@@ -73,6 +73,7 @@ Android SDK; Google Maps API; OneSignal(Push notification); smooch.io(Chat);
 
 ### RECOGNITION & INTERESTS
 
+- Seminar, Quantum Machine Learning - March 2018
 - Android Scholarship by Google and TATA Trusts - Udacity, 2016 - 17  
 - ACM ICPC Asia Chennai Regionals qualified - 2015, 2016  
 - Certificate of merit and participation, college project exhibition - 2016, 2017  

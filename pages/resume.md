@@ -5,7 +5,7 @@ subtitle: Developer | Designer
 permalink: /resume/
 ---
 
-<span style="float: right; "><a href="/resume.pdf"><strong>> Download as PDF</strong></a> </span>
+<span style="float: right; "><a href="/assets/resume.pdf"><strong>> Download as PDF</strong></a> </span>
 <br>
 
 ### SKILLS

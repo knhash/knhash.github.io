@@ -6,15 +6,6 @@ date:   2018-02-14 21:21:21 +0530
 categories: ["Fiction"]
 ---
 
-<div class="PageNavigation">
-  {% if page.url %}
-    <a class="prev" href="#"></a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
-</div>
-
 Mr Pratap is a _quiet_ man. 
 
 Or so I assumed because he never talked to anyone. This in itself wasn't that surprising, nobody really talks to each other on a bus ride. When everybody on the bus was busy Mr Pratap always seemed peaceful in his own little space. Mr Pratap didn't carry a newspaper like the gentleman beside him, he didn't have earphones plugged in like the girl two seats ahead. He didn't even nap, like the guy three seats back. There's a hint of a smile on his face as he looks out the window. 

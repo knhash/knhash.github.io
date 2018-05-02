@@ -9,20 +9,30 @@ permalink: /blog/
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
-<strong>
+<!-- <strong>
 {% if category.name %} 
 - - - - -  {{ category.name }} - - - - - 
 {% else %} 
 {{ Print }} 
 {% endif %}
-</strong>
+</strong> -->
 </h4>
+<br>
 <ul class="list-posts">
 {% for post in category.items %}
 <li class="post-teaser">
 <a href="{{ post.url | prepend: site.baseurl }}">
 <span class="post-teaser__title">{{ post.title }}</span>
 <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+<br>
+<span class="post-teaser__summary">
+{% if post.subtitle %}
+{{ post.subtitle }}
+{% else %}
+{{ post.excerpt }}
+{% endif %}
+</span>
+<br>
 </a>
 </li>
 {% endfor %}

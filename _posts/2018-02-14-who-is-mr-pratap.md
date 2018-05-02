@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "Who Is Mr Pratap?"
-subtitle: "The Pratap Story: Page One"
 date:   2018-02-14 21:21:21 +0530
 categories: ["Fiction"]
 ---

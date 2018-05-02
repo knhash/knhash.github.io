@@ -8,8 +8,8 @@ permalink: /resume/
 <span style="float: right; "><a href="/assets/resume.pdf"><strong>> Download as PDF</strong></a> </span>
 <br>
 
-### SKILLS
-``` linux; android; c; c++; python; java; html; css; javascript; shell; mysql; opengl; jekyll; git; english; hindi; kannada; tamil; sanskrit;  ```  
+### SKILLS TECHNOLOGIES & LANGUAGES
+linux; android; c; c++; python; java; html; css; javascript; shell; mysql; opengl; jekyll; git; english; hindi; kannada; tamil; sanskrit; 
 
 ### PROJECTS
 **Pretty Pixel** - Computer Graphics Mini Project <span style="float: right; ">MAY 2017</span>  

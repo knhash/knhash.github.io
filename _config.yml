@@ -43,7 +43,7 @@ social:
 # Important settings (change at own risk)
 
 assets:
-  plugins:
+  #plugins:
     #css: { autoprefixer: {}}
     #img: { optim: {}}
   source_maps: false
@@ -77,7 +77,7 @@ plugins:
 #  - jekyll-assets
 #  - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
+#  - jemoji
 #paginate_path: /posts/page/:num/
 permalink: posts/:slug
 resume: drive.google.com/open?id=1svz4sAhTIk_s1cbXVxTHDB4XG7PP64-k # Online resume link

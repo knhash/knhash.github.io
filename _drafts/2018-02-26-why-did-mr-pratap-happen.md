@@ -3,7 +3,7 @@ layout: page
 title:  "Why did Mr Pratap happen?"
 subtitle: "The Pratap Story: The Final Page"
 date:   2018-02-26 21:21:21 +0530
-categories: ["Fiction"]
+categories: [fiction]
 ---
 
 <div class="PageNavigation">

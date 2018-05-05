@@ -1,11 +1,38 @@
 ---
-layout: page
-title: 404
-sitemap:
-  exclude: 'yes'
 permalink: /404.html
+sitemap: false
 ---
 
-<h2 class="go-home">
-I suggest you <a href="/">go home</a>, it's 404 and it's getting dark!
-</h2>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ site.name }} | Page not found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if site.local_fonts %}
+    {% asset fonts.css %}
+  {% endif %}
+
+  {% if site.blog_theme == "light" %}
+    {% asset home-light.css %}
+  {% else %}
+    {% asset home-dark.css %}
+  {% endif %}
+</head>
+<body>
+  <main class="home-wrapper">
+    <div class="home-content">
+      <h1><a href="{{ '/' | relative_url }}" title="Back to homepage">{{ site.name }}</a></h1>
+      <p>
+        I suggest you go <a href="{{ '/' | relative_url }}" title="Home" >home</a>. It's 404 and getting dark.
+      </p>
+    </div>
+  </main>
+
+  {% unless site.local_fonts %}
+    {% asset webfonts.js %}
+  {% endunless %}
+</body>
+</html>

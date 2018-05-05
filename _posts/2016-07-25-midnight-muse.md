@@ -1,8 +1,8 @@
 ---
-layout: poem
+layout: post
 title:  "Midnight Muse"
 date:   2016-07-25 00:20:21 +0530
-categories: [Poetry]
+tags: [poetry]
 ---
 
 Here I am, in the night  

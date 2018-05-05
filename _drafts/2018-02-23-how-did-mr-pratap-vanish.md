@@ -3,7 +3,7 @@ layout: page
 title:  "How Did Mr Pratap Vanish?"
 subtitle: "The Pratap Story: Page Four"
 date:   2018-02-23 21:21:21 +0530
-categories: ["Fiction"]
+categories: [fiction]
 ---
 
 <div class="PageNavigation">

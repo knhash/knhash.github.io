@@ -74,7 +74,7 @@ exclude:
   - vendor/
   - yarn.lock
 plugins:
-  - jekyll-assets
+#  - jekyll-assets
 #  - jekyll-paginate
   - jekyll-sitemap
   - jemoji

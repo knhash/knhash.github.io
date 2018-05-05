@@ -43,15 +43,15 @@ social:
 # Important settings (change at own risk)
 
 assets:
-  #plugins:
-    #css: { autoprefixer: {}}
-    #img: { optim: {}}
+  plugins:
+    css: { autoprefixer: {}}
+    img: { optim: {}}
   source_maps: false
-#  sources:
-#    - _assets/icons
-#    - _assets/javascripts
-#    - _assets/stylesheets
-#    - _assets/yarn
+  sources:
+    - _assets/icons
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/yarn
 collections:
   my_tags:
     output: true
@@ -74,10 +74,10 @@ exclude:
   - vendor/
   - yarn.lock
 plugins:
-#  - jekyll-assets
+  - jekyll-assets
 #  - jekyll-paginate
   - jekyll-sitemap
-#  - jemoji
+  - jemoji
 #paginate_path: /posts/page/:num/
 permalink: posts/:slug
 resume: drive.google.com/open?id=1svz4sAhTIk_s1cbXVxTHDB4XG7PP64-k # Online resume link

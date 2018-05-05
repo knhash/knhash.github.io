@@ -44,8 +44,8 @@ social:
 
 assets:
   plugins:
-    css: { autoprefixer: {}}
-    img: { optim: {}}
+    #css: { autoprefixer: {}}
+    #img: { optim: {}}
   source_maps: false
   sources:
     - _assets/icons

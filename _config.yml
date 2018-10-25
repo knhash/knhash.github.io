@@ -80,4 +80,4 @@ plugins:
   - jemoji
 #paginate_path: /posts/page/:num/
 permalink: posts/:slug
-resume: docs.google.com/document/d/1XQZ3lk4G2-wtahftjWq47tIFgqlXL5UnpJiy7gdTlm4/edit?usp=sharing # Online resume link
+resume: tiny.cc/ShashankResumePDF # Online resume link

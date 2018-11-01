@@ -80,4 +80,4 @@ plugins:
   - jemoji
 #paginate_path: /posts/page/:num/
 permalink: posts/:slug
-resume: tiny.cc/ShashankResumePDF # Online resume link
+resume: knhash.keybase.pub/ShashankResume.pdf # Online resume link

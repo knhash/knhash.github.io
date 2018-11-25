@@ -6,6 +6,8 @@ date:   2017-12-12 21:21:21 +0530
 tags: [general]
 ---
 
+<div class=”entry-meta”><a class=”entry-date published”>December 12, 2017</a></div>
+
 Everybody knows the worst time to study is during exams. We take any excuse to _not_ study. The semester end exams were in full swing in July. 
 
 ### The story starts in July. 

@@ -2,7 +2,7 @@
 
 blog_theme: dark # Or use dark
 name: Knhash
-paginate: 25
+# paginate: 25
 url: # add your site url (format: https://example.com)
 
 
@@ -76,6 +76,6 @@ plugins:
   # - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-paginate_path: /posts/page/:num/
+# paginate_path: /posts/page/:num/
 permalink: posts/:slug
 resume: knhash.keybase.pub/ShashankResume.pdf # Online resume link

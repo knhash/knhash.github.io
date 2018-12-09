@@ -2,18 +2,14 @@
 
 blog_theme: dark # Or use dark
 name: Knhash
-#paginate: 25
 url: # add your site url (format: https://example.com)
 
 
 # Optional settings
 
-about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
+about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
 baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
-discus_identifier: # Add your Disqus identifier
-ga_analytics: # Add your GA Tracking Id
-local_fonts: false # Change to true if you wish to use local fonts
-rss_enabled: false # Change to false if not
+rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
@@ -22,7 +18,7 @@ social:
   github: knhash # Add your GitHub handle
   linkedin: knhash # Add your LinkedIn handle
   twitter: # Add your Twitter handle
-  email: mr.knhash@gmail.com # Add your Email address
+  email: knhash@pm.me # Add your Email address
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
   gitlab: # Add your GitLab handle
@@ -33,8 +29,8 @@ social:
   bitbucket: # Add your Bitbucket handle
   docker: # Add your Docker Hub handle
   instagram: # Add your Instagram handle
-  keybase: # Add your Keybase handle
-  medium: # Add your Medium handle
+  keybase: knhash # Add your Keybase handle
+  medium: knhash # Add your Medium handle
   spotify: # Add your Spotify handle
   stackoverflow: # Add your Stack Overflow ID number
   steam: # Add your Steam handle
@@ -75,9 +71,7 @@ exclude:
   - yarn.lock
 plugins:
   - jekyll-assets
-#  - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-#paginate_path: /posts/page/:num/
 permalink: posts/:slug
 resume: knhash.keybase.pub/ShashankResume.pdf # Online resume link

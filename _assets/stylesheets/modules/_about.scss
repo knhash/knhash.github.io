@@ -1,0 +1,21 @@
+// =============================================================================
+// About
+// =============================================================================
+
+.about {
+  padding: 10px;
+  margin: 25px -10px 50px -10px;
+  border: 2px solid $base-border-color;
+  border-radius: 7px;
+  border-top-left-radius: 0px;
+}
+
+.about-img {
+	float: left;
+  height: 100px;
+	width: auto;
+  margin-left: -160px;
+  border-radius: 7px;
+  margin-top: 25px;
+  border-bottom-right-radius: 0px;
+}

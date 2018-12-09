@@ -64,7 +64,7 @@ The scripts were our secret weapon. We would be able to complete our tasks in on
 
 But I loved our work. We got all the leeway of an intern and the work of a full timer. We were single handedly (_double handedly?_) responsible for maintaining the whole system. We took our days off. We played our games. But we got our work done, completed our tasks of the day. And it was **fun**. 
 
-> Takeaway #5: Pair programming is like rubber duck debugging but with a **live sentient duck**.
+> Takeaway #4: Pair programming is like rubber duck debugging but with a **live sentient duck**.
 
 We found bugs. We squashed them. I don’t think we would have been able to do it individually but together, we took care of everything. One particular bug was particularly interesting. To this day we don’t know why it pops up but Jith found a workaround. We ‘_caught_’ the bug. We were able to find the bug as it affected another variable, _put it in a try-catch block and excepted the error_. That was a feat in itself, it took us a long time of staring at the screen and fiddling with the code for Jith to realize that whenever the error cropped up, a particular variable’s value went below 0.01. 
 

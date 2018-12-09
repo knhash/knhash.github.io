@@ -1,28 +1,17 @@
 ---
+title: "Page not found"
+description: "Page not found"
 permalink: /404.html
 sitemap: false
+layout: default
 ---
 
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ site.name }} | Page not found</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="{{ 'assets/home-dark.css' | absolute_url }}" />
-</head>
-<body>
-  <main class="home-wrapper">
-    <div class="home-content">
-      <h1><a href="{{ '/' | relative_url }}" title="Back to homepage">{{ site.name }}</a></h1>
-      <p>
-        I suggest you go <a href="{{ '/' | relative_url }}" title="Home" >home</a>. It's 404 and getting dark.
-      </p>
-    </div>
-  </main>
-  {% unless site.local_fonts %}
-    <script src="{{ 'assets/webfonts.js' | absolute_url }}" type="text/javascript"></script>
-  {% endunless %}
-</body>
-</html>
+<div class="notfound-wrapper">
+  <div class="notfound-content">
+    <p>
+      Looks like you got lost.
+      <br>
+      Let's get you back to the <a href="{{ '/' | relative_url }}">homepage</a>!
+    </p>
+  </div>
+</div>

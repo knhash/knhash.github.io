@@ -60,12 +60,6 @@ We made scripts. A **lot** of them. We had _scripts in place to run tests, scrip
 
 The scripts were our secret weapon. We would be able to complete our tasks in one tenth the time it took the previous interns. We managed to complete a long standing dataset cleaning task with a convoluted series of instructions and scripts. Without the scripts though it would have been a _nightmare_. 
 
-> Takeaway #4: Meetings are necessary. And **dumb**.
-
-We were part of a few meetings. We haggled about features over Skype. We solved front end bugs from the back end because we were asked to. We implemented smart hacks. We took part in _Knowledge Transfers_. We had long email threads. Basically we went through the whole corporate experience. I didn’t like it much. 
-
-> I decided a corporate job wasn’t for me.
-
 ### The experience.
 
 But I loved our work. We got all the leeway of an intern and the work of a full timer. We were single handedly (_double handedly?_) responsible for maintaining the whole system. We took our days off. We played our games. But we got our work done, completed our tasks of the day. And it was **fun**. 

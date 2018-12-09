@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Blog"
+description: "The ramblings of Shashank"
+---
+<img src="{% asset 'about.jpg' @path %}" alt="About Shashank S header image" class="about-img"/>
+<div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <p>Hi.</p>
+  <p>My name is Shashank and this is my <a href="{{ '/' | relative_url }}" title="Blog of Knhash">blog</a>. I write about humans, computers and everything in between. You might be interested in my <a href="https://{{ site.resume }}" rel="noreferrer noopener" target="_blank" title="Resume of Shashank">Resume</a>.</p>
+</div>
+<ul class="article-list">
+  {% for post in paginator.posts %}
+    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}" style="float: left;">
+        <h5>
+          {{ post.title }}
+          <!-- {% include svg-icon.html icon="arrow-right" %} -->
+        </h5>
+      </a>
+      <div class="article-list-footer">
+        <span class="article-list-divider">-</span>
+        <span class="article-list-date">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </span>
+      </div>  
+    </li>
+  {% endfor %}
+  {% if paginator.total_pages > 1 %}
+    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
+      {% endif %}
+    </li>
+  {% endif %}
+
+</ul>

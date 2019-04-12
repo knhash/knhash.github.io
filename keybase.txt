@@ -6,47 +6,65 @@ I hereby claim:
 
   * I am an admin of https://knhash.github.io
   * I am knhash (https://keybase.io/knhash) on keybase.
-  * I have a public key ASCOxETOaf4Dj8Sa50yHJj6HkBZJgoM2vSM-8g0TnH_Hxwo
+  * I have a public key with fingerprint 2072 A805 BB60 C591 CD37  E8CF A44F 03E3 CF12 DDF4
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "012026729d74a56387b854de21963c1c7544d9f872d36c441d0aa9cc38457aa0628b0a",
+      "eldest_kid": "0101a662622c8dab5932da18ba496f14e1984600f288e12e605d834c183dec5529940a",
+      "fingerprint": "2072a805bb60c591cd37e8cfa44f03e3cf12ddf4",
       "host": "keybase.io",
-      "kid": "01208ec444ce69fe038fc49ae74c87263e87901649828336bd233ef20d139c7fc7c70a",
+      "key_id": "a44f03e3cf12ddf4",
+      "kid": "0101a662622c8dab5932da18ba496f14e1984600f288e12e605d834c183dec5529940a",
       "uid": "0f15f1bf248dc75ad3f2658f0e26ae19",
       "username": "knhash"
     },
-    "merkle_root": {
-      "ctime": 1540997726,
-      "hash": "5d19b878934acc1fa5801c0b330134be811b5a655717fa6c94c6942b7ba98193c364db5c95203ecf1870cbb05fae6c098711da5ddd63924b74c7977aeb003a41",
-      "hash_meta": "42d7316225470ff02d0d081b555e08c259086b18b3c5013718b54728cea49a01",
-      "seqno": 3876882
-    },
     "service": {
-      "entropy": "gCiNu8endLQjtAx5l7Vb80Mp",
       "hostname": "knhash.github.io",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "2.9.0"
-  },
-  "ctime": 1540997737,
-  "expire_in": 504576000,
-  "prev": "f4019bf380375475daf34ba7ac6925d67c39a31b7b07732211a3e5a18d60826b",
-  "seqno": 9,
+  "ctime": 1555082584,
+  "expire_in": 157680000,
+  "prev": "9919d8dc0b3a48c01fb39f4f5b8ce01a71d7cfea3903df25c45906279043bd73",
+  "seqno": 31,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjsREzmn+A4/EmudMhyY+h5AWSYKDNr0jPvINE5x/x8cKp3BheWxvYWTESpcCCcQg9AGb84A3VHXa80unrGkl1nw5oxt7B3MiEaPloY1ggmvEIEAuMZQKoY5JcVMieE+57+Hf+YUjLI3Uw/bUoyO1w6ImAgHCo3NpZ8RAMfrq5Wc/b8NlYhj2ynLYal11yH95Dx7sviDlhvqtZkG965YUztCJCyrUTqvPgoWpl2Ko065QIiy7MWe7G1+nBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOU6dU/9fULI6G+D+6o381MIjWGFOlU4Mj/wjBwUgREBo3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMNCAnicrVJrTBxVGF0KCIVWV1pIfKA4BrXKwp3nzkAbG3SFphBCK6EIzTKPO7tT
+YHaZHV4iVgE1iiEVuy0tFistllAoTaChqVQKaBYL0SJIqTyqqWAtiBBRrAvEmVZ/
+mPjT++fmft85557z5ftso68hyOdkiu+Nr0Iml3wGeo4WGLLOtu4pRTiHUILEliI5
+8M4FcwXoUq05koDEIgAFKEtRGIVhPC2wHMngmMCiNMcSDCWiBEQZmqAAEDGahigG
+KUAKNE7wKI0LkCdJjGEIwCJRiCjJNqg4FUlWNVkMmDGWBiTHUYAnGZQXcDOkeZEl
+CBHgEOdFFBMEkdCIdodLZ2jmONYFoyWHVtMe1jv2/gP/P/suuCsnoqSIciJG0AJv
+JlkBFzGKpEUAMYrVtHSgCyoymwd1r7KdddmRsihEqxVKPNTHquf4Vz/aJqn2Au5u
+IqfiUB28I1fr2lXV6YrV2WqJU4cXQc76t5CVk2RBm6TGKISKS3LISCyqIXlV0pVR
+kiQBjZE0EYXAYqekQKukI0gzRQPt6P/AQk2SYVBG0KIADmcJmgeoyOGMSIgkR/NQ
+m5wZFcy8CFmcAbggYiRPkAygMDMDCJwTzDiiR8uXHUgsjmo+WZum6ZJsMqsWKBAp
+6+3J8jP4BBnu8V+nr5ghaL3xn8Wb8hoNx9XWkEVj6OlLxVXVRcXWaEvEJx+s9/x+
+66O3DZaKivM5B5+qnTwVrr6Zu1F9tsP/wbaStGN+Cxt2dG7unllTntk9/+rpK8mf
+39p/eMfS3vrmlcEvd4eujW9hF182W7aNemeV/qLLc/5V7ZXL/ukT174dQ4mVxQ9n
+w85WL/t/t/WPjlljeGRLauhVe13XTimSc5ctdbeDaSX+4kN1760tfXrI0xRdXvPI
+KffClDk1oKHZFjO8J+/pxxuzA0trz0klCaOZpRGJoLcyZurmlRpLQ9C7hyzpW0aq
+vum33z7zsxxaHSOGGRNz3KUhvjN9GW6/vl9Mg0Z5gxuG9HgHInaVB647xwWsHMiP
+C7jmeP/JwO8fvq9iHpoW88OXTgR6TGDlxT+z9zkX5saT01e39bRdBc1HalDONneg
+9v524uP9med/i3ujw/NS1PWOIQP3xEQw8N1e3983cpDpap7pGG2d3JRnb/AkJpUv
+NCZEvNYw/XXKdN+FTm/Sr9i+F4TI6xlnLhLrBoheZfMrE9XPzT+QWW/aPlbeOOi9
++dY7Xd2mpk15P6Xe2+7FDx+FnQE/vP6j86Sz5UKaOyW4KfjYapVv4wzx/EDQ0OUb
+W5eDv5A9lVl7K3ZZvONx3QkpyfPxYY+pj6bU3ebQiiY+IGOnKVtdGR5dVuOTMpLH
+huczq0+MrF5q6Uo7fqRt6C/+vMug
+=FxrM
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.

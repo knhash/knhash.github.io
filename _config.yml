@@ -51,9 +51,9 @@ assets:
   source_maps: false
   sources:
     - _assets/icons
-    - _assets/javascripts
+    - _assets/fonts
     - _assets/stylesheets
-    - _assets/yarn
+    - _assets/icons
 collections:
   my_tags:
     output: true

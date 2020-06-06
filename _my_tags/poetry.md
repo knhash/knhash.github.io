@@ -1,4 +1,0 @@
----
-slug: poetry
-name: Poetry
----

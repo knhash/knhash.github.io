@@ -1,17 +1,10 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
   <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
-    {% if site.about_enabled == true %}
+    {% if site.blog %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
-          {% include svg-icon.html icon="about" %}
-        </a>
-      </li>
-    {% endif %}
-    {% if site.social.email %}
-      <li>
-        <a href="mailto:{{ site.social.email }}" title="Email">
-          {% include svg-icon.html icon="email" %}
+        <a href="{{ site.blog }}" title="Blog">
+          {% include svg-icon.html icon="blog" %}
         </a>
       </li>
     {% endif %}
@@ -31,7 +24,7 @@
     {% endif %}
     {% if site.social.medium %}
       <li>
-        <a href="https://medium.com/@{{ site.social.medium }}" rel="noreferrer noopener" target="_blank" title="Medium">
+        <a href="https://medium.com/{{ site.social.medium }}" rel="noreferrer noopener" target="_blank" title="Medium">
           {% include svg-icon.html icon="medium" %}
         </a>
       </li>
@@ -162,6 +155,13 @@
         </a>
       </li>
     {% endif %}
+    {% if site.social.email %}
+      <li>
+        <a href="mailto:{{ site.social.email }}" title="Email">
+          {% include svg-icon.html icon="email" %}
+        </a>
+      </li>
+    {% endif %}
     {% if site.rss_enabled == true %}
       <li>
         <a href="{{ 'feed.xml' | relative_url }}" rel="noreferrer noopener" target="_blank" title="RSS">
@@ -169,5 +169,41 @@
         </a>
       </li>
     {% endif %}
+    {% if site.theme_toggle == true %}
+      <li>
+        <a onclick="toggle()" title="Toggle Theme">
+          {% include svg-icon.html icon="theme" %}
+        </a>
+      </li>
+    {% endif %}
+    {% if site.resume %}
+      <li>
+        <a href="https://{{ site.resume }}" title="Resume">
+          {% include svg-icon.html icon="resume" %}
+        </a>
+      </li>
+    {% endif %}
+    {% if site.about_enabled == true %}
+      <li>
+        <a href="{{ 'about' | relative_url }}" title="About me">
+          {% include svg-icon.html icon="about" %}
+        </a>
+      </li>
+    {% endif %}
+
   </ul>
 </nav>
+
+{% if site.tag_nav_enabled %}
+  <ul class="header-tags {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+      {% if forloop.index > 10 %}
+        <li>...</li>
+        <li><a href="/tags">Show all</a></li>
+        {% break %}
+      {% endif %}
+        <li><a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">{{ tag[0] | capitalize }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}

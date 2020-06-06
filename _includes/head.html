@@ -16,51 +16,22 @@
   <meta name="twitter:title" content="{{ page.title | escape }}">
   <meta name="twitter:description" content="{{ page.description }}">
 
-  {% if page.thumb_image %}
-    {% if page.thumb_image contains '://' %}
-      <meta property="og:image" content="{{ page.thumb_image }}">
-      <meta name="twitter:image" content="{{ page.thumb_image }}">
-    {% else %}
-      <meta property="og:image" content="{{ site.url }}{% asset '{{ page.thumb_image }}' @path %}">
-      <meta name="twitter:image" content="{{ site.url }}{% asset '{{ page.thumb_image }}' @path %}">
-    {% endif %}
-  {% else %}
-    <meta property="og:image" content="{{ site.url }}{% asset og-image.jpg @path %}">
-    <meta name="twitter:image" content="{{ site.url }}{% asset og-image.jpg @path %}">
-  {% endif %}
-
   <link href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" rel="alternate" title="{{ site.name }} Last 10 blog posts" />
 
   {% if site.local_fonts %}
-    {% asset fonts.css %}
+    <link rel="stylesheet" type="text/css" href="/fonts.css">
   {% endif %}
 
-  {% if site.theme_toggle == true %}
 
-    {% if site.blog_theme == "light" %}
-      <link rel="icon" type="image/x-icon" href="{% asset circle-about.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-light.png @path %}">
-      <link rel="stylesheet" type="text/css" title="light" id="light" href="{% asset light.css @path%}">
-      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="{% asset dark.css @path%}" disabled="true">
-    {% else %}
-      <link rel="icon" type="image/x-icon" href="{% asset circle-about.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-dark.png @path %}">
-      <link rel="stylesheet" type="text/css" title="light" id="light" href="{% asset light.css @path%}">
-      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="{% asset dark.css @path%}" disabled="false">
-    {% endif %}
-
+  {% if site.blog_theme == "light" %}
+    <link rel="icon" type="image/x-icon" href="/assets/images/circle-about.ico">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-light.png">
+    <link rel="stylesheet" type="text/css" href="/light.css">
   {% else %}
-
-    {% if site.blog_theme == "light" %}
-      <link rel="icon" type="image/x-icon" href="{% asset circle-about.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-light.png @path %}">
-      {% asset light.css %}
-    {% else %}
-      <link rel="icon" type="image/x-icon" href="{% asset circle-about.ico @path %}">
-      <link rel="apple-touch-icon" href="{% asset apple-touch-icon-dark.png @path %}">
-      {% asset dark.css %}
-    {% endif %}
-
+    <link rel="icon" type="image/x-icon" href="/assets/images/circle-about.ico">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-dark.png">
+    <link rel="stylesheet" type="text/css" href="/dark.css">
   {% endif %}
+
 
 </head>

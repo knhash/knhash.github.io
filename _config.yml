@@ -15,7 +15,6 @@ local_fonts: true # Change to true if you wish to use local fonts
 rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
-theme_toggle: false # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
 blog: /blog #
 social:
   dribbble:  # Add your Dribbble handle
@@ -50,10 +49,10 @@ assets:
     img: { optim: {}}
   source_maps: false
   sources:
-    - _assets/icons
-    - _assets/fonts
-    - _assets/stylesheets
-    - _assets/icons
+    - assets/icons
+    - assets/fonts
+    - assets/stylesheets
+    - assets/icons
 collections:
   my_tags:
     output: true
@@ -77,7 +76,6 @@ exclude:
   - vendor/
   - yarn.lock
 plugins:
-  - jekyll-assets
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji

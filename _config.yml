@@ -1,6 +1,6 @@
 # Mandatory settings
 
-blog_theme: dark # Or use dark
+blog_theme: light # Or use dark
 name: Shashank
 paginate: 7
 url: knhash.in

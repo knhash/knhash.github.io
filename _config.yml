@@ -81,4 +81,4 @@ plugins:
   - jemoji
 paginate_path: /blog/posts/page/:num/
 permalink: /blog/posts/:slug
-resume: knhash.keybase.pub/ShashankResume.pdf # Online resume link
+resume: files/ShashankResume.pdf

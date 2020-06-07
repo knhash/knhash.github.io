@@ -13,3 +13,5 @@ Gemfile.lock
 package-lock.json
 yarn.lock
 .idea
+dark.css.map
+light.css.map

@@ -223,3 +223,6 @@
     animation-name: rotateIn;
   }
   
+  @keyframes spin {
+    100% {transform: rotate(51turn); }
+  }

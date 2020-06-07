@@ -19,3 +19,7 @@
   height: auto;
   min-width: 100px;
   width: 41%; }
+
+.about-img:hover {
+    animation: spin 7s cubic-bezier(0.75, 0, 0.25, 1) infinite alternate;
+  }

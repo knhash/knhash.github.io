@@ -226,3 +226,7 @@
   @keyframes spin {
     100% {transform: rotate(51turn); }
   }
+
+  @-webkit-keyframes spin {
+    100% {transform: rotate(51turn); }
+  }

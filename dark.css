@@ -830,6 +830,11 @@ img {
     transform: rotate(51turn);
   }
 }
+@-webkit-keyframes spin {
+  100% {
+    transform: rotate(51turn);
+  }
+}
 .footer {
   display: block;
   padding-top: 35px;

@@ -81,4 +81,4 @@ plugins:
   - jemoji
 paginate_path: /blog/posts/page/:num/
 permalink: /blog/posts/:slug
-resume: files/ShashankResume.pdf
+resume: /files/ShashankResume.pdf

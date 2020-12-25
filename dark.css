@@ -1039,6 +1039,7 @@ img {
   height: auto;
   min-width: 100px;
   width: 41%;
+  border-radius: 50%;
 }
 
 .about-img {
@@ -1051,6 +1052,7 @@ img {
   height: auto;
   min-width: 100px;
   width: 41%;
+  border-radius: 50%;
 }
 
 .about-img:hover {

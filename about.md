@@ -5,7 +5,7 @@ description: ""
 ---
 
 <div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <img src="/assets/images/about.jpg" alt="About Shashank" class="about-img animated fadeIn"/>
+  <img src="/assets/images/about.jpg" alt="About Shashank" class="about-img"/>
 </div>
 
 ## About me

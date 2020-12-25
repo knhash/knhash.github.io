@@ -1029,6 +1029,19 @@ img {
   margin: 15px 0 15px;
 }
 
+.about-img-no-hover {
+  display: block;
+  margin-top: 3.14%;
+  margin-bottom: 3.14%;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  height: auto;
+  min-width: 100px;
+  width: 41%;
+  border-radius: 50%;
+}
+
 .about-img {
   display: block;
   margin-top: 3.14%;

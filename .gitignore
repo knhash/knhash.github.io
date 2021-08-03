@@ -15,3 +15,4 @@ yarn.lock
 .idea
 dark.css.map
 light.css.map
+.jekyll-metadata

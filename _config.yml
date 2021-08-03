@@ -1,84 +1,38 @@
-# Mandatory settings
+###########
+# site.title
 
-blog_theme: light # Or use dark
-name: Shashank
-paginate: 7
-url: knhash.in
-
-
-# Optional settings
-
-about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
-discus_identifier: # Add your Disqus identifier
-ga_analytics: # Add your GA Tracking Id
-local_fonts: true # Change to true if you wish to use local fonts
-rss_enabled: false # Change to false if not
-scrollappear_enabled: true # Change to false to disable
-tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
-blog: /blog #
-social:
-  dribbble:  # Add your Dribbble handle
-  facebook: # Add your Facebook handle
-  flickr: # Add your Flickr handle
-  github: knhash # Add your GitHub handle
-  linkedin: knhash # Add your LinkedIn handle
-  twitter:  # Add your Twitter handle
-  email: knhash@pm.me # Add your Email address
-  bitcoin: # Add your Bitcoin link or address
-  ethereum: # Add your Ethereum link or address
-  gitlab: # Add your GitLab handle
-  youtube: # Add your Youtube handle
-  twitch: # Add your Twitch handle
-  discord: # Add you Discord server invitation ID
-  tumblr: # Add your Tumblr handle
-  bitbucket: # Add your Bitbucket handle
-  docker: # Add your Docker Hub handle
-  instagram: # Add your Instagram handle
-  keybase: knhash # Add your Keybase handle
-  medium: # Add your Medium handle
-  spotify: # Add your Spotify handle
-  stackoverflow: # Add your Stack Overflow ID number
-  steam: # Add your Steam handle
+title: Knhash
+description: Website of Shashank
+url: "https://knhash.in"
+host: 0.0.0.0
 
 
-# Important settings (change at own risk)
+#########################
+# more settings
 
-assets:
-  plugins:
-    css: { autoprefixer: {}}
-    img: { optim: {}}
-  source_maps: false
-  sources:
-    - assets/icons
-    - assets/fonts
-    - assets/stylesheets
-    - assets/icons
-collections:
-  my_tags:
-    output: true
-    permalink: /tag/:slug/
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: articles_by_tag
+markdown: kramdown
+
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
+sass:
+  sass_dir: css
+  style:    compressed
+
+baseurl: ""
+permalink: pretty
+timezone: America/New_York
+future: false
+
 exclude:
-  - .travis.yml
-  - bin/*
-  - circle.yml
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - package-lock.json
-  - README.md
-  - vendor/
-  - yarn.lock
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
-paginate_path: /blog/posts/page/:num/
-permalink: /blog/posts/:slug
+- README.md
+- LICENSE.md
+
 resume: /files/ShashankResume.pdf
+articles: /articles

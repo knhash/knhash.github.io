@@ -1,18 +1,17 @@
 ---
 layout: default
-title: "About"
+title: About
 description: ""
 ---
 
-<div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <img src="/assets/images/about.jpg" alt="About Shashank" class="about-img-no-hover animated rotateIn"/>
-</div>
+<p>
+    <span class="figure marginnote"><img src="/images/about.jpg" alt="visage" class="about-img"/></span>
+</p>
 
-## About me
+I am a Data Scientist at [Glance](https://glance.com). I fancy myself a writer and riddler. I solve problems for a living, so [hit me up](mailto:mail@knhash.in) if you have one. 
 
+Previously, I was at [Bright](https://www.brightmoney.co), making FinTech solutions leveraging AI.
 
-I spend my days being a Data Scientist at [Bright](https://www.brightmoney.co/) and my nights sleeping. I fancy myself a writer and riddler. I solve problems for a living, so hit me up if you have one. 
+I make round, fluffy Chappatis and strong, frothy Coffee.
 
-Culinary wise, I make the best Chappatis in the world.
-
-This website is based on the awesome [Chalk](https://github.com/nielsenramon/chalk) theme.
+This website is based on the incredible [ET-Jekyll](https://et-jekyll.netlify.app/) theme.

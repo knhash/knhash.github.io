@@ -1,37 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ site.name }} | {{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="{{ page.title | escape }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:site_name" content="{{ site.name }}">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="{{ page.url | absolute_url }}">
-  <meta name="twitter:title" content="{{ page.title | escape }}">
-  <meta name="twitter:description" content="{{ page.description }}">
-
-  <link href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" rel="alternate" title="{{ site.name }} Last 10 blog posts" />
-
-  {% if site.local_fonts %}
-    <link rel="stylesheet" type="text/css" href="/fonts.css">
-  {% endif %}
-
-
-  {% if site.blog_theme == "light" %}
-    <link rel="icon" type="image/x-icon" href="/assets/images/circle-about.ico">
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-light.png">
-    <link rel="stylesheet" type="text/css" href="/light.css">
-  {% else %}
-    <link rel="icon" type="image/x-icon" href="/assets/images/circle-about.ico">
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-dark.png">
-    <link rel="stylesheet" type="text/css" href="/dark.css">
-  {% endif %}
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+    <link href='{{ site.baseurl }}/feed.xml' rel='alternate' type='application/atom+xml'>
+    <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
 </head>
+
+<body>

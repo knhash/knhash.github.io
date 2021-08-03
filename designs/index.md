@@ -4,4 +4,4 @@ title: Design
 description: Some design efforts
 ---
 
-{% include image-gallery.html folder="/uploads/album" %}
+<p>A showcase of design experiments</p>

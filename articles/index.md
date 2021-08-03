@@ -4,5 +4,5 @@ title: Articles
 description: A collection of articles covering design, development and literature
 ---
 
-<p>A collection of articles covering design, development and literature.</p>
+<p>A collection of articles covering development and literature.</p>
 

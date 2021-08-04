@@ -57,7 +57,7 @@ body {
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
-    padding-left: 10rem;
+    padding-left: 7rem;
     padding-top: 3rem;
     width: 87.5%;
     overflow-x: hidden;
@@ -310,8 +310,8 @@ nav {
 @media(max-width: 850px) {
 
     body {
-        // padding: 3rem;
-        padding: 2rem;
+        padding-left: 2rem;
+        padding-top: 3rem;
         width: calc(100% - 20px);
     }
 

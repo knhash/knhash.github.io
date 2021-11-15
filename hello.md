@@ -13,7 +13,7 @@ permalink: /hello
 [Miniflux](https://miniflux.knhash.in) - Comic and YouTube subscriptions, over RSS
 <span class="marginnote">minimalist and opinionated feed reader</span>
 
-[JupyterLab](https://jupyterlab.knhash.in) - Every great story seems to begin with Python 
+[JupyterLab](https://jupyter.knhash.in) - Every great story seems to begin with Python 
 <span class="marginnote">ide for jupyter notebooks, code, and data</span>
 
 [Yourls](https://url.knhash.in) - My own URL shortener

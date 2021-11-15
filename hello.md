@@ -5,8 +5,6 @@ description: "Dashboard of services at various places and stuff"
 permalink: /hello
 ---
 
-<br>
-
 [Pi-hole](https://pi.knhash.in/admin) - Ads be gone! Also, whats happening on the network?
 <span class="marginnote">[network-wide ad blocking](https://pi-hole.net/)</span>
 

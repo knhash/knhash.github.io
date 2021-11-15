@@ -7,7 +7,7 @@ permalink: /hello
 
 <br>
 
-[Pi-hole](https://pi.knhash.in) - Ads be gone! Also, whats happening on the network?
+[Pi-hole](https://pi.knhash.in/admin) - Ads be gone! Also, whats happening on the network?
 <span class="marginnote">network-wide ad blocking</span>
 
 [Miniflux](https://miniflux.knhash.in) - Comic and YouTube subscriptions, over RSS

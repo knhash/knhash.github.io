@@ -23,3 +23,5 @@ permalink: /hello
 [Jellyfin](https://jellyfin.knhash.in) - Movies and TV shows, on request only
 <span class="marginnote">[the free software media system](https://jellyfin.org/)</span>
 
+[VS Code Server](https://code.knhash.in) - IDE, from the browser
+<span class="marginnote">[vs code in the browser ](https://jellyfin.org/)</span>

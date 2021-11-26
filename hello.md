@@ -24,4 +24,7 @@ permalink: /hello
 <span class="marginnote">[the free software media system](https://jellyfin.org/)</span>
 
 [VS Code Server](https://code.knhash.in) - IDE, from the browser
-<span class="marginnote">[vs code in the browser ](https://jellyfin.org/)</span>
+<span class="marginnote">[vs code in the browser](https://github.com/cdr/code-server/)</span>
+
+[Node-RED](https://nodered.knhash.in) - Automatons, assemble!
+<span class="marginnote">[low-code programming for event-driven applications]https://nodered.org/)</span>

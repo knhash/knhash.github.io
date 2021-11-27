@@ -8,6 +8,9 @@ permalink: /hello
 [Pi-hole](https://pi.knhash.in/admin) - Ads be gone! Also, whats happening on the network?
 <span class="marginnote">[network-wide ad blocking](https://pi-hole.net/)</span>
 
+[Vaultwarden](https://vault.knhash.in) - Secret bits, be very careful
+<span class="marginnote">[unofficial bitwarden compatible server written in rust](https://github.com/dani-garcia/vaultwarden)</span>
+
 [Miniflux](https://miniflux.knhash.in) - Comic and YouTube subscriptions, over RSS
 <span class="marginnote">[minimalist and opinionated feed reader](https://miniflux.app/)</span>
 
@@ -27,4 +30,4 @@ permalink: /hello
 <span class="marginnote">[vs code in the browser](https://github.com/cdr/code-server/)</span>
 
 [Node-RED](https://nodered.knhash.in) - Automatons, assemble!
-<span class="marginnote">[low-code programming for event-driven applications]https://nodered.org/)</span>
+<span class="marginnote">[low-code programming for event-driven applications](https://nodered.org/)</span>

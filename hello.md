@@ -11,14 +11,11 @@ permalink: /hello
 [Vaultwarden](https://vault.knhash.in) - Secret bits, be very careful
 <span class="marginnote">[unofficial bitwarden compatible server](https://github.com/dani-garcia/vaultwarden)</span>
 
-[Miniflux](https://miniflux.knhash.in) - Comic and YouTube subscriptions, over RSS
+[Miniflux](https://rss.knhash.in) - Comic and YouTube subscriptions, over RSS
 <span class="marginnote">[minimalist and opinionated feed reader](https://miniflux.app/)</span>
 
 [JupyterLab](https://jupyter.knhash.in) - Every great story seems to begin with Python 
 <span class="marginnote">[ide for jupyter notebooks, code, and data](https://jupyter.org/)</span>
-
-[Yourls](https://url.knhash.in) - My own URL shortener
-<span class="marginnote">[your own url shortener](https://yourls.org/)</span>
 
 [Syncthing](https://sync.knhash.in) - Sync files across systems; primarily used with..
 <span class="marginnote">[continuous file synchronization program](https://syncthing.net/)</span>

@@ -305,6 +305,65 @@ nav {
 }
 
 /**************************************
+    $FORMS
+/**************************************/
+
+#form {
+    width: 55%;
+    margin: 1rem 0;
+    max-height: 500px;
+  }
+  
+  input {
+    font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    width: 100%;
+    height: 50px;
+    
+    background: transparent;
+    outline: none;
+    
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+  
+    margin: 0.5rem 0;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 50%;
+    height: 110px;
+    
+    background: transparent;
+    outline: none;
+    
+    font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+  
+  }
+  
+  #submit {
+    width: 100%;
+    border: solid 1px;
+    box-shadow: 5px 5px grey;
+  }
+  
+  #submit:hover {
+    transition: all 0.1s ease-in-out;
+    background-color: lightyellow;
+  }
+
+  
+  #submit:focus {
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0 0;
+    transform: translateY(5px) translateX(5px);
+  }
+
+/**************************************
     $MEDIA QUERIES - TABLET
 /**************************************/
 @media(max-width: 850px) {
@@ -326,6 +385,9 @@ nav {
     }
 
     
+    #form {
+        width: 100%;
+    }
 
     figure {
         flex-direction: column;

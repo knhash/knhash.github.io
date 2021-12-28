@@ -13,6 +13,3 @@ Previously, I was at [Bright](https://www.brightmoney.co), automating FinTech de
 I make round, fluffy Chappatis and strong, frothy Coffee.
 
 This website is based on the incredible [ET-Jekyll](https://et-jekyll.netlify.app/) theme.
-
-git config --global user.email "mail@knhash.in"
-git config --global user.name "knhash"

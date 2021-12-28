@@ -124,7 +124,7 @@ figure {
 hr {
     background: #111;
     border: 0;
-    height: 1px;
+    height: 3px;
     margin: 2rem 0;
     width: 100%;
 }
@@ -271,8 +271,12 @@ figure {
     $NAVIGATION
 /**************************************/
 nav {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    // margin-bottom: 1rem;
+    // margin-top: 1rem;
+    overflow: hidden;
+    // position: fixed;
+    bottom: 0;
+    width: 100%;
 
     .menu-icon {
         cursor: pointer;

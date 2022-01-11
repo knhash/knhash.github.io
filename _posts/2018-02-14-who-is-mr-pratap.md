@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Who Is Mr Pratap?"
+permalink: fiction/who-is-mr-pratap
 date:   2018-02-14 21:21:21 +0530
 tags: [fiction]
 ---

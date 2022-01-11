@@ -9,6 +9,6 @@ title: Hello there
 
 My name is Shashank and I solve problems. [Hit me up](mailto:mail@knhash.in).
 
-As a Data Scientist at [Glance](https://glance.com) I work on large scale intelligence systems. With a concentration in ML Engineering and MLOps, I work towards building real-time and scalable infrastructure. Current focus areas include NLP and Recommender Systems in an online learning environment.
+As a Data Scientist at [Glance](https://glance.com) I work on large scale intelligence systems. With a concentration in ML Engineering and MLOps. Current focus areas include NLP and Recommender Systems in an online learning environment.
 
 ...or perhaps you are simply interested in my [resume]({{ site.resume }})?

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Midnight Muse"
+permalink: poem/midnight-muse
 date:   2016-07-25 00:20:21 +0530
 tags: [poem]
 ---

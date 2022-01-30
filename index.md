@@ -11,4 +11,6 @@ My name is Shashank and I solve problems. [Hit me up](mailto:mail@knhash.in).
 
 As a Data Scientist at [Glance](https://glance.com) I work on large scale intelligence systems. With a concentration in ML Engineering and MLOps. Current focus areas include NLP and Recommender Systems in an online learning environment.
 
-...or perhaps you are simply interested in my [resume]({{ site.resume }})?
+... perhaps you are simply interested in my [resume]({{ site.resume }})?
+
+<span class="marginnote">I am running an interest check on a project idea, care for some [Homemade Pi]({{ site.homemade-pi }})? </span>

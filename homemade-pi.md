@@ -47,9 +47,9 @@ Purely as an interest check. No spam, no malice. **Promise**.
 
 <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 
-<form name="listform" id="listform" method="post" action="http://vtest.uber.space/subscription/form" class="listmonk-form" target="dummyframe">
+<form name="listform" id="listform" method="post" action="https://listmonk.knhash.in/subscription/form" class="listmonk-form" target="dummyframe">
         <input id="email" type="email" name="email" placeholder="E-mail" onkeypress="clickPress(event)"/>
-        <input id="e891d" type="hidden" name="l" checked value="e891dee6-9d87-49f9-9f4c-11c47b945b28" />
+        <input id="7a5d2" type="hidden" name="l" checked value="7a5d2277-18d3-47da-a5e9-1301335fefbb" />
         <input id="submit-button" type="submit" value="I am interested" onclick="submission()"/>
 </form>
 

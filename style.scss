@@ -57,14 +57,9 @@ body {
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
-    padding-left: 7rem;
-    padding-top: 3rem;
+    padding-left: 12.5%;
+    padding-top: 5rem;
     width: 87.5%;
-    overflow-x: hidden;
-}
-
-main {
-    padding-right: 2em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -124,8 +119,8 @@ figure {
 hr {
     background: #111;
     border: 0;
-    height: 3px;
-    margin: 1rem 0;
+    height: 1px;
+    margin: 4rem 0;
     width: 100%;
 }
 
@@ -256,27 +251,19 @@ figure {
     }
 }
 
-.no-bullets {
-    list-style-type: none;
-}
-
 /**************************************
     $CONTAINERS
 /**************************************/
 .bottom-footer {
-    margin: 2rem 0;
+    margin: 6rem 0;
 }
 
 /**************************************
     $NAVIGATION
 /**************************************/
 nav {
-    // margin-bottom: 1rem;
-    // margin-top: 1rem;
-    overflow: hidden;
-    // position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
 
     .menu-icon {
         cursor: pointer;
@@ -309,72 +296,12 @@ nav {
 }
 
 /**************************************
-    $FORMS
-/**************************************/
-
-#form {
-    width: 55%;
-    margin: 1rem 0;
-    max-height: 500px;
-  }
-  
-  input {
-    font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    width: 100%;
-    height: 50px;
-    
-    background: transparent;
-    outline: none;
-    
-    border: solid 1px;
-    border-top: none;
-    border-left: none;
-  
-    margin: 0.5rem 0;
-  }
-  
-  textarea {
-    width: 100%;
-    min-height: 50%;
-    height: 110px;
-    
-    background: transparent;
-    outline: none;
-    
-    font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    
-    border: solid 1px;
-    border-top: none;
-    border-left: none;
-  
-  }
-  
-  #submit {
-    width: 100%;
-    border: solid 1px;
-    box-shadow: 5px 5px grey;
-  }
-  
-  #submit:hover {
-    transition: all 0.1s ease-in-out;
-    background-color: lightyellow;
-  }
-
-  
-  #submit:focus {
-    transition: all 0.1s ease-in-out;
-    box-shadow: 0 0;
-    transform: translateY(5px) translateX(5px);
-  }
-
-/**************************************
     $MEDIA QUERIES - TABLET
 /**************************************/
 @media(max-width: 850px) {
 
     body {
-        padding-left: 2rem;
-        padding-top: 3rem;
+        padding: 10px;
         width: calc(100% - 20px);
     }
 
@@ -388,9 +315,26 @@ nav {
         max-width: 100% !important;
     }
 
-    
-    #form {
-        width: 100%;
+    nav {
+
+        .menu-icon {
+            display: none;
+        }
+
+        ul.site-nav {
+            display: none;
+
+            li {
+                display: block;
+                margin: 1rem 0;
+                width: 100%;
+
+                a,a:visited {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
     }
 
     figure {
@@ -417,14 +361,76 @@ nav {
     img,iframe,.highlight,a:hover,a:focus{filter:invert(1);}
 }
 
-.about-img {
-    min-width: 200px;
-    width: 51%;
-    border-radius: 5%;
+/* Format forms */
+textarea,
+select,
+input {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    width: 60%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
-.small-about-img {
-    min-width: 100px;
-    width: 31%;
-    border-radius: 5%;
+/* Format buttons */
+
+button,
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.7rem 0.9rem;
+  margin: 0.5rem 0;
+}
+
+button[disabled],
+[role="button"][aria-disabled="true"],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][disabled],
+select[disabled] {
+  cursor: default;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input:disabled,
+textarea:disabled,
+select:disabled {
+  cursor: not-allowed;
+}
+
+input[type="range"] {
+  padding: 0;
+}
+
+/* Set the cursor to '?' while hovering over an abbreviation */
+abbr {
+  cursor: help;
+}
+
+button:focus,
+button:enabled:hover,
+[role="button"]:focus,
+[role="button"]:not([aria-disabled="true"]):hover,
+input[type="submit"]:focus,
+input[type="submit"]:enabled:hover,
+input[type="reset"]:focus,
+input[type="reset"]:enabled:hover,
+input[type="button"]:focus,
+input[type="button"]:enabled:hover {
+  filter: brightness(1.4);
+  cursor: pointer;
 }

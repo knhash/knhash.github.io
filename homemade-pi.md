@@ -39,7 +39,7 @@ Once installed it is yours 100%, *you own it*.
 <br><br><br><br><br>
 
 Need ongoing technical assistance? **₹50/month**.  
-No issues in a month? The money will be donated to the awesome folks at PiHole in your name!
+No issues in a month? The money will be donated to the awesome folks at Pi-Hole in your name!
 
 <br><br><br><br><br>
 

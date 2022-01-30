@@ -13,7 +13,7 @@ We hate them. _It's coarse and rough and irritating and it gets everywhere._
 
 What if you had a personal ad block server, with which you could...
 
-- Protect your entire network fro malware ridden sites
+- Protect your entire network from malware ridden sites
 - Block ads in apps and websites, on all your devices, no extra configuration
 - Have faster network performance
 - Monitor and control your network with a neat web interface

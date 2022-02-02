@@ -1,6 +1,6 @@
 ---
-layout: articles
-title: Articles
+layout: blog
+title: Blog
 description: A collection of articles covering design, development and literature
 ---
 

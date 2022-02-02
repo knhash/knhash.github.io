@@ -148,7 +148,7 @@ The original Tufte CSS hides sidenote and marginal note content on smaller viewp
 
 ### Figures
 
-You're welcome to simply use an <code>img</code> element when pasting in static content to your articles, but a <code>figure</code> element with included marginal notes is preferred. 
+You're welcome to simply use an <code>img</code> element when pasting in static content to your blog, but a <code>figure</code> element with included marginal notes is preferred. 
 
 Also remember to add the <code>loading="lazy"</code> attribute to all image elements to help improve initial loading performance.
 

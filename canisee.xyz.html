@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="canisee.css">
+    <title>Can I See</title>
+    <script async>
+        const handleFirstScroll = () => {
+            document.body.style.overflowY = 'initial';
+            window.removeEventListener('scroll', handleFirstScroll);
+        };
+
+        window.addEventListener('scroll', handleFirstScroll);
+
+        const scrollTo = (hash) => {
+            document.getElementById(hash.substr(1)).scrollIntoView();
+        };
+
+        window.onload = () => {
+            if (window.location.hash) {
+                scrollTo(window.location.hash);
+            }
+
+            Array.from(document.getElementsByClassName('what-is-this')).forEach((anchor) => {
+                anchor.addEventListener('click', (e) => {
+                    if (anchor.hash) {
+                        e.preventDefault();
+                        scrollTo(anchor.hash);
+                    }
+                });
+            })
+        };
+
+
+    </script>
+</head>
+
+<body>
+    <div class="content" id="index">
+        <div class="main-answer">
+            <p class="title"><a class="what-is-this" href="#log">yes</a></p>
+        </div>
+    </div>
+    <div class="content" id="log">
+        <div class="container">
+            <p><b>@green_apple:</b> Screen reader: Am I a joke to you?</p>
+            <p><b>@danke:</b> How can I get the screen reader to read 'maybe, probably not' instead?</p>
+            <p><b>@danke:</b> Only for screen reader</p>
+            <p><b>@green_rock:</b> Obviously security issue if that's possible. You can make phishing pages which reads
+                completely different things than what it shows</p>
+            <p><b>@green_apple:</b> Why is it a security issue though? People make normal visual phishing pages too
+                right</p>
+            <p><b>@green_rock:</b> If you hide a cross site button like Facebook's like or YouTube's subscribe or buy me
+                a coffee etc. You can easily make people click on stuff that they didn't intend to and might even cost
+                them financially. This was problem with iframes for long time. They have checks to make sure you can't
+                overlay stuff to hide iframes n all</p>
+            <p><b>@green_apple:</b> You mean the owner of the website can make people click on something else? They can
+                still make a visual button that says Twitter but links to Facebook no?</p>
+            <p><b>@green_rock:</b> Yes. It is facebook like button for a page but screen reader says 'cancel button'.
+            </p>
+            <p><b>@green_apple:</b> I can't do an on click listener somewhere else that calls click on my like button?
+            </p>
+            <p><b>@green_rock:</b> You can't access iframe elements from host page's JS</p>
+            <p><b>@green_apple:</b> Same way shouldn't be able to set alt text to iframe elements no?</p>
+            <p><b>@green_rock:</b> If you are able to hide whole item on the screen that still active and clickable then
+                its the same no? You can make a game or something tell them to click in specific place where they have
+                no idea there is an iframe for buying</p>
+            <p><b>@green_rock:</b> BTW game thing was already done with iframe before, where they had a game(whack a
+                mole kind) overlayed on iframe before iframe's security issue was handled.</p>
+            <p><b>@green_apple:</b> Things like fb like won't listen to click on the entire iframe right? Then I should
+                still be able to trigger onclick from host website code</p>
+            <p><b>@green_apple:</b> like 'fb like'</p>
+            <p><b>@green_rock:</b> It won't. But you can you can direct users to click bottom left corner etc as game
+                while the iframe is essentially invisible to them in screen reader. Iframe's button takes the click not
+                the whole iframe. The security issue is in hiding soomething in screen reader not in reading something
+                that's not there</p>
+            <p><b>@green_apple:</b> I thought screen reader did something like tabbing through elements 🤔</p>
+            <p><b>@green_rock:</b> It should. There shouldn't be a way to hiding something for screen reader</p>
+            <p><b>@green_rock:</b> That's the point</p>
+            <p><b>@green_apple:</b> Will be resolved if like button has its own alt text?</p>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

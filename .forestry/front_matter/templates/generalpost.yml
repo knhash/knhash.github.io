@@ -1,0 +1,22 @@
+---
+label: GeneralPost
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: permalink
+  label: permalink
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags

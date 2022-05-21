@@ -22,7 +22,7 @@ Because absolutely none of the places that teach you to set up a static website/
 
 Thanks to `masukomi` from Hacker News I am now made aware of [Forestry](https://forestry.io/ "It is a CMS"). It is called a CMS guys. And adding that keyword threw up a bunch of other options as well. But Forestry is a beauty, took me just minutes to setup it up. I am ignoring a couple hours spent debugging an issue with my Jekyll setup that prevented the Forestry systems from building my site for Auto Preview.
 
-_Actually better make note of that._
+Actually better make note of that.
 
 ***
 

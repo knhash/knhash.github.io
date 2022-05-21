@@ -1,10 +1,12 @@
 ---
 label: GeneralPost
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: post
 - type: text
   name: title
   label: title

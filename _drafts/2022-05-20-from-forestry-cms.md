@@ -20,9 +20,11 @@ Because absolutely none of the places that teach you to set up a static website/
 
 > [to be clear, you don't _need_ to do anything locally. \[...\]](https://news.ycombinator.com/item?id=23312339&p=2#23316450 "It's possible to use static blogs without touching your site")
 
-Thanks to `masukomi` from Hacker News I am now made aware of [Forestry](https://forestry.io/ "It is a CMS"). It is called a CMS guys. And adding that keyword threw up a bunch of other options as well. But Forestry is a beauty, took me just minutes to setup it up. I am ignoring a couple hours spent debugging an issue with my Jekyll setup that prevented the Forestry systems from building my site for Auto Preview. 
+Thanks to `masukomi` from Hacker News I am now made aware of [Forestry](https://forestry.io/ "It is a CMS"). It is called a CMS guys. And adding that keyword threw up a bunch of other options as well. But Forestry is a beauty, took me just minutes to setup it up. I am ignoring a couple hours spent debugging an issue with my Jekyll setup that prevented the Forestry systems from building my site for Auto Preview.
 
-**Actually better make note of that.**
+_Actually better make note of that._
+
+***
 
 If your build (or instant preview server) is failing due to the folowing error:
 
@@ -36,6 +38,6 @@ So the solution is to [exclude the vendor directory in your config file](https:/
 
 ***
 
-Where were we? 
+Where were we?
 
 Yes, I now have a pretty neat CMS that I can access via web to make blog posts. I used said CMS for writing this blog post and can confirm it is pretty neat.

@@ -1,6 +1,6 @@
 ---
 label: GeneralPost
-hide_body: true
+hide_body: false
 fields:
 - type: text
   name: layout

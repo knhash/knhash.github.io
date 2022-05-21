@@ -34,6 +34,8 @@ exclude:
 - README.md
 - LICENSE.md
 
+exclude: [vendor]
+
 resume: /files/ShashankResume.pdf
 blog: /blog
 designs: /designs

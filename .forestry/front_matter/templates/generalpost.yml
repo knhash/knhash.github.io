@@ -13,9 +13,6 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: text
-  name: permalink
-  label: permalink
 - type: datetime
   name: date
   label: date

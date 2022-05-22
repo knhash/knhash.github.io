@@ -21,12 +21,24 @@ compress_html:
   ignore:
     envs: []
 
-sass:
-  sass_dir: css
-  style:    compressed
+# sass:
+#   sass_dir: css
+#   style:    compressed
+
+collections:
+  my_tags:
+    output: true
+    permalink: /tagged/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: tagged
 
 baseurl: ""
-permalink: pretty
+permalink: /blog/:slug
 timezone: America/New_York
 future: false
 

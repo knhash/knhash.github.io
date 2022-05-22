@@ -1,7 +1,6 @@
 ---
 layout: design-post
 title:  "Vector Logos"
-permalink: design/vector-logos
 date:   2021-06-01 21:21:21 +0530
 tags: [design]
 ---

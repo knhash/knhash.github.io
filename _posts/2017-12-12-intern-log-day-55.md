@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Intern Log, Day 55"
-permalink: general/intern-log-day-55
 subtitle: "Final thoughts on a quad-month internship"
 date:   2017-12-12 21:21:21 +0530
 tags: [general]

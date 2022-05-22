@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Hello there
+title: Hello
 ---
 
-<p>
-    <span class="figure marginnote"><img src="images/circle-about-tr.png" alt="knhash" class="about-img"/></span>
-</p>
+
+Hello.
 
 My name is **Shashank** and I solve problems.
+
+<!-- <img src="images/about.jpg" alt="knhash" class="nav-image"/> -->
 
 As a Data Scientist at [Glance](https://glance.com) I work on large scale intelligence systems, concentrating on ML Engineering and MLOps. Current focus areas include Recommender Systems in an online learning environment and NLP.
 
@@ -15,9 +16,13 @@ As a Data Scientist at [Glance](https://glance.com) I work on large scale intell
 
 I play [Factorio](https://www.factorio.com); if you do too, care to multi-play?
 
-<span class="marginnote">I am running an interest check on a project idea, care for some [Homemade Pi]({{ site.homemade-pi }})? </span>
 
-I write, sometimes, [[here]]({{ site.blog }}), and sell myself formally [[here]]({{ site.resume }}).
+---
+
+Previously, I was at [Bright](https://www.brightmoney.co), automating FinTech decisions leveraging AI. We solved for reducing credit card debt and I was involved in building the first Automated Debt Manager.
+
+I make round, fluffy Chappatis and frothy, filter Coffee.
+
+---
 
 [[E-mail me]](mailto:mail@knhash.in). Seriously, I love getting e-mails from people. We can chat about stuff.
-

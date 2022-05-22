@@ -16,3 +16,4 @@ yarn.lock
 dark.css.map
 light.css.map
 .jekyll-metadata
+vendor

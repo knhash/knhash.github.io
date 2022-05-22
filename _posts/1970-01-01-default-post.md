@@ -2,7 +2,7 @@
 layout: post
 excerpt_separator: <!--more-->
 title: ET-Jekyll theme
-description: A visual breakdown of how to use the ET jekyll theme
+description: 
 permalink: et-jekyll-theme/
 date: 1970-01-01
 tags: [general]

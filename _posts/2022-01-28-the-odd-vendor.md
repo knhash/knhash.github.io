@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Odd Vendor"
-permalink: general/the-odd-vendor
 date:   2022-01-28 21:21:21 +0530
 tags: [general]
 ---

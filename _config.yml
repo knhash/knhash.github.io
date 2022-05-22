@@ -38,7 +38,7 @@ defaults:
       layout: tagged
 
 baseurl: ""
-permalink: pretty
+permalink: /blog/:slug
 timezone: America/New_York
 future: false
 

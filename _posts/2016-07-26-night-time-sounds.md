@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Night-time Sounds"
-permalink: poem/night-time-sounds
 date:   2016-07-26 00:05:21 +0530
 tags: [poem]
 ---

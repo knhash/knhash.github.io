@@ -10,6 +10,12 @@ host: 0.0.0.0
 #########################
 # more settings
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 markdown: kramdown
 
 compress_html:

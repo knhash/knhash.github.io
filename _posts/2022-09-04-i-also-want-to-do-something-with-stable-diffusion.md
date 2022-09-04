@@ -17,8 +17,8 @@ I too wanna. Problem is, you still need some fairly powerful GPUs to run the mod
 
 If you are _already excited to check it out_, I call it **diffAKI**, and you can find it here: [https://diffaki.knhash.in]()
 
-There is this ultra epic site that has a bunch of artworks and prompts very neatly organized called [Lexica.Art](https://lexica.art "Lexica.Art"). I picked up the API from it to generate random prompt-image pairs. I show you the image, and ask you to guess the prompt. The I give you a score between 0 and 1. The scoring happens with a lighter version* of the [CLIP](https://huggingface.co/docs/transformers/model_doc/clip "CLIP") model used in the training of SD (cosine similarity for the math nerds out there). 
+There is this ultra epic site that has a bunch of artworks and prompts very neatly organized called [Lexica.Art](https://lexica.art "Lexica.Art"). I picked up the API from it to generate random prompt-image pairs. I show you the image, and ask you to guess the prompt. The I give you a score between 0 and 1. The scoring happens with a lighter version* of the [CLIP](https://huggingface.co/docs/transformers/model_doc/clip "CLIP") model used in the training of SD (cosine similarity for the math nerds out there).
 
 The UI is made with Streamlit and hosted on [Steamlit Community Cloud](https://streamlit.io/cloud "Steamlit Community Cloud"). How extraordinarily cool of them to provide this for free!
 
-> I hope you have _atleast_ as much fun playing around with it as I did building it.
+> I hope you have _atleast_ as much fun playing around [diffAKI](https://diffaki.knhash.in "diffAKI") as I did building it.

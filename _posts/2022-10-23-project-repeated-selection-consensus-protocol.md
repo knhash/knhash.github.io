@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[PROJECT] Repeated Selection Consensus Protocol"
+title: "[PROJ] Repeated Selection Consensus Protocol"
 subtitle: Decision making in a crowd, with preferences accounted for
 date: 2022-10-23 18:30:00 +0000
 tags:

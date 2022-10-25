@@ -51,6 +51,6 @@ _I am of the opinion that this is fair_. A random selection is unfair to the per
 
 Consider the case where a minority representative wants to pass a bill that is extremely important to them but is unable to because of lack of a majority, one that is dependent on representatives who may not necessarily be motivated to pass it. This protocol should move away from the effects of majority rule.
 
-So, reader, what do you think? What parts of the picture I am missing? Are there related material I can read up on that touches on this subject? Perhaps there is already a well researched way to make repeated decisions incorporating preferences. 
+What parts of the picture I am missing? Are there related material I can read up on that touches on this subject? 
 
 Send in your thoughts at [mail@knhash.in](mailto:mail@knhash.in "mail@knhash.in").

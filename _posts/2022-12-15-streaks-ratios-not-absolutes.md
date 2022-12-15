@@ -7,7 +7,6 @@ tags:
 - general
 
 ---
-## Streaks ratios, not absolutes
 
 I have finally internalised the best way to build habits. With the year coming to an end it is recap season. As I look back at how I fared on my various resolutions I see it clearly now. Ratios is where it’s at.
 

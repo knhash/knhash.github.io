@@ -33,7 +33,7 @@ To its credit it works for the most part. I probably stuck around a month longer
 
 The anti-thesis of the 80% rule. You know the one - the huge project that needs to be completed, you don’t really need to hit all the requirements. Hitting 80% of it is more than enough. Or something along those lines.
 
-Don’t let perfection be the enemy of the good. Yeah. That saying.
+Don’t let perfection be the enemy of the good. Yeah. That saying. Or like my friend puts it, "[A perfect system never gets created](https://twitter.com/badpallod/status/1603421935664508928)". 
 
 Concentrating on keeping an absolute number, the longest streak you’ve had, as a motivation is training your brain to think in binary terms. You have to hit the streak. Else you are a failure. Our brains are human after all. They are going to slip up. _Eventually._ End when they do, it’s going to be hard to get back again.
 

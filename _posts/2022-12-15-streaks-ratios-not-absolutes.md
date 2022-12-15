@@ -9,7 +9,7 @@ tags:
 ---
 I have finally internalised the best way to build habits. With the year coming to an end it is recap season. As I look back at how I fared on my various resolutions I see it clearly now. Ratios is where it’s at.
 
-**### The way of the streak**
+### **The way of the streak**
 
 This is the standard way of building habits. The most famous and simplest to understand at least. The timelines differ (21 days, 45 days and 10000 hours, depending on which article you read) but the concept is simple:
 
@@ -27,7 +27,7 @@ To its credit it works for the most part. I probably stuck around a month longer
 
 1 week later I uninstalled the app, couldn’t live with my failure.
 
-**### Streaks are a manifestation of aiming for perfection**
+### **Streaks are a manifestation of aiming for perfection**
 
 The anti-thesis of the 80% rule. You know the one - the huge project that needs to be completed, you don’t really need to hit all the requirements. Hitting 80% of it is more than enough. Or something along those lines.
 
@@ -48,7 +48,7 @@ I stopped doing something that **clearly had benefits to it regardless of whethe
 
 Which, of course, is stupid. I knew that. Even then. But it didn’t **feel right.**
 
-**### Streak ratios - the way of life**
+### **Streak ratios - the way of life**
 
 I come across this comment, I think on some thread about productivity and habit building. This Redditor called it No Zero Days <link it>, now a semi-major underground productivity movement. Not to look at streaks as a binary sequence of 0s and 1s i.e., integers, but as a sequence of floating point values.
 
@@ -60,7 +60,7 @@ You know you will kill your streak someday. But it’s fine. That’s not your g
 
 You are not aiming for 160 continuous days. Instead, if you are able to hit 145/160 days of **some effort** , that is still an Achievement. Celebrate it.
 
-**### The resolutions that worked**
+### **The resolutions that worked**
 
 In my current company I no longer maintain a daily work log, I maintain a **work log**. I don’t spend 5 minutes at the end of everyday journaling, I keep the window open and whenever I get the time and when I need to make a note of something, I write it down. Some days I just have an empty file. Some days I don’t have a file.
 

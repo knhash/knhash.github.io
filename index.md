@@ -3,7 +3,9 @@ layout: default
 title: Hello
 
 ---
-Hello. I am **Shashank** and I solve problems.
+Hello.
+
+My name is **Shashank** and I solve problems.
 
 <!-- <img src="images/about.jpg" alt="knhash" class="nav-image"/> -->
 

@@ -45,3 +45,7 @@ But it may not be as minuscule I am thinking. You can _see the effects_  your 
 > I think so. Tell me how I can go about verifying this. And how big of a problem this is.
 
 Netflix seems to be onto something with their single thumbs-up, single thumbs-down and double-thumbs-up approach. Almost like saying “_Hey just tell us if you like this, it is extremely useful for us to know. We promise not to force content like this down your throat. Unless you LOVE it. Tell us that and we will know. We are here to help :) ._ ”
+
+***
+
+Part of evening discussions over nachos with [@Ritesh](https://blog.badpallod.com/) 

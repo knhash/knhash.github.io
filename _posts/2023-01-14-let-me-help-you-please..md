@@ -2,10 +2,9 @@
 layout: post
 title: Let me help you, please
 subtitle: ''
-date: 2023-01-14 15:30:00 +0000
+date: 2023-01-14T15:30:00.000+00:00
 tags:
 - recommendation-systems
-- general
 
 ---
 Recommendation systems are hard. Some get it working amazingly well - TikTok - and it becomes a big discussion: what implicit insight did TikTok crack to make it one of the best performing qualitative recommendation systems out there? Tons of papers get published.

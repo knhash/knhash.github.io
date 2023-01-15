@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Let me help you, please. '
+title: Let me help you, please
 subtitle: ''
 date: 2023-01-14 15:30:00 +0000
 tags:

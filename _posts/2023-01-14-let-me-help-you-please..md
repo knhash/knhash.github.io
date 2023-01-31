@@ -17,7 +17,7 @@ Companies do their best to work in these constraints. Asking users the initial p
 
 I want to talk about the third point above, about asking people to signal when they like something. Obviously this is a strong and clean signal of user’s preference. But anyone who has worked on recommendation systems will tell you how sparse this signal is in the real world. People just do not want to give out this signal. Why is that?
 
-I propose 2 hypotheses, purely as thought experiments.  It is a funnel, with the top layer being “if I tell you what I want it isn’t magical anymore”. The mandate above. Everyone is operating under that mandate when they use these systems. It is inherently present. Fair. After this layer, where is the further drop off?
+Consider 2 hypotheses, as thought experiments.  It is a funnel, with the top layer being “if I tell you what I want it isn’t magical anymore”. The mandate above. Everyone is operating under that mandate when they use these systems. It is inherently present. Fair. After this layer, where is the further drop off?
 
 ### Why do people not tell me what they like?
 
@@ -30,22 +30,26 @@ The first hypothesis is people don’t like giving out these signals because it 
 
 **2. The stupid, greedy recommendation systems**
 
-Here’s a scenario. The first time I had momos I come home and tell my mother about it. Raving about how good it is. She says momos are simple, I could make it for you at home. That doesn’t preclude the fact that momos are amazing. She took it heart (how can he appreciate momos so much and not my biryani?? that is significantly harder to prepare, so much effort - or something along those, I dunno. I am guessing)
+Here’s a scenario. The first time I had momos I come home and tell my mother about it. Raving about how good it is. She says momos are simple, I could make it for you at home. That doesn’t preclude the fact that momos are amazing. She took it to heart (how can he appreciate momos so much and not my biryani?? that is significantly harder to prepare, so much effort - or something along those, I dunno. I am guessing)
 
 Next day she makes momos at home. I like it. Say it is amazing. Then she makes momos the day after again. It took me just two days to get over momos. I went from loving momos to almost gagging at their sight. It was too much!
 
-Just because I tell you I like something doesn’t mean I want to keep doing that immediately and repeatedly. YouTube! Please! Amazon - I bought an oven. Like 2 weeks back. Why are you still recommending ovens to me? You know I have one. I bought it from you!
+Just because I tell you I like something doesn’t mean I want to keep doing that immediately and repeatedly. Amazon - I bought an oven. Like 2 weeks back. Why are you still recommending ovens to me? You know I have one. I bought it from you!*
 
-Once I watched that video. Sure I liked it, but I want to other stuff too man. Or the flip side, I have watched every big content piece of this particular creator, the lifecycle is done. Why are you still showing me pieces “related” to them? I just like the comedian, I have seen all their skits. I don’t want to watch interviews and scandals and what they had for dinner on Golden Globes night, come on.
+YouTube! Please! Once I watched that video. Sure I liked it, but I want to other stuff too man. Or the flip side, I have watched every big content piece of this particular creator, the lifecycle is done. Why are you still showing me pieces “related” to them? I just like the comedian, I have seen all their skits. I don’t want to watch interviews and scandals and what they had for dinner on Golden Globes night, come on.
 
 The second hypothesis is people are afraid of telling their preference to the system because it will go berserk-mom-mode all over them. A weakly held hypothesis, one I think mostly applicable to tech savvy people. Probably a minuscule portion of the overall population. Just the geeks?
 
-But it may not be as minuscule I am thinking. You can _see the effects_  your watch history is having on your feed. Question is, is there cross learning happening in users across platforms? Have users been burnt by past recommendation systems so much that they don’t want to signal likes anymore?
+But it may not be as minuscule I am thinking. You can _see the effects_  your watch history is having on your feed. Question is, **is there cross learning happening in users across platforms?** 
 
-> I think so. Tell me how I can go about verifying this. And how big of a problem this is.
+> I believe so. We rely on the explicit signals for our ground truth and try to map the implicit signals to them. 
+>
+> Our recsys literate consumers don’t give us signals because they have been burnt in the past, our dataset doesn’t have their representation, and our models perform poorly for them….
 
 Netflix seems to be onto something with their single thumbs-up, single thumbs-down and double-thumbs-up approach. Almost like saying “_Hey just tell us if you like this, it is extremely useful for us to know. We promise not to force content like this down your throat. Unless you LOVE it. Tell us that and we will know. We are here to help :) ._ ”
 
 ***
 
-Part of evening discussions over nachos with [@Ritesh](https://blog.badpallod.com/) 
+Part of evening discussions over nachos with [@Ritesh](https://blog.badpallod.com/)
+
+\* I have been told Amazon doesn’t do this anymore, it is smarter with respect to the item life cycle now. 

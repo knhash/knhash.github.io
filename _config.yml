@@ -16,7 +16,7 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 
-theme: jekyll-bear-theme
+remote_theme: knhash/jekyllBear
 
 markdown: kramdown
 

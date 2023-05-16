@@ -16,6 +16,8 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 
+theme: jekyll-bear-theme
+
 markdown: kramdown
 
 compress_html:
@@ -59,3 +61,12 @@ blog: /blog
 designs: /designs
 hello: /hello
 homemade-pi: /homemade-pi
+
+
+# Add links for more focus here
+special_links:
+  # "Search": https://duckduckgo.com
+  "Can I See": https://canisee.xyz
+  "Wazir": https://wazir.knhash.in
+  "DiffAKI": https://diffaki.knhash.in
+  

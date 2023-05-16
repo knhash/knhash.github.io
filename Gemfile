@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll-bear-theme"
+# gem "github-pages", group: :jekyll_plugins
 gem "jekyll-paginate"
-gem "jekyll-redirect-from"
+# gem "jekyll-redirect-from"

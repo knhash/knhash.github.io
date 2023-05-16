@@ -67,9 +67,11 @@ Blog: /blog
 # Add general links to site pages here
 links:
   Resume: /files/ShashankResume.pdf
+  
 
 # Add links for more focus here
 special_links:
+  "HomemadePi": /homemade-pi
   "Wazir": https://wazir.knhash.in 
   "DiffAKI": https://diffaki.knhash.in 
 

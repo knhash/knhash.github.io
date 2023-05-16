@@ -62,6 +62,8 @@ permalink: /blog/:slug
 timezone: America/New_York
 future: false
 
+Blog: /blog
+
 # Add general links to site pages here
 links:
   Resume: /files/ShashankResume.pdf

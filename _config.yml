@@ -16,6 +16,7 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 
+# theme: jekyll-bear-theme
 remote_theme: knhash/jekyllBear
 
 markdown: kramdown
@@ -65,7 +66,7 @@ homemade-pi: /homemade-pi
 
 # Add links for more focus here
 special_links:
-  # "Search": https://duckduckgo.com
+  "- Resume -": /files/ShashankResume.pdf
   "Can I See": https://canisee.xyz
   "Wazir": https://wazir.knhash.in
   "DiffAKI": https://diffaki.knhash.in

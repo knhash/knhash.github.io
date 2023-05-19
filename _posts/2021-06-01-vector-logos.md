@@ -9,4 +9,4 @@ Some vector logos I have created, in various styles. I use the first one persona
 
 I use [InkScape](https://inkscape.org) to make these, and it typically takes a couple hours. [Logos By Nick](https://www.youtube.com/channel/UCEQXp_fcqwPcqrzNtWJ1w9w) is an awesome channel if you ever want to do these kind of stuff yourself.
 
-{% include image-gallery.html folder="/assets/design_assets" %}
+{% include image-gallery.html folder="/logos" %}

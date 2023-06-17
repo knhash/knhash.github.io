@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Hello
-
+layout: default
 ---
 
 My name is **Shashank** and I solve problems.

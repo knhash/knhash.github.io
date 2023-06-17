@@ -1,12 +1,12 @@
 ---
-layout: post
 title: From Forestry CMS
-subtitle: A key word that I was missing all along
-date: 2022-05-20 18:30:00 +0000
+date: 2022-05-20 14:30:00 -04:00
 tags:
 - general
-
+layout: post
+subtitle: A key word that I was missing all along
 ---
+
 So turns out that there _is_ a way to write via the web!
 
 All along I thought the _one pain point_ of having a `GitHub + Jekyll + GitHub Pages` blog was the creation of new content had to happen through a desktop, with access to terminal. We have to copy the frontmatter, write the post, and commit the post to git. Not _very_ painful, but a little inconvenient.

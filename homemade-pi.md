@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Homemade Pi
-permalink: /homemade-pi
-description: ""
+permalink: "/homemade-pi"
+layout: default
+description: ''
 ---
 
 #### for a cleaner, better internet

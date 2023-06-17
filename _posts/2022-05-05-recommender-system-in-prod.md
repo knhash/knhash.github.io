@@ -1,14 +1,14 @@
 ---
-layout: post
 title: You want to build a Recommender System in Prod
-subtitle: "(You haven’t done that before)"
-date: 2022-05-05T21:21:21.000+05:30
+date: 2022-05-05 11:51:21 -04:00
 tags:
 - recommendation-systems
+layout: post
+subtitle: "(You haven’t done that before)"
 redirect_from:
 - general/recommender-system-in-prod
-
 ---
+
 ```
 > be you
 > have participated in kaggle recommender system competitions

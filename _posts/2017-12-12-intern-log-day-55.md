@@ -1,9 +1,10 @@
 ---
+title: Intern Log, Day 55
+date: 2017-12-12 10:51:21 -05:00
+tags:
+- general
 layout: post
-title:  "Intern Log, Day 55"
-subtitle: "Final thoughts on a quad-month internship"
-date:   2017-12-12 21:21:21 +0530
-tags: [general]
+subtitle: Final thoughts on a quad-month internship
 ---
 
 Everybody knows the worst time to study is during exams. We take any excuse to _not_ study. The semester end exams were in full swing in July. 

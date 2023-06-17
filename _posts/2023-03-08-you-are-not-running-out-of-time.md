@@ -1,12 +1,12 @@
 ---
-layout: post
 title: You are not running out of time.
-subtitle: ''
-date: 2023-03-08 15:39:00 +0000
+date: 2023-03-08 10:39:00 -05:00
 tags:
 - general
-
+layout: post
+subtitle: ''
 ---
+
 Time is not like a bucket of water you are handed at the start and you are using it bit by bit with a tumbler.
 
 Time is like a water tap you are haunching over. All you know is that it will eventually run dry but you do not know when.

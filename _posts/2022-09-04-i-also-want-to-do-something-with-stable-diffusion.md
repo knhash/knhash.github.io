@@ -1,12 +1,12 @@
 ---
-layout: post
 title: I also want to do something with Stable Diffusion
-subtitle: But I don't have a powerful GPU
-date: 2022-09-04T11:27:00.000+00:00
+date: 2022-09-04 07:27:00 -04:00
 tags:
 - general
-
+layout: post
+subtitle: But I don't have a powerful GPU
 ---
+
 Stable Diffusion is all the rage right now. If you are even remotely around the scene of AI and ML you have heard of Stable Diffusion. Rightfully so, [Stable Diffusion is a big deal](https://simonwillison.net/2022/Aug/29/stable-diffusion/ "Stable Diffusion is a big deal"), majorly because they released the weights of the model. Everyone and their manager wants to get onboard this new development in the crux of Art and AI.
 
 I too wanna. Problem is, you still need some fairly powerful GPUs to run the model. Granted the development is happening at a blistering pace (not exaggerating at all, people were able to [bring down GPU requirements](https://constant.meiring.nz/playing/2022/08/04/playing-with-stable-diffusion.html "bring down GPU requirements") and [get it running on M1 Macs](https://replicate.com/blog/run-stable-diffusion-on-m1-mac "get it running on M1 Macs") within a couple weeks!), _but I want to do something now_!

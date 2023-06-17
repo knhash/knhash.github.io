@@ -1,8 +1,9 @@
 ---
+title: Midnight Muse
+date: 2016-07-24 14:50:21 -04:00
+tags:
+- poem
 layout: post
-title:  "Midnight Muse"
-date:   2016-07-25 00:20:21 +0530
-tags: [poem]
 ---
 
 Here I am, in the night  

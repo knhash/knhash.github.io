@@ -1,8 +1,8 @@
 ---
-layout: blog
 title: Blog
+permalink: "/blog"
+layout: blog
 description: Here be writings
-permalink: /blog
 ---
 
 Here be writings. Mostly mundane, sometimes fanciful.

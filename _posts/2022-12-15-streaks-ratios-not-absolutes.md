@@ -1,12 +1,12 @@
 ---
-layout: post
 title: 'Streak ratios, not absolutes '
-subtitle: ''
-date: 2022-12-15T15:51:00.000+00:00
+date: 2022-12-15 10:51:00 -05:00
 tags:
 - general
-
+layout: post
+subtitle: ''
 ---
+
 I have finally internalised the best way to build habits. With the year coming to an end it is recap season. As I look back at how I fared on my various resolutions I see it clearly now. Ratios is where it’s at.
 
 ### The way of the streak

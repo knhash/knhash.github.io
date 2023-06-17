@@ -72,8 +72,15 @@ links:
 # Add links for more focus here
 special_links:
   "HomemadePi": /homemade-pi
+  # "Wazir": https://wazir.knhash.in 
+  # "DiffAKI": https://diffaki.knhash.in 
+  # "theThing": https://thething.streamlit.app
+
+other_links:
+  # "HomemadePi": /homemade-pi
   "Wazir": https://wazir.knhash.in 
   "DiffAKI": https://diffaki.knhash.in 
+  "theThing": https://thething.streamlit.app
 
 # Exclude from processing.
 # The following items will not be processed, by default.

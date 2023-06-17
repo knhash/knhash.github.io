@@ -22,10 +22,8 @@ Some toys and general stupidity:
 
 
 |[\[theThing\]]({{ site.other_links.theThing }} "theThing")|scan your face to check if you have "the thing"|
-
 |[\[DiffAKI\]]({{ site.other_links.DiffAKI }} "DiffAKI")|[a pictionary game, with Stable Diffusion](https://knhash.in/blog/i-also-want-to-do-something-with-stable-diffusion "[diffAKI]")|
-
-|[\[Wazir\]]({{ site.other_links.Wazir }} "Wazir")|The general purpose image and text combinator|
+|[\[Wazir\]]({{ site.other_links.Wazir }} "Wazir")|the general purpose image and text combinator|
 
 
 ***

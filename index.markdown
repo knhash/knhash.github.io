@@ -35,3 +35,15 @@ I make round, fluffy Chappatis and frothy, filter Coffee.
 
 
  [\[E-mail me\]](mailto:mail@knhash.in). Seriously, I love getting e-mails from people. We can chat about stuff.
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

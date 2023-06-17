@@ -1,9 +1,8 @@
 ---
-title: The Odd Vendor
-date: 2022-01-28 10:51:21 -05:00
-tags:
-- general
 layout: post
+title:  "The Odd Vendor"
+date:   2022-01-28 21:21:21 +0530
+tags: [general]
 ---
 
 Street vendors sell things for a living right? As a business? They need to make money off of whatever they are selling, account for losses, have a somewhat solid business plan - they may not have the fancy spreadsheets but they will have the top line and bottom line and, you know, basic stuff. 

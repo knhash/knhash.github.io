@@ -1,5 +1,4 @@
 ---
-title: Design
+slug: design
 name: Design
 ---
-

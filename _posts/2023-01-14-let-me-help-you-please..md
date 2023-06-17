@@ -1,12 +1,12 @@
 ---
+layout: post
 title: Let me help you, please
-date: 2023-01-14 10:30:00 -05:00
+subtitle: ''
+date: 2023-01-14T15:30:00.000+00:00
 tags:
 - recommendation-systems
-layout: post
-subtitle: ''
----
 
+---
 Recommendation systems are hard. Some get it working amazingly well - TikTok - and it becomes a big discussion: what implicit insight did TikTok crack to make it one of the best performing qualitative recommendation systems out there? Tons of papers get published.
 
 At the end of the day the simple mandate is: **give me content I am going to like without me telling you what the content is**. If I tell I like this and you give it me, eh, every roadside shop does it too. I want to walk into a boutique and have a professional eye me critically and give me a dress which I will accept as the best thing ever and be happy.

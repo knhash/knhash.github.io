@@ -1,5 +1,4 @@
 ---
-title: Recommendation Systems
+slug: recommendation-systems
 name: Recommendation Systems
 ---
-

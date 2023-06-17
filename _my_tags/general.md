@@ -1,5 +1,4 @@
 ---
-title: General
+slug: general
 name: General
 ---
-

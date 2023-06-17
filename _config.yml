@@ -1,68 +1,103 @@
----
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: knhash says hello.
-timezone: America/New_York
-collections:
-  my_tags:
-    title: My Tags
-    output: true
-    permalink: "/tagged/:slug/"
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: my_tags
-  values:
-    layout: tagged
 email: mail@knhash.in
-description: The personal website of Shashank, also known as knhash.
-baseurl: ''
-url: https://knhash.in
+description: >- # this means to ignore newlines until "baseurl:"
+  The personal website of Shashank, also known as knhash.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://knhash.in" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: knhash
-github_username: knhash
+github_username:  knhash
+
+# Build settings
+# theme: jekyll-bear-theme
 remote_theme: knhash/jekyllBear
 plugins:
-- jekyll-feed
+  - jekyll-feed
+
 markdown: kramdown
+
 compress_html:
   clippings: all
-  comments:
-  - ''
-  endings:
-  - html
-  - head
-  - body
-  - li
-  - dt
-  - dd
-  - rt
-  - rp
-  - optgroup
-  - option
-  - colgroup
-  - caption
-  - thead
-  - tbody
-  - tfoot
-  - tr
-  - td
-  - th
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
   profile: false
   blanklines: false
   ignore:
     envs: []
-permalink: "/blog/:slug"
+
+# Tagging specifics 
+
+collections:
+  my_tags:
+    output: true
+    permalink: /tagged/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: tagged
+
+permalink: /blog/:slug
+timezone: America/New_York
 future: false
-Blog: "/blog"
+
+Blog: /blog
+
+# Add general links to site pages here
 links:
-  Resume: "/files/ShashankResume.pdf"
+  Resume: /files/ShashankResume.pdf
+  
+
+# Add links for more focus here
 special_links:
-  HomemadePi: "/homemade-pi"
+  "HomemadePi": /homemade-pi
+  # "Wazir": https://wazir.knhash.in 
+  # "DiffAKI": https://diffaki.knhash.in 
+  # "theThing": https://thething.streamlit.app
+
 other_links:
-  Wazir: https://wazir.knhash.in
-  DiffAKI: https://diffaki.knhash.in
-  theThing: https://thething.streamlit.app
+  # "HomemadePi": /homemade-pi
+  "Wazir": https://wazir.knhash.in 
+  "DiffAKI": https://diffaki.knhash.in 
+  "theThing": https://thething.streamlit.app
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

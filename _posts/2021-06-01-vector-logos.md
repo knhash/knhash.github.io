@@ -1,9 +1,8 @@
 ---
-title: Vector Logos
-date: 2021-06-01 11:51:21 -04:00
-tags:
-- design
 layout: design-post
+title:  "Vector Logos"
+date:   2021-06-01 21:21:21 +0530
+tags: [design]
 ---
 
 Some vector logos I have created, in various styles. I use the first one personally, and you may have seen some of the others in the wild.

@@ -1,9 +1,8 @@
 ---
-title: Night-time Sounds
-date: 2016-07-25 14:35:21 -04:00
-tags:
-- poem
 layout: post
+title:  "Night-time Sounds"
+date:   2016-07-26 00:05:21 +0530
+tags: [poem]
 ---
 
 Oftentimes I lay awake,  

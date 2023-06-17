@@ -1,9 +1,8 @@
 ---
-title: A Short Affair
-date: 2020-10-01 14:50:21 -04:00
-tags:
-- poem
 layout: post
+title:  "A Short Affair"
+date:   2020-10-02 00:20:21 +0530
+tags: [poem]
 ---
 
 Look at that guy, he walking along  

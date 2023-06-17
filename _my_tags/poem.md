@@ -1,5 +1,4 @@
 ---
-title: Poem
+slug: poem
 name: Poem
 ---
-

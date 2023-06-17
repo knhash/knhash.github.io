@@ -1,12 +1,12 @@
 ---
+layout: post
 title: "[PROJ] Repeated Selection Consensus Protocol"
-date: 2022-10-23 14:30:00 -04:00
+subtitle: Decision making among friends, with preferences
+date: 2022-10-23 18:30:00 +0000
 tags:
 - general
-layout: post
-subtitle: Decision making among friends, with preferences
----
 
+---
 The scenario is this:
 
 > You are going on a vacation with your friends and there are going to be multiple occasions where decisions would need to be made.

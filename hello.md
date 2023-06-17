@@ -1,8 +1,8 @@
 ---
-title: Hello Mr Shank
-permalink: "/hello"
 layout: default
-description: Dashboard of services at various places and stuff
+title: Hello Mr Shank
+description: "Dashboard of services at various places and stuff"
+permalink: /hello
 ---
 
 [Pi-hole](https://pi.knhash.in/admin) - Ads be gone! Also, whats happening on the network?

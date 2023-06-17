@@ -1,9 +1,8 @@
 ---
-title: Who Is Mr Pratap?
-date: 2018-02-14 10:51:21 -05:00
-tags:
-- fiction
 layout: post
+title:  "Who Is Mr Pratap?"
+date:   2018-02-14 21:21:21 +0530
+tags: [fiction]
 ---
 
 Mr Pratap is a _quiet_ man. 

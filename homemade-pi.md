@@ -26,36 +26,19 @@ A custom built a [Raspberry Pi](https://www.raspberrypi.org) server, preloaded w
 It is fully open source, hardware and software. Just a convenient packaging of it.  
 Once installed it is yours 100%, _you own it_.
 
-## ₹6828/-
+## ₹3141
 
+int(math.pi * 1000)
 #### One time. Upfront.
 
-Need ongoing technical assistance? **₹31/month**.  
+Need ongoing technical assistance? **₹31**/month.  
 No issues in a month? The money will be donated to the awesome folks at Pi-Hole in your name!
 
-## Drop your e-mail
+## Send me an e-mail
 
 #### For interest check.
 
-<p>
-<form name="listform" id="listform" method="post" action="https://listmonk.knhash.in/subscription/form" class="listmonk-form">
-        <input id="email" type="email" name="email" placeholder="E-mail"/>
-        <input id="7a5d2" type="hidden" name="l" checked value="7a5d2277-18d3-47da-a5e9-1301335fefbb" />
-</form>
-</p>
-
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+Mention `[HomemadePi]` somewhere in there and I will get back to ya.
 
 ## Who, what, why?
 
@@ -69,4 +52,4 @@ The target audience here is _YOU_, the *family-tech-person*. Someone who underst
 
 A very, _very_, niche audience, yes. And hence the interest check. It also ties in with another idea I am noodling around with, but more on that some other time.
 
-So, are you interested?
+> **So, are you interested?**

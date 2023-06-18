@@ -2,7 +2,7 @@
 layout: default
 title: Homemade Pi
 permalink: /homemade-pi
-description: ""
+published: true
 ---
 
 #### for a cleaner, better internet
@@ -38,7 +38,7 @@ No issues in a month? The money will be donated to the awesome folks at Pi-Hole 
 
 #### For interest check.
 
-Mention `[HomemadePi]` somewhere in there and I will get back to ya.
+[E-mail me](mailto:mail@knhash.in) here. Mention `[HomemadePi]` somewhere in there and I will get back to ya.
 
 ## Who, what, why?
 

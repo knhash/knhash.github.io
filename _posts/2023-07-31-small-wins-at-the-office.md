@@ -5,8 +5,6 @@ date: '2023-07-31 22:30:00 +0530'
 tags:
   - general
 ---
-# Small wins at the office
-
 ## A Tuesday in July
 
 Every day I am in office I have breakfast in the office cafeteria. There is a Assorted Dosa Counter. Every day I am in office I have the same breakfast - plain dosa topped with red chutney, filled with cheese. Every day I am in office I ask the cook to make the same breakfast for me. “Chutney Cheese” I say. And he makes a plain dosa topped with red chutney, filled with cheese.

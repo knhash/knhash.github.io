@@ -1,10 +1,11 @@
 ---
 published: true
-title: "[PROJ] Trusted Circle - Tree of Brands"
+title: '[PROJ] Trusted Circle - Tree of Brands'
 layout: post
 date: '2023-07-10 22:30:00 +0530'
 tags:
   - general
+  - project
 ---
 
 `PART ONE` 

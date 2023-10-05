@@ -5,7 +5,9 @@ date: '2023-10-05 17:00:00 +0530'
 tags:
   - general
   - recommendation-systems
-title: "The Great Traffic Surge: A Machine Learning Engineer's Tale of Resource Starvation and Memory Limits"
+title: >-
+  The Great Traffic Surge: A Machine Learning Engineer's Tale of Resource
+  Starvation and Memory Limits
 ---
 You log in and see that one of your prediction service endpoints has been throwing errors since a few hours, **HTTP 503**, the server is currently unavailable. The *on-call* has taken down the model and deployed a fallback - so as to not trip the engineering circuit breakers anymore.
 
@@ -109,7 +111,7 @@ If you noticed in the graphs, all of them start around 5PM the previous day. Tha
 - As the nodes ran out of memory the nodes got killed. New ones spawned. But the situation is just worse, so of-course they also got killed.
 - The autoscaling policy was set on CPU utilization
 	- Therefore the replica target was never going above 21, as far as the autoscler was concerned we did not need more nodes
-		- But more nodes woudl have helped in this case. Sidenote, should we also define an autoscaler on memory?
+		- But more nodes would have helped in this case. Sidenote, should we also define an autoscaler on memory?
 
 So a simple redeployment would have sufficed for the time being - a slow canary deployment to move traffic to new nodes. But to account for the 0530 spike we decided to overprovision the buffers slightly, go to `n1-highcpu-16` . 
 
@@ -122,4 +124,3 @@ Wrapping up with some happy looking graphs. No errors on the 30k RPS, sub-200ms 
 ![image]({{site.baseurl}}/media/FinalTwo.png)
 
 > *Look ma, I didn't even touch the logs!*
-

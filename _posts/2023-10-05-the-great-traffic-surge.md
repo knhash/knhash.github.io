@@ -1,10 +1,11 @@
 ---
-published: false
+published: true
 layout: post
 date: '2023-10-05 17:00:00 +0530'
 tags:
   - general
   - recommendation-systems
+title: 'The Great Traffic Surge: A Machine Learning Engineer's Tale of Resource Starvation and Memory Limits'
 ---
 You log in and see that one of your prediction service endpoints has been throwing errors since a few hours, **HTTP 503**, the server is currently unavailable. The *on-call* has taken down the model and deployed a fallback - so as to not trip the engineering circuit breakers anymore.
 

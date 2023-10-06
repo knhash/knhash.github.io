@@ -6,8 +6,8 @@ tags:
   - general
   - recommendation-systems
 title: >-
-  The Great Traffic Surge: A Machine Learning Engineer's Tale of Resource
-  Starvation and Memory Limits
+  The Great Traffic Surge
+subtitle: A Machine Learning Engineer's Tale of Resource Starvation and Memory Limits
 ---
 You log in and see that one of your prediction service endpoints has been throwing errors since a few hours, **HTTP 503**, the server is currently unavailable. The *on-call* has taken down the model and deployed a fallback - so as to not trip the engineering circuit breakers anymore.
 

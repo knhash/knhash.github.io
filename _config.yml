@@ -21,10 +21,10 @@
 title: ∫hank space 
 email: mail@knhash.in
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal website of Shashank, also known as knhash.
+  The website of Shashank | Shank | knhash.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://knhash.in" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: knhash
+# twitter_username: knhash
 github_username:  knhash
 
 # Build settings

@@ -20,10 +20,12 @@ Send me an [\[E-mail\]](mailto:mail@knhash.in) to have a conversation.
 
 Some toys and general stupidity:
 
-|[\[**Ghost Game**\]]({{ site.other_links.GhostGame }} "GhostGame")|a multiplayer word game where the goal is to _not_ complete the word.|
+|[\[**Ghost Game**\]]({{ site.other_links.GhostGame }} "Ghost Game")|a multiplayer word game where the goal is to _not_ complete the word.|
 |[\[DiffAKI\]]({{ site.other_links.DiffAKI }} "DiffAKI")|[a pictionary game, with Stable Diffusion](https://knhash.in/blog/i-also-want-to-do-something-with-stable-diffusion "[diffAKI]")|
 |[\[Wazir\]]({{ site.other_links.Wazir }} "Wazir")|the general purpose image and text combinator|
-|[\[The Thing\]]({{ site.other_links.theThing }} "theThing")|scan your face to check if you have "the thing"|
-|[\[Color Mood\]]({{ site.other_links.ColorMood }} "ColorMood")|find your favourite color based on the mood you are in right now|
+|[\[The Thing\]]({{ site.other_links.theThing }} "The Thing")|scan your face to check if you have "the thing"|
+|[\[Color Mood\]]({{ site.other_links.ColorMood }} "Color Mood")|find your favourite color based on the mood you are in right now|
 
 
+![Super Mindy]({{site.baseurl}}/media/SuperMindy.jpg)
+> Super Mindy of the desk kingdom watches over you.

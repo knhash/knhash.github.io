@@ -78,9 +78,11 @@ special_links:
 
 other_links:
   # "HomemadePi": /homemade-pi
+  "GhostGame": https://ghostgame.io
   "Wazir": https://wazir.knhash.in 
   "DiffAKI": https://diffaki.knhash.in 
-  "theThing": https://thething.streamlit.app
+  "theThing": https://thething.knhash.in
+  "ColorMood": https://colormood.knhash.in
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -10,23 +10,20 @@ My name is **Shashank** and I solve problems.
 
 I work on large scale intelligence systems, concentrating on ML Engineering and MLOps. Current focus area is Recommender Systems in an online learning environment.
 
-> I built [\[Ghost Game\]](https://ghostgame.io) which is a multiplayer word game where the goal is to _not_ complete the word.
+I play [Factorio](https://www.factorio.com); it is very fun, we should play it together. 
 
-I play [Factorio](https://www.factorio.com); if you do too, care to multi-play?
+I make round, fluffy Chappatis and frothy, filter Coffee. I am a staunch believer of "cooking recipes are more like guidelines anyway". Read it once and then let [the rat in your head](https://en.wikipedia.org/wiki/Ratatouille_(film)) lead you. It is very hard to make something inedible :)
 
-
-I make round, fluffy Chappatis and frothy, filter Coffee.
+Send me an [\[E-mail\]](mailto:mail@knhash.in) to have a conversation.
 
 ***
 
 Some toys and general stupidity:
 
-
-|[\[theThing\]]({{ site.other_links.theThing }} "theThing")|scan your face to check if you have "the thing"|
+|[\[**Ghost Game**\]]({{ site.other_links.GhostGame }} "GhostGame")|a multiplayer word game where the goal is to _not_ complete the word.|
 |[\[DiffAKI\]]({{ site.other_links.DiffAKI }} "DiffAKI")|[a pictionary game, with Stable Diffusion](https://knhash.in/blog/i-also-want-to-do-something-with-stable-diffusion "[diffAKI]")|
 |[\[Wazir\]]({{ site.other_links.Wazir }} "Wazir")|the general purpose image and text combinator|
+|[\[The Thing\]]({{ site.other_links.theThing }} "theThing")|scan your face to check if you have "the thing"|
+|[\[Color Mood\]]({{ site.other_links.ColorMood }} "ColorMood")|find your favourite color based on the mood you are in right now|
 
 
-***
-
- [\[E-mail me\]](mailto:mail@knhash.in). Seriously, I love getting e-mails from people. We can chat about stuff.

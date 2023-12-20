@@ -25,7 +25,7 @@ Some toys and general stupidity:
 |[\[Wazir\]]({{ site.other_links.Wazir }} "Wazir")|the general purpose image and text combinator|
 |[\[The Thing\]]({{ site.other_links.theThing }} "The Thing")|scan your face to check if you have "the thing"|
 |[\[Color Mood\]]({{ site.other_links.ColorMood }} "Color Mood")|find your favourite color based on the mood you are in right now|
-|[\[Crypto Santa\]]({{ site.other_links.CryptoSanta }} "Crypto Santa")|[Serverless Secret Santa with asymmeteric key encription](https://knhash.in/blog/crypto-santa)|
+|[\[Crypto Santa\]]({{ site.other_links.CryptoSanta }} "Crypto Santa")|[Serverless Secret Santa with asymmeteric key encryption](https://knhash.in/blog/crypto-santa)|
 
 
 ![Super Mindy]({{site.baseurl}}/media/SuperMindy.jpg)

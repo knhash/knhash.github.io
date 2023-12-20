@@ -73,7 +73,7 @@ On Vibhav’s insistence I asked ChatGPT how it would solve it and it spat out t
 
 I’m still proud of it though, I had fun. This goes on my wall of toys.
 
-[https://crypto-santa.streamlit.app](https://crypto-santa.streamlit.app)
+[https://cryptosanta.knhash.in](https://cryptosanta.knhash.in)
 
 > **Shashank**: It is a beautiful, theoretical, mathematical exercise, why can you not see it for that 😭
 

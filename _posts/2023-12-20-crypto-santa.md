@@ -4,7 +4,7 @@ layout: post
 date: '2023-12-20 17:00:00 +0530'
 tags:
   - general
-  - recommendation-systems
+  - project
 subtitle: 'or, How To Overcomplicate A Simple Exercise While Pissing Off Ritesh'
 ---
 

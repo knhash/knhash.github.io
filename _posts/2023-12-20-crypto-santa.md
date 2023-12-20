@@ -1,10 +1,12 @@
 ---
-published: false
+published: true
 layout: post
 date: '2023-12-20 17:00:00 +0530'
 tags:
   - general
   - project
+title: >-
+  Crypto Santa
 subtitle: 'or, How To Overcomplicate A Simple Exercise While Pissing Off Ritesh'
 ---
 

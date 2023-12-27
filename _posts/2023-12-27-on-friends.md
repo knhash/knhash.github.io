@@ -4,9 +4,9 @@ layout: post
 date: '2023-12-27 00:30:00 +0530'
 tags:
   - general
+title: >-
+  On Friends
 ---
-# On friends
-
 Respected friends, members of the friends council and my dear friends. Welcome.
 
 Conversations are one of the underrated pleasures and privileges of us, human beings, the human condition. Specially the ones where you go back to the same person and are able to hold long threads of thought. Not the same thought, that would make it an asylum. But those hour long discussions over coffee.

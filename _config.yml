@@ -28,8 +28,8 @@ url: "https://knhash.in" # the base hostname & protocol for your site, e.g. http
 github_username:  knhash
 
 # Build settings
-# theme: jekyll-bear-theme
-remote_theme: knhash/jekyllBear
+theme: jekyll-bear-theme
+# remote_theme: knhash/jekyllBear
 plugins:
   - jekyll-feed
 
@@ -71,19 +71,22 @@ links:
 
 # Add links for more focus here
 special_links:
-  "HomemadePi": /homemade-pi
+  # "HomemadePi": /homemade-pi
+  "Workshop": /workshop
   # "Wazir": https://wazir.knhash.in 
   # "DiffAKI": https://diffaki.knhash.in 
   # "theThing": https://thething.streamlit.app
 
 other_links:
-  # "HomemadePi": /homemade-pi
+  "HomemadePi": /homemade-pi
   "GhostGame": https://ghostgame.io
   "Wazir": https://wazir.knhash.in 
   "DiffAKI": https://diffaki.knhash.in 
   "theThing": https://thething.knhash.in
   "ColorMood": https://colormood.knhash.in
   "CryptoSanta": https://cryptosanta.knhash.in
+  "DarkMoney": https://darkmoney.knhash.in
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

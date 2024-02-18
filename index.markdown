@@ -18,7 +18,7 @@ I make round, fluffy Chappatis and frothy, filter Coffee. I am a staunch believe
 
 Send me an [e-mail](mailto:mail@knhash.in) to have a conversation.
 
-#### Showcase items, services and toys will be found in the [\[Workshop\]]({{ site.special_links.Hello }} "Hello"). 
+#### Showcase items, services and toys will be found in the [\[Workshop\]]({{ site.special_links.workshop }} "Workshop"). 
 
 
 ![Super Mindy]({{site.baseurl}}/media/SuperMindy.jpg)

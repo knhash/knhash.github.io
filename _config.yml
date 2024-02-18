@@ -71,11 +71,8 @@ links:
 
 # Add links for more focus here
 special_links:
-  # "HomemadePi": /homemade-pi
   "Workshop": /workshop
-  # "Wazir": https://wazir.knhash.in 
-  # "DiffAKI": https://diffaki.knhash.in 
-  # "theThing": https://thething.streamlit.app
+
 
 other_links:
   "HomemadePi": /homemade-pi

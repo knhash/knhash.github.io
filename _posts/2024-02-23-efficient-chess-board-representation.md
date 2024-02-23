@@ -108,7 +108,7 @@ The `encode_dynamic` method takes a FEN string as input and converts it into a b
 
 The `decode_dynamic` method takes a binary string in the Dynamic Protocol format and converts it back into a FEN string, reconstructing the original chess position.
 
-The `encode_base64` and `decode_base64` methods provide additional functionality for encoding and decoding the binary string into a base64 string, which can be useful for more compact storage or transmission of the chess position.
+The `encode_base85` and `decode_base85` methods provide additional functionality for encoding and decoding the binary string into a base85 string, which can be useful for more compact storage or transmission of the chess position.
 
 Our results show that the Dynamic Method is consistently more space-efficient than FEN notation, with an average space savings of around 35%. However, there are some caveats to consider:
 - The increased space efficiency comes at the cost of increased complexity in the encoding and decoding process.
@@ -122,38 +122,38 @@ These test cases demonstrate that the Dynamic Method is indeed more space-effici
 ```python
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.002s
+Ran 1 test in 0.003s
 
 OK
 FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 FEN notation size: 56
 Encoded bit size: 222
-base64 bit size: 40
-base64: PoIJKLMNOPjDHLPTXbeBGufoIW69gB7j+H7ifA==
+base85 size: 35
+base85: K7t7-vkf@-!yL2IUAKW6=jb7By?`F$_<rJi
 
 FEN: rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2
 FEN notation size: 62
 Encoded bit size: 222
-base64 bit size: 40
-base64: HoIJKLNOPciTDHLPXbeBVufoIW69gB7j+H7ifA==
+base85 size: 35
+base85: 9)bxdvraw8lMHgtUAKW&=jb7By?`F$_<rJi
 
 FEN: 8/4k3/8/8/8/8/8/4K3 w - - 0 1
 FEN notation size: 29
 Encoded bit size: 42
-base64 bit size: 8
-base64: AgAAACJ0
+base85 size: 8
+base85: 0ssI2B6I
 
 FEN: rnbqkb1r/pppp1ppp/2n5/4P3/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3
 FEN notation size: 60
 Encoded bit size: 216
-base64 bit size: 36
-base64: +ggkos04+R8Mcs9dt4Eaq5ghbr2AHuP4fuJ8
+base85 size: 34
+base85: `UoVV%{ciV406w1w}Bd~m?3VxfF9%ce&T!
 
 FEN: rnbqkbnr/pppp1ppp/8/4Pp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3
 FEN notation size: 60
 Encoded bit size: 228
-base64 bit size: 40
-base64: D+2CCSizTj5Ilwxyz123gRrn6CFuvYAe4/h+4nw=
+base85 size: 37
+base85: 5AA{pD6>vJNS6$9&t12H8t3RCZoPmW<M@8!d;
 
 ```
 
@@ -162,7 +162,7 @@ base64: D+2CCSizTj5Ilwxyz123gRrn6CFuvYAe4/h+4nw=
 ## Epilogue
 The genesis of this project was a simple question: Can we create a short URL to represent any state of a chess game? This question led us down a path of exploration into data compression, encoding schemes, and the intricacies of chess game states.
 
-The `ChessEncoder` class, at the heart of this project, is a testament to this journey. It leverages the Forsyth-Edwards Notation (FEN) and a custom binary format, the Dynamic Protocol, to encode and decode chess positions. The class also employs `base64` encoding to further compress the data, enabling the representation of complex game states in a compact format suitable for a URL.
+The `ChessEncoder` class, at the heart of this project, is a testament to this journey. It leverages the Forsyth-Edwards Notation (FEN) and a custom binary format, the Dynamic Protocol, to encode and decode chess positions. The class also employs `base85` encoding to further compress the data, enabling the representation of complex game states in a compact format suitable for a URL.
 
 The Dynamic Protocol captures all necessary information about a chess position, including the active color, castling rights, en passant square, and the positions of all pieces on the board. This ensures that the full state of a chess match can be accurately represented and retrieved.
 

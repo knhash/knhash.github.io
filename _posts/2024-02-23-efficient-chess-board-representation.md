@@ -49,8 +49,6 @@ We use the following two insights from the game:
 The final protocol thus becomes:
 - Bits are chunked in sets of 6, each 6 bit chunk representing the position of a piece
 - Chunks are ordered by kind, white pieces of a kind first.
-  - Pawn, Rook, Bishop, Knight, Queen, King
-  - So, for instance, the bits in the indexes `[113, 119]` tell the position of the second White Bishop
 - Dead pieces have their position set to the position of their corresponding King
 
 ## The Dynamic Method - [42-228] bits

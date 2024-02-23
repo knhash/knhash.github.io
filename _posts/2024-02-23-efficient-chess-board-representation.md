@@ -25,6 +25,8 @@ At the beginning of a game there are 32 pieces in play, 16 per side, of the foll
 
 To save the game state we need to store the location of every piece in play at any given point in time. A set of game states from start to finish constitutes a match. There is some meta information that is also required, the state of castling, en-passant captures, next player's turn, half counts and full counts. With all this information you can reliably store and consistently recreate any game that has been played.
 
+**Forsyth-Edwards Notation (FEN):** A compact, human-readable format that encodes the position of each piece on the board using a single character, along with additional information such as castling rights, en passant target square, half-move clock, and full-move number. FEN is widely used for exchanging chess positions between software applications and for storing game states in databases.  
+
 
 ## The Static Method - 192 bits
 `(2^6) = 64` squares means we need 6 bits to store a position a position on the board. With 32 pieces in play at the start, we would need `(32 * 6) = 192` bits to store the position of all the pieces. But that is still not enough information, which position belongs to which piece?

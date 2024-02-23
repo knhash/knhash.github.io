@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "Efficient Chess Board Representation"
-date:   '2024-02-23 05:30:00 +0530'
+date:   '2024-02-23 21:21:21 +0530'
 tags:
   - general
   - project

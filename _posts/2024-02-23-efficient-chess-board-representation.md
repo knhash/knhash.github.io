@@ -5,14 +5,12 @@ date:   2024-02-23 05:30:00 +0530
 tags: [general]
 ---
 
-**Authors:**
-- Raghava G. Dhanya (raghava.dhanya@gmail.com)
-- Shashank S. (mail@knhash.in)
+> **Authors:**
+> - Raghava G. Dhanya (raghava.dhanya@gmail.com)
+> - Shashank S. (mail@knhash.in)
 
 ## Abstract
 In this article, we examine how to represent the game state of a chess board as space-efficiently as possible. We propose two methods for representing the game state: the Static Method and the Dynamic Method. Both methods have their advantages and disadvantages, and we discuss their respective protocols in detail. We also look at the code implementation of the Dynamic Method and show with test cases how it is indeed more space efficient than the corresponding FEN notation, with some caveats.
-
----
 
 ## Introduction
 Consider a typical chess board. It is a 8x8 grid of 64 black and white squares.
@@ -34,8 +32,6 @@ The primary objective of this research is to propose and analyze two methods for
 
 ### Organization of the paper
 This paper is organized as follows: Section 2 provides a literature review on chess game state representations and existing space-efficient techniques. Sections 3 and 4 describe the Static and Dynamic Methods, respectively. Section 5 discusses the code implementation of the Dynamic Method and presents test cases. Section 6, the epilogue, provides the initial seed idea and true motivation for this endeavor.
-
----
 
 ## Literature Review
 ### Chess Game State Representations
@@ -66,8 +62,6 @@ Specialized data structures aim to store and manipulate chess game states more e
 
 In this paper, we propose and analyze two novel methods for space-efficient representation of chess game states, the Static Method and the Dynamic Method, and compare their performance with existing techniques, such as FEN notation.
 
----
-
 ## The Static Method - 192 bits
 64 $(2^6)$ squares means we need 6 bits to store a position a position on the board. With 32 pieces in play at the start, we would need 192 $(32 * 6)$ bits to store the position of all the pieces. But that is still not enough information, which position belongs to which piece?
 
@@ -92,8 +86,6 @@ The final protocol thus becomes:
   - Pawn, Rook, Bishop, Knight, Queen, King
   - So, for instance, the bits in the indexes $[113, 119]$ tell the position of the second White Bishop
 - Dead pieces have their position set to the position of their corresponding King
-
----
 
 ## The Dynamic Method - [42-228] bits
 Maintaining location information for every dead piece as we keep progressing through the game is wasteful. We could possibly omit this if we are able to save the count of pieces in play, per kind, per side.
@@ -130,15 +122,13 @@ With these additional bits, the total number of bits needed to represent a game 
 
 Thus, the Dynamic Method can represent a chess game state with a varying number of bits between 42 and 228, providing a more space-efficient representation compared to the Static Method, especially as more pieces are captured.
 
----
-
 ## Code Implementation and Test Cases
 We implemented the Dynamic Method in Python and compared its space efficiency with FEN notation using a set of test cases.
 
 ### Python Code Implementation
 Please find the code in the following [GitHub repository](http://www.overleaf.com).
 
-The ChessEncoder class provides functionality for encoding and decoding chess positions between Forsyth-Edwards Notation (FEN) and a custom binary format, referred to as the Dynamic Protocol.
+The `ChessEncoder` class provides functionality for encoding and decoding chess positions between Forsyth-Edwards Notation (FEN) and a custom binary format, referred to as the Dynamic Protocol.
 
 The `encode_dynamic` method takes a FEN string as input and converts it into a binary string according to the Dynamic Protocol. This binary string represents the chess position, including the active color, castling rights, en passant square, and the positions of all pieces on the board.
 

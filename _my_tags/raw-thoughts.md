@@ -1,4 +1,4 @@
 ---
-slug: raw-thoughts
-name: Raw Thoughts
+slug: raw
+name: Raw
 ---

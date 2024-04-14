@@ -4,7 +4,7 @@ title: You are not running out of time.
 date: '2023-03-08 15:39:00 +0000'
 tags:
 - general
-- raw-thoughts
+- raw
 published: true
 ---
 Time is not like a bucket of water you are handed at the start and you are using it bit by bit with a tumbler.

@@ -90,7 +90,7 @@ Here's how it looked before going into the freezer. Very pretty, if I say so mys
 ### What to do with this new found cooking skill? 
 
 I will aim for maximum fame. I will write a book with all my recipes and techniques and call it 
-- **The Handwavy Guide To Making Food** 
+- "The Handwavy Guide To Making Food" 
     - *That Sometimes Turns Out Super Delicious (but is always edible)"*. 
 
 I will inform everyone once I publish it. 

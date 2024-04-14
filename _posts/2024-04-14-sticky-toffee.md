@@ -17,6 +17,8 @@ tags:
 
 ### Background 
 
+Cooking should be fun, following recipes is kinda boring. So I make it a point to read a recipe _once_ and then wing stuff along the way, hoping to keep things edible while turning into interesting and exciting culinary destinations. I follow _the hand-wavy way_ of cooking, as evidenced by the recipe below.
+
 Manavi challenged me to make toffee, saying it is very simple to do 
 - boil sugar to caramelization
 - add butter
@@ -36,9 +38,9 @@ and you are done. So I set forth to do it. I also decided to log my progress alo
 ||7. Place dollops on plate, freeze|
 ||8. Serve chilled on toothpicks|
 
-### Stop here if all you wanted was the recipe
+_Stop here if all you wanted was the recipe_
 
-Cooking should be fun, following recipes is kinda boring. So I make it a point to read a recipe _once_ and then wing stuff along the way, hoping to keep things edible while turning into interesting and exciting culinary destinations. I follow _the hand-wavy way_ of cooking, as evidenced by the recipe above.
+### Detailed follow-along, mistakes welcome
 
 Even before I started, mother was making a traditional new year's festive dish called Chitranna - a tangy raw mango rice dish - which involved some grated raw mangos. Immediately I switched gears to make mango bite instead of toffee.
 

@@ -21,6 +21,7 @@ permalink: /workshop
 
 | [Pi-hole](https://pi.knhash.in/admin) | [Miniflux](https://rss.knhash.in) | [Fathom](https://fathom.knhash.in) | 
 | [Actual Budget](https://actual.knhash.in) | [Change Detection](https://changedetection.knhash.in/) | [Ntfy](https://ntfy.knhash.in/)  | 
+| [Audiobookshelf](https://audiobookshelf.knhash.in) | 
 
 ## Aside Articles
 

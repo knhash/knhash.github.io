@@ -8,7 +8,7 @@ tags:
   - project
 ---
 
-> by [Raghava G. Dhanya](mailto:raghava.dhanya@gmail.com) and [Shashank S.](mailto:mail@knhash.in)
+> by [Raghava G. Dhanya](https://ragv.in) and [Shashank S.](https://knhash.in)
 
 ## Abstract
 In this article, we examine how to represent the game state of a chess board as space-efficiently as possible. We propose two methods for representing the game state: the Static Method and the Dynamic Method. Both methods have their advantages and disadvantages, and we discuss their respective protocols in detail. We also look at the code implementation of the Dynamic Method and show with test cases how it is indeed more space efficient than the corresponding FEN notation, with some caveats.

@@ -39,5 +39,5 @@ I will e-mail you when the next class starts.
             <p><input type="submit" value="Subscribe" /> to this experimental tuition class</p>
         </div>
     </form>
-    <img src="media/shanks-sunday-sessions-qr.png" style="width: 180px; height: 180px;">
+    <img src="media/shanks-sunday-sessions-qr.png" style="width: 150px; height: 150px;">
 </div>

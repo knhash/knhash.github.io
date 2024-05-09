@@ -32,5 +32,13 @@
         fathom('trackPageview');
     </script>
     <!-- / Fathom -->
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{{ site.baseurl }}/logos/01.png">
+    <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <!-- / Open Graph Meta Tags -->
 </head>
 <body>

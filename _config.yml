@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Shank ∫pace 
+title: Shank Space 
 email: mail@knhash.in
 description: >- # this means to ignore newlines until "baseurl:"
   The website of Shashank | Shank | knhash.
@@ -67,11 +67,12 @@ Blog: /blog
 # Add general links to site pages here
 links:
   Resume: /files/ShashankResume.pdf
+  "Workshop": /workshop
   
 
 # Add links for more focus here
 special_links:
-  "Workshop": /workshop
+  "Shank' Sunday Sessions": /shanks-sunday-sessions
 
 
 other_links:

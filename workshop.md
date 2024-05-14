@@ -17,12 +17,6 @@ permalink: /workshop
 |[> Secret Santa with asymmeteric key encryption]({{ site.other_links.CryptoSanta }} "Crypto Santa") |
 |[> Extract transaction from PDF files into CSV format]({{ site.other_links.TransactionsConverter }} "Transactions Converter") | 
 
-## Hosted Services
-
-| [Pi-hole](https://pi.knhash.in/admin) | [Miniflux](https://rss.knhash.in) | [Fathom](https://fathom.knhash.in) | 
-| [Actual Budget](https://actual.knhash.in) | [Change Detection](https://changedetection.knhash.in/) | [Ntfy](https://ntfy.knhash.in/)  | 
-| [Audiobookshelf](https://audiobookshelf.knhash.in) | 
-
 ## Aside Articles
 
 |[Homemade Pi]({{ site.other_links.HomemadePi }} "Homemade Pi") | A manifesto against ads, and a possible side hustle|

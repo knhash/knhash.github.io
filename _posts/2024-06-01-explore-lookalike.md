@@ -17,7 +17,7 @@ It's a neat trick, but it works best for active users. What about the folks who 
 
 ## The Challenge of Cold and Sparse Users
 
-Recommendation systems typically consist of three components: a)* User poo*l, b) *Item pool, and c) *Interactions*.These systems recommend items to users based on their past interactions. However, for cold and sparse users who lack sufficient interaction data, traditional recommendation systems struggle to make accurate predictions.
+Recommendation systems typically consist of three components: a) *User pool*, b) *Item pool*, and c) *Interactions*.These systems recommend items to users based on their past interactions. However, for cold and sparse users who lack sufficient interaction data, traditional recommendation systems struggle to make accurate predictions.
 
 Enter **Lookalike Modeling**. It finds users with similar behaviors and preferences to predict content that new or less active users might enjoy. Kinda like when you meet someone new and realize they have similar tastes and interests as your best friend. This approach is based on two hypotheses:
 1. Users can be grouped by shared characteristics.

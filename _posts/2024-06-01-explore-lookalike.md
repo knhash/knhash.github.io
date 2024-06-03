@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title:  "Exploring Lookalike"
 subtitle: "Sparse User Personalization via Lookalike Clustering: A Cold-Start Solution"
@@ -17,7 +17,7 @@ Recommendation systems consist of three components: a) User pool, b) Item pool, 
 
 What about the users who have not interacted yet, who are just dipping their toes into the platform or just haven't gotten active enough to learn anything from their behavior? These users are called cold and sparse users. They're like the new kids on the block, and traditional recommendation systems often struggle to figure out what they might like because, well, they don't have much to go on.
 
-Enter **Lookalike Modelling**. It's kind of like when you meet someone new and realize they have similar tastes and interests as your best friend. Lookalike modeling works on the same principle – finding users who share similarities in behavior and preferences to make predictions about what they might enjoy.
+Enter **Lookalike Modelling**. It's similar to when you meet someone new and realize they have similar tastes and interests as your best friend. Lookalike modeling works on the same principle – finding users who share similarities in behavior and preferences to make predictions about what they might enjoy.
 
 The hypothesis is two-fold:
 - one, the users are not _that_ unique, and their characteristics can be grouped together by their attributes. 
@@ -91,7 +91,7 @@ For example, the following is the median matrix for the interaction scores of us
 
 ![Median Interaction Score Matrix along Categories](/media/explore-lookalike/median_weight_matrix.jpg)
 
-## Step 2 - Productionizing
+## Step 2 - Taking it online
 
 How do we get from here to ranking content for the users? It is time to talk treatment.
 

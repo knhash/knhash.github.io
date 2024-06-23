@@ -57,7 +57,7 @@ permalink: /workshop
 
     <div class="workshop-item">
         <a href="{{ site.other_links.DiffAKI }}" title="DiffAKI">
-            <img src="/media/web-snapshots/DiffAKI.png" alt="DiffAKI Screenshot">
+            <img src="/media/web-snapshots/Diffaki.png" alt="DiffAKI Screenshot">
         </a>
         <div>A pictionary game, with Stable Diffusion</div>
     </div>
@@ -71,7 +71,7 @@ permalink: /workshop
 
     <div class="workshop-item">
         <a href="{{ site.other_links.theThing }}" title="The Thing">
-            <img src="/media/web-snapshots/TheThing.png" alt="The Thing Screenshot">
+            <img src="/media/web-snapshots/theThing.png" alt="The Thing Screenshot">
         </a>
         <div>Scan your face to check if you have "the thing"</div>
     </div>

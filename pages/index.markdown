@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Hello
+permalink: /
+published: true
 
 ---
 

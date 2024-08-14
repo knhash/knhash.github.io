@@ -9,9 +9,10 @@ Hey there! I'm **Shashank**, a problem-solving human at the intersection of Data
 
 ---
 
-> **Now log**  
-> - I am working on creating an infinitely playable feed of instant games, at [Game Feed]({{site.baseurl}}/GameFeed) (WIP alert).  
-> - I also am a YouTube content creator, hosting podcasts and playing games on [Shank Sessions](https://youtube.com/@ShankSessions)
+> **NOW LOG**
+> - Mastering the Sciences of Computers at Georgia Tech's OMSCS
+> - Working on creating an infinitely playable feed of instant games, at [Game Feed]({{site.baseurl}}/GameFeed) (WIP alert).  
+> - Being a YouTube content creator, hosting podcasts and playing games on [Shank Sessions](https://youtube.com/@ShankSessions)
 
 ---
 

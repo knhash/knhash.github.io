@@ -16,8 +16,8 @@ Hey there! I'm **Shashank**, a problem-solving human at the intersection of Data
 
 ---
 
-For tech shenanigans, peek into my [Workshop]({{site.baseurl}}/workshop) above.
-For writing adventures, peek into my [Blog]({{site.baseurl}}/blog) above.
+For tech shenanigans, peek into my [Workshop]({{site.baseurl}}/workshop) above.  
+For writing adventures, peek into my [Blog]({{site.baseurl}}/blog) above.  
 
 
 By day, I work on large-scale intelligence systems, crafting ML Engineering and MLOps solutions. Currently, I'm diving deep into Recommender Systems for online learning - it's like solving a puzzle where every piece is a user's unique preference!

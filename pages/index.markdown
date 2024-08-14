@@ -10,7 +10,7 @@ Hey there! I'm **Shashank**, a problem-solving human at the intersection of Data
 ---
 
 > **NOW LOG**
-> - Mastering the Sciences of Computers at Georgia Tech's OMSCS
+> - Mastering Computers at Georgia Tech's OMSCS, tracking related stuff in my Digital [Garden](https://knhash.craft.me/OMSCS-Garden)
 > - Working on creating an infinitely playable feed of instant games, at [Game Feed]({{site.baseurl}}/GameFeed) (WIP alert).  
 > - Being a YouTube content creator, hosting podcasts and playing games on [Shank Sessions](https://youtube.com/@ShankSessions)
 

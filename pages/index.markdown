@@ -7,24 +7,9 @@ published: true
 
 Hey there! I'm **Shashank**, a problem-solving human at the intersection of Data, Product, and Design.
 
----
-
-> **NOW LOG**
-> - Mastering Computers at Georgia Tech's OMSCS, tracking related stuff in my Digital [Garden](https://knhash.craft.me/OMSCS-Garden)
-> - Working on creating an infinitely playable feed of instant games, at [Game Feed]({{site.baseurl}}/GameFeed) (WIP alert).  
-> - Being a YouTube content creator, hosting podcasts and playing games on [Shank Sessions](https://youtube.com/@ShankSessions)
-
----
-
-For tech shenanigans, peek into my [Workshop]({{site.baseurl}}/workshop) above.  
-For writing adventures, peek into my [Blog]({{site.baseurl}}/blog) above.  
-
-
 By day, I work on large-scale intelligence systems, crafting ML Engineering and MLOps solutions. Currently, I'm diving deep into Recommender Systems for online learning - it's like solving a puzzle where every piece is a user's unique preference!
 
 Curious about more details? Check my [résumé]({{site.baseurl}}/files/ShashankResume.pdf). 
-
-When I'm not decoding data, you'll find me lost in the intricate world of [Factorio](https://www.factorio.com). It's addictively fun, and I'm always up for co-op if you're game!
 
 > ![Super Mindy]({{site.baseurl}}/media/SuperMindy.jpg)
 > Meet Super Mindy, the vigilant guardian of my desk kingdom. Be nice, and she might share her secrets!

@@ -67,6 +67,7 @@ Blog: /blog
 # Add general links to site pages here
 links:
   # Resume: /files/ShashankResume.pdf
+  "Now": /now
   "Workshop": /workshop
   
 

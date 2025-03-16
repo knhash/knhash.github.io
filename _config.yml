@@ -62,13 +62,15 @@ permalink: /blog/:slug
 timezone: America/New_York
 future: false
 
-Blog: /blog
+Blog: https://blog.knhash.in
 
 # Add general links to site pages here
 links:
   # Resume: /files/ShashankResume.pdf
+  "Archives": /blog
   "Now": /now
-  "Workshop": /workshop
+  "Guestbook": /guestbook
+  "Workshop": /den
   
 
 # Add links for more focus here

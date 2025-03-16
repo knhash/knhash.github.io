@@ -1,5 +1,5 @@
 # knhash.github.io
-Personal blog
+Personal blog with bearblog
 
 > Now moved to Bearblog. Find it at [https://knhash.in](https://knhash.in) or [https://knhash.bearblog.dev](https://knhash.bearblog.dev)
 

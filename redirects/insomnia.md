@@ -1,8 +1,8 @@
 ---
 published: true
 layout: post
-title: '[PROJ] Ramukaka'
-permalink: /ramukaka
+title: 'Insomnia'
+permalink: /insomnia
 ---
 
 > Standby for the new blog location
@@ -10,7 +10,7 @@ permalink: /ramukaka
 
 <html>
     <head>
-    <META http-equiv="refresh" content="1;URL=https://blog.knhash.in/ramukaka">
+    <META http-equiv="refresh" content="1;URL=https://blog.knhash.in/insomnia">
     </head>
     <body>
     </body>

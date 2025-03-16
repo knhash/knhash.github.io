@@ -7,16 +7,16 @@ published: true
 
 # 🐢 Hey, hi! I'm *Shashank*
 
-And this is [Mindy](/mindy), the cat.
+And this is [Mindy](https://blog.knhash.in/mindy), the cat.
 
-We solve problems at the intersection of Data, Product, and Design. Or at the disjunction of them. Check some shenanigans in our [Den](/den).
+We solve problems at the intersection of Data, Product, and Design. Or at the disjunction of them. Check some shenanigans in our [Den](https://blog.knhash.in/den).
 
 ---
 
 ## Professionally
 I work on large-scale intelligence systems, crafting ML Engineering and MLOps solutions. Currently, I'm diving deep into Recommender Systems for online learning.
 
-Want to hire me? Check my [résumé](/resume/). 
+Want to hire me? Check my [résumé](https://blog.knhash.in/resume/). 
 
 ## Get in touch
 

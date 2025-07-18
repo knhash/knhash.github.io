@@ -47,7 +47,7 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-bear-theme (0.2.1)
+    jekyll-bear-theme (0.2.3)
       jekyll (~> 4.4)
       jekyll-redirect-from (~> 0.16)
       logger (~> 1.7)

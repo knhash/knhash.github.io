@@ -28,8 +28,8 @@ url: "https://knhash.in" # the base hostname & protocol for your site, e.g. http
 github_username:  knhash
 
 # Build settings
-# theme: jekyll-bear-theme
-remote_theme: knhash/jekyllBear
+theme: jekyll-bear-theme
+# remote_theme: knhash/jekyllBear
 plugins:
   - jekyll-feed
 

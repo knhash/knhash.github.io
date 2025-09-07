@@ -1,0 +1,110 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+ 
+% Remove page numbering
+\pagestyle{empty}
+
+% Customize section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+% Customize subsection formatting  
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\titlespacing{\subsection}{0pt}{6pt}{3pt}
+
+% Custom list formatting
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=0pt}
+
+\begin{document}
+
+% HEADER
+\begin{center}
+    {\LARGE\bfseries Your Full Name} \\[4pt]
+    \href{mailto:your.email@university.edu}{your.email@university.edu} $\bullet$ 
+    (555) 123-4567 $\bullet$ 
+    City, State \\[2pt]
+    \href{https://linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} $\bullet$
+    \href{https://yourwebsite.com}{yourwebsite.com}
+\end{center}
+
+% EDUCATION
+\section{Education}
+
+\subsection{Georgia Institute of Technology, Atlanta, GA}
+\textbf{Ph.D. in Computer Science} \hfill Expected May 2025 \\
+GPA: 3.8/4.0
+
+\subsection{University Name, City, State}
+\textbf{Bachelor of Science in Engineering} \hfill May 2022 \\
+GPA: 3.7/4.0, Magna Cum Laude
+
+% TECHNICAL SKILLS
+\section{Technical Skills}
+
+\textbf{Programming Languages:} Python, R, Java, C++, SQL, JavaScript \\
+\textbf{Tools \& Technologies:} TensorFlow, PyTorch, Git, Docker, AWS, Linux \\
+\textbf{Data Analysis:} Pandas, NumPy, Scikit-learn, Matplotlib, Tableau
+
+% EXPERIENCE
+\section{Research Experience}
+
+\subsection{Graduate Research Assistant}
+\textbf{University Lab Name, City, State} \hfill Aug 2022 -- Present
+\begin{itemize}
+    \item Developed machine learning models that improved prediction accuracy by 35\% over baseline methods
+    \item Analyzed large datasets (500GB+) to identify patterns and extract insights for 3 research publications
+    \item Collaborated with interdisciplinary team of 8 researchers to design and execute experiments
+    \item Presented findings at 2 international conferences with over 200 attendees
+\end{itemize}
+
+\subsection{Software Engineering Intern}
+\textbf{Company Name, City, State} \hfill May 2021 -- Aug 2021
+\begin{itemize}
+    \item Built web application serving 1,000+ daily users using React and Node.js
+    \item Optimized database queries resulting in 40\% reduction in response time
+    \item Implemented automated testing suite that caught 95\% of bugs before deployment
+\end{itemize}
+
+% PROJECTS
+\section{Research Projects}
+
+\subsection{Project Title}
+\textbf{Institution Name} \hfill Jan 2023 -- Present
+\begin{itemize}
+    \item Designed deep learning architecture that achieved state-of-the-art results on benchmark dataset
+    \item Published results in top-tier conference with 15\% acceptance rate
+    \item Open-sourced implementation with 100+ GitHub stars
+\end{itemize}
+
+% LEADERSHIP
+\section{Leadership \& Communication Experience}
+
+\subsection{Teaching Assistant}
+\textbf{CS 101: Introduction to Programming, University Name} \hfill Aug 2023 -- Dec 2023
+\begin{itemize}
+    \item Led weekly lab sessions for 25 students, improving class average by 12\%
+    \item Created instructional materials and tutorials viewed by 500+ students online
+    \item Mentored 5 undergraduate students on research projects
+\end{itemize}
+
+% PUBLICATIONS (Optional - include if relevant)
+\section{Selected Publications}
+
+\begin{itemize}
+    \item \textbf{Your Name}, Co-Author. ``Paper Title.'' \textit{Conference Name}, 2024.
+    \item \textbf{Your Name}, Co-Author. ``Another Paper Title.'' \textit{Journal Name}, vol. 15, 2023.
+\end{itemize}
+
+% HONORS & AWARDS (Optional)
+\section{Honors \& Awards}
+
+\begin{itemize}
+    \item NSF Graduate Research Fellowship, 2023
+    \item Outstanding Graduate Student Award, University Name, 2022
+    \item Dean's List, 4 semesters
+\end{itemize}
+
+\end{document}

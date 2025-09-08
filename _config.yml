@@ -66,7 +66,7 @@ Blog: https://blog.knhash.in
 
 # Add general links to site pages here
 links:
-  # Resume: /files/ShashankResume.pdf
+  "Resume": /resume
   "Archives": /blog
   "Now": /now
   "Guestbook": /guestbook
@@ -98,7 +98,11 @@ other_links:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+
+# Include resume folder so the PDF is accessible
+include:
+  - resume/
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/

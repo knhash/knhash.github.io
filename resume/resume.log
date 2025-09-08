@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.22)  7 SEP 2025 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.6.22)  7 SEP 2025 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,24 +285,24 @@ LaTeX Font Info:    ... okay on input line 39.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=525.23788pt
-* \textheight=772.77686pt
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
 * \oddsidemargin=-36.135pt
 * \evensidemargin=-36.135pt
 * \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
-* \footskip=12.0pt
-* \marginparwidth=50.0pt
+* \footskip=14.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -331,19 +331,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 45.
 
 
-
-Package fancyhdr Warning: \footskip is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\footskip}{13.59999pt}.
-
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-
-Package fancyhdr Warning: \footskip is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
 [2] (./resume.aux)
  ***********
@@ -356,7 +346,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10258 strings out of 473190
  161817 string characters out of 5715800
- 597190 words of memory out of 5000000
+ 597178 words of memory out of 5000000
  33385 multiletter control sequences out of 15000+600000
  564247 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

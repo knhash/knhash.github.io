@@ -1,6 +1,7 @@
 name: Build Resume
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'resume/ShashankResume.md'
@@ -15,10 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install pandoc and weasyprint
+      - name: Install pandoc and chromium
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y pandoc weasyprint
+          sudo apt-get install -y pandoc chromium-browser
 
       - name: Build HTML
         run: |
@@ -28,7 +29,10 @@ jobs:
       - name: Build PDF
         run: |
           cd resume
-          weasyprint ShashankResume.html ../files/ShashankResume.pdf
+          chromium-browser --headless --no-sandbox --disable-gpu \
+            --print-to-pdf=../files/ShashankResume.pdf \
+            --print-to-pdf-no-header \
+            ShashankResume.html
 
       - name: Commit output files
         run: |

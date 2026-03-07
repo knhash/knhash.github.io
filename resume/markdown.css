@@ -76,3 +76,40 @@ table            { border-collapse: collapse; margin-bottom: 0.7em; }
 th               { text-align: left; border-bottom: 1px solid #d0d0d0; }
 th, td           { padding: 5px 10px; }
 tbody tr + tr td { border-top: 1px solid #e8e8e8; }
+
+/* ── Resume two-column layout ─────────────────────────── */
+.r-c {
+	display: flex;
+	gap: 2em;
+	align-items: flex-start;
+}
+
+.c-l {
+	width: 66%;
+	flex-shrink: 0;
+}
+
+.c-r {
+	flex: 1;
+	min-width: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.r-c  { flex-direction: column; }
+	.c-l  { width: 100%; }
+}
+
+@media print {
+	@page {
+		size: A4;
+		margin: 0.75in;
+	}
+	body {
+		padding: 0;
+		font-size: 12px;
+		line-height: 18px;
+	}
+	a { color: #1a1a1a; }
+	.r-c  { display: flex !important; }
+	.c-l  { width: 66% !important; }
+}

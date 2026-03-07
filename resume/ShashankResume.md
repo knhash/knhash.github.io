@@ -1,6 +1,8 @@
 # Shashank S 
 #### [contact@knhash.in](mailto:contact@knhash.in) · [knhash.in](knhash.in) · [linkedin.com/in/knhash](linkedin.com/in/knhash)
 
+:::: {.r-c}
+::: {.c-l}
 ## Experience
 
 ### Senior Machine Learning Engineer
@@ -42,6 +44,9 @@
 - First Class with Distinction — 79.8% · *Thesis: Image Regeneration with Generative Models*
 - *Electives*: Pattern Recognition, Clouds & Clusters, Artificial Intelligence
 
+:::
+::: {.c-r}
+
 ## Skills
 
 **Languages:** Python, C/C++, PySpark, SQL, Go, Shell, JavaScript  
@@ -75,3 +80,6 @@
 **Section Leader, Code in Place** · Stanford University · *2021, 2023, 2024*  
 Taught Python to 30+ students per cohort  
 **Certifications** Neural Networks & Deep Learning (deeplearning.ai) · Machine Learning (Stanford / Coursera) · Android Developer Nanodegree (Google / Udacity)
+
+:::
+::::

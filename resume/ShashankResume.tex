@@ -1,13 +1,14 @@
 \documentclass[letterpaper,10pt]{article}
 
 \usepackage[margin=0.6in]{geometry}
+\usepackage[normalem]{ulem}
+\usepackage[OT1]{fontenc}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \let\oldhref\href
-\renewcommand{\href}[2]{\oldhref{#1}{\underline{#2}}}
+\renewcommand{\href}[2]{\oldhref{#1}{\uline{#2}}}
 \input{glyphtounicode}
-
 
 \pagestyle{empty}
 \raggedbottom
@@ -57,14 +58,14 @@
 
 \section{Education}
   \begin{itemize}[leftmargin=0pt, label={}]
-    \item{\textbf{\href{https://www.gatech.edu/}{Georgia Institute of Technology}}, Atlanta, USA \hfill \textit{May 2026} \\
-      \textit{ Master of Science, Computer Science -- Specialization: High Performance Computing; GPA 3.87/4.0}}
+    \item{\textbf{Master of Science, Computer Science} \hfill \textit{May 2026} \\
+      \textit{ \href{https://www.gatech.edu/}{Georgia Institute of Technology}, Atlanta, USA -- Specialization: High Performance Computing; GPA 3.87/4.0}}
       \begin{itemize}
         \item{Research: Weight Drift Correction in Analog Computing with \emph{Prof.\ Hyesoon Kim} -- paper in preparation (targeting MICRO 2026)}
         \item{Relevant Coursework: GPU Hardware \& Software, Scientific Machine Learning, High Performance Computing, High Perf Parallel Computing, HPC Architecture, Deep Learning, Compiler Design, Designing for Curiosity}
       \end{itemize}
-    \item{\textbf{\href{https://www.sirmvit.edu/}{Sir M. Visvesvaraya Institute of Technology}}, Bengaluru, India \hfill \textit{May 2018} \\
-      \textit{ Bachelor of Engineering, Computer Science \& Engineering -- First Class with Distinction, 79.8\%}}
+    \item{\textbf{Bachelor of Engineering, Computer Science \& Engineering} \hfill \textit{May 2018} \\
+      \textit{ \href{https://www.sirmvit.edu/}{Sir M. Visvesvaraya Institute of Technology}, Bengaluru, India -- First Class with Distinction, 79.8\%}}
       \begin{itemize}
         \item{Thesis: \href{https://knhash.github.io/files/ImageRegenerationWithGenerativeModels.pdf}{Image Regeneration with Generative Models}}
         \item{Electives: Pattern Recognition, Clouds \& Clusters, Artificial Intelligence}
@@ -95,10 +96,10 @@
         \item{Published in \href{https://www.sciencedirect.com/science/article/abs/pii/S174680941930357X}{Biomedical Signal Processing and Control}}
         \item{CNN-based segmentation strategy for ophthalmic imaging}
       \end{itemize}
-    \item{\textbf{Image Regeneration with Generative Models}}
-      \begin{itemize}
-        \item{Use CapsNet as a discriminator in Generative Adversarial Network and demonstrate its application using semantic inpainting on MNIST and face images}
-      \end{itemize}
+    \item{\href{https://github.com/RaghavaDhanya/Rudolf}{\textbf{Image Regeneration with Generative Models}}}
+        \begin{itemize}
+          \item{An approach to use CapsNet as a discriminator in Generative Adversarial Network and demonstrate its application using semantic inpainting on MNIST and face images | Keras, Tensorflow, Python}
+        \end{itemize}
     \item{\href{https://www.youtube.com/@ShankSessions}{\textbf{Shank's Sessions}}}
       \begin{itemize}
         \item{Hosting podcasts and streaming games}
@@ -120,8 +121,8 @@
 
 \section{Honors \& Extras}
   \begin{itemize}[leftmargin=0pt, label={}]
-    \item{\textbf{ACM ICPC 2015} -- \href{https://knhash.github.io/files/ICPC_2015.pdf}{Honorable Mention}}
-    \item{\textbf{Letter of Commendation, Minister of HRD} -- \href{https://knhash.github.io/files/12th.pdf}{AISSCE Board Exam}}
+    \item{\textbf{\href{https://knhash.github.io/files/ICPC_2015.pdf}{ACM ICPC 2015}}: Qualified to regional levels, honorable mention}
+    \item{\textbf{\href{https://knhash.github.io/files/12th.pdf}{Letter of Commendation, Minister of HRD}} -- Highest in Mathematics in Class 12, CBSE Board Exams, India}
     \item{\textbf{Section Leader, Code in Place} $|$ Stanford University $|$ \href{https://knhash.in/files/CodeInPlace.pdf}{2021}, \href{https://knhash.in/files/CodeInPlace2023.pdf}{2023}, \href{https://knhash.in/files/CodeInPlace2024.pdf}{2024} -- Taught Python to 30+ students per cohort}
     \item{\textbf{Certifications:}}
     \begin{itemize}

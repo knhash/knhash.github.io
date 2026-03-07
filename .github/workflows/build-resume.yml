@@ -21,6 +21,7 @@ jobs:
       - name: Compile LaTeX and copy to files/
         run: |
           cd resume
+          latexmk -C # Clean all build artifacts to force rebuild
           latexmk -pdf -interaction=nonstopmode ShashankResume.tex
           cp ShashankResume.pdf ../files/ShashankResume.pdf
 

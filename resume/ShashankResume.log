@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.6)  7 MAR 2026 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.6)  8 MAR 2026 11:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -245,7 +245,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 23.
  [1
 
-{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./ShashankResume.aux)
+{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./ShashankResume.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -254,18 +254,18 @@ Package rerunfilecheck Info: File `ShashankResume.out' has not changed.
 (rerunfilecheck)             Checksum: A2A1B3130A41974F5438AFF2B1159D93;588.
  ) 
 Here is how much of TeX's memory you used:
- 8972 strings out of 469006
- 138360 string characters out of 5454814
- 578076 words of memory out of 5000000
- 37608 multiletter control sequences out of 15000+600000
- 630065 words of font info for 48 fonts, out of 8000000 for 9000
+ 8970 strings out of 469006
+ 138330 string characters out of 5454814
+ 578078 words of memory out of 5000000
+ 37606 multiletter control sequences out of 15000+600000
+ 629730 words of font info for 47 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,5n,79p,394b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/knhash/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1000.600pk> </Users/knhash/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ShashankResume.pdf (2 pages, 111196 bytes).
+ </Users/knhash/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ShashankResume.pdf (3 pages, 111745 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 9 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,7 +2,7 @@ PWD /Users/knhash/Documents/GitHub/knhash.github.io/resume
 INPUT /usr/local/texlive/2025basic/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT ShashankResume.tex
+INPUT /Users/knhash/Documents/GitHub/knhash.github.io/resume/ShashankResume.tex
 OUTPUT ShashankResume.log
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls

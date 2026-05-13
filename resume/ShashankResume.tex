@@ -35,27 +35,27 @@
 \begin{document}
 
 \begin{center}
-{\fontsize{24}{28}\selectfont\bfseries Shashank S}\\[-1pt]
+{\fontsize{24}{28}\selectfont\bfseries Shashank S}\\[17pt]
 \small
 \href{tel:+14045194936}{+1-404-519-4936}\contactsep
-\href{https://knhash.in}{knhash.in}\contactsep
 \href{mailto:contact@knhash.in}{contact@knhash.in}\contactsep
+\href{https://knhash.in}{knhash.in}\contactsep
 \href{https://github.com/knhash}{github/knhash}\contactsep
-\href{https://linkedin.com/in/knhash}{linkedin/knhash}
+\href{https://linkedin.com/in/knhash}{linkedin/knhash}\contactsep
+Seattle, WA
 \end{center}
+\vspace{5pt}
 
-\vspace{-5pt}
-
-\noindent Machine Learning Engineer with 6 years shipping real-time recommendation and ML platform systems at 100M+ DAU scale; High Performance Computing and Analog Compute-in-Memory at Georgia Tech.
+\noindent ML Engineer with 6 years shipping real-time recommendation systems at 100M+ DAU scale. MS in CS at Georgia Tech with HPC specialization and analog compute-in-memory research.
 
 \section{Experience}
 \begin{itemize}[leftmargin=0pt, label={}]
   \resumeEntry{Senior Machine Learning Engineer}{\href{https://walmart.com/}{Walmart}}{Dec 2024 -- Jul 2025}
   \begin{itemize}
     \item{\textit{Transitioned to full-time MS study.}}
-    \item{Cut compute spend growth on the adtech ML pipeline by profiling PySpark bottlenecks, rewriting shuffle-heavy transformations, and scaling batch processing to keep up with advertising volume growth.}
-    \item{Accelerated business and ML pipeline analytics for non-technical teams by building a Text2SQL agentic system with plain-English querying, visualizations, and active chat for self-serve insights.}
-    \item{Improved production ML reliability and release velocity by building an observability framework and standardizing model build, test, and deployment workflows with GitHub Actions.}
+    \item{Cut per-experiment compute cost by \textbf{40\%} on floor price planning and adtech recommendations ML pipelines by profiling PySpark bottlenecks, rewriting shuffle-heavy transformations, and right-sizing batch processing.}
+    \item{Accelerated business and ML pipeline analytics for non-technical teams by building a \textbf{Text2SQL agentic system} with plain-English querying, visualizations, and active chat for self-serve insights.}
+    \item{Improved production ML reliability and release velocity by building an \textbf{observability framework} and standardizing model build, test, and deployment workflows with GitHub Actions.}
   \end{itemize}
 
   \resumeEntry{Machine Learning Engineer III}{\href{https://glance.com/}{Glance-InMobi}}{May 2021 -- Nov 2024}
@@ -63,13 +63,13 @@
     \item{Delivered personalized content to \textbf{100M DAU} at \textbf{sub-50ms p99 latency} by building low-latency ML serving and streaming pipelines with prediction services, Vertex AI feature store, Kafka, ELK logging, and Airflow retraining.}
     \item{Increased engagement by \textbf{5\%} and conversion by \textbf{12\%} with recommendation models including multi-armed bandits, Elo ratings, GBMs, and graph-based collaborative filtering.}
     \item{Boosted time spent by \textbf{11.68\%} overall and \textbf{18.38\%} for cold-start users by co-authoring lookalike modeling research using SVD, K-Means, and bandit-based exploration.}
-    \item{Owned ML automation and experimentation workflows for streaming pipelines, model controllers, rollback triggers, and event-driven personalization, improving release reliability for recommender launches.}
-    \item{Built automated quiz generation over live video streams in real time, for YouTube Live Streams.}
+    \item{Owned ML automation across streaming pipelines, model controllers, rollback triggers, and event-driven personalization, improving release reliability for recommender launches.}
+    \item{Built \textbf{real-time quiz generation} over live video for YouTube Live Streams.}
   \end{itemize}
 
   \resumeEntry{Data Scientist}{\href{https://www.brightmoney.co/}{Bright Money}}{Jun 2019 -- Apr 2021}
   \begin{itemize}
-    \item{Founded the data science function at an early-stage fintech and built ML systems for debt management, cash-flow forecasting, affordability scoring, and overdraft prediction.}
+    \item{\textbf{Founded the data science function} at an early-stage fintech and built ML systems for debt management, cash-flow forecasting, affordability scoring, and overdraft prediction.}
     \item{Launched \emph{Debt Manager} on Airflow and Django, driving adoption to \textbf{10K+ users} and \textbf{\$100K+ daily transaction volume} through automated financial analysis and payment scheduling.}
     \item{Developed bill identification, income forecasting, expense forecasting, and account-balance prediction models for product retention and risk workflows.}
   \end{itemize}
@@ -79,7 +79,7 @@
 \begin{itemize}[leftmargin=0pt, label={}]
   \resumeEntry{Master of Science, Computer Science}{\href{https://www.gatech.edu/}{Georgia Institute of Technology}}{May 2026}
   \begin{itemize}
-    \item{Specialization: High Performance Computing; GPA: 3.87/4.0.}
+    \item{Specialization: High Performance Computing.}
     \item{Research: Analog compute-in-memory error mitigation with Prof.\ Hyesoon Kim}
     \item{Coursework: GPU Hardware \& Software, High-Performance Parallel Computing, HPC Architecture, Scientific ML, Deep Learning, Designing for Curiosity.}
   \end{itemize}
@@ -94,7 +94,7 @@
 
 \section{Selected Systems \& Research}
 \begin{itemize}[leftmargin=0pt, label={}]
-  \item{\textbf{Embedded Drift Sentinel} (ASPLOS 2027 submission): Improved day-360 ImageNet \textbf{top-1 accuracy by +14 pp} on average over GDC across ResNet-18/34/50 and GoogLeNet on a 360-day PCM drift horizon (ResNet-50: 68\% vs.\ 53\% GDC, vs.\ 17\% uncorrected). Designed a companion-crossbar architecture for online drift correction in analog compute-in-memory accelerators; eliminates main-array probe downtime at 0.3--1.7\% cell overhead.}
+  \item{\textbf{Embedded Drift Sentinel} (under review at ASPLOS 2027): Improved day-360 ImageNet \textbf{top-1 accuracy by +14 pp} on average over GDC across ResNet-18/34/50 and GoogLeNet on a 360-day PCM drift horizon (ResNet-50: 68\% vs.\ 53\% GDC, vs.\ 17\% uncorrected). Designed a companion-crossbar architecture for online drift correction in analog compute-in-memory accelerators; eliminates main-array probe downtime at 0.3--1.7\% cell overhead.}
   \item{\textbf{\href{https://knhash.github.io/files/PIRLforPlasma.pdf}{Physics-Informed RL for Plasma Control}:} Trained PPO policies in TORAX (auto-differentiable 1D core transport simulator) on a 50-parameter partially-observed state for ITER tokamak fusion control; achieved \textbf{1.7 ms average inference} (3.5 ms max), well under the 50 ms real-time threshold.}
   \item{\textbf{Meibomian Gland Segmentation:} Published CNN-based meibography segmentation work in \href{https://www.sciencedirect.com/science/article/abs/pii/S174680941930357X}{Biomedical Signal Processing and Control}; developed custom augmentation and gland-health metrics validated against clinical expert annotations across tabletop and prototype handheld imagers.}
   \item{\textbf{Automated Debt Management Patents:} R\&D contributor; \href{https://patents.google.com/patent/US20220261886A1}{US20220261886A1}, \href{https://patents.google.com/patent/US20230075411A1/}{US20230075411A1}.}
@@ -109,8 +109,8 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0pt, label={}]
   \item{\textbf{Languages:} Python, C/C++, PySpark, SQL, Go, Shell}
-  \item{\textbf{ML Systems:} PyTorch, scikit-learn, XGBoost/LightGBM, Deep Learning, Recommendation Systems, LLMs, LangChain, Agentic Workflows, MLOps, A/B Testing}
-  \item{\textbf{HPC \& AI Infrastructure:} CUDA, MPI, OpenMP, GPU Profiling - Nsight Systems and nvprof, Distributed Systems, Scientific ML, Spark, Kafka, Docker, Kubernetes, Airflow, Argo, Vertex AI, Prometheus, Grafana}
+  \item{\textbf{ML Systems:} Recommendation Systems, LLMs, LangChain, Agentic Workflows, PyTorch, scikit-learn, XGBoost/LightGBM, Deep Learning, MLOps, A/B Testing}
+  \item{\textbf{HPC \& AI Infrastructure:} CUDA, MPI, OpenMP, GPU Profiling (Nsight Systems, nvprof), Distributed Systems, Scientific ML, Spark, Kafka, Airflow, Argo, Docker, Kubernetes, Vertex AI, Prometheus, Grafana}
   \item{\textbf{Cloud \& Data:} GCP, AWS, Azure, PostgreSQL, Django, Linux, Git}
 \end{itemize}
 

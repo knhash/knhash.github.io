@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  2 JUN 2026 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  2 JUN 2026 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,11 +394,11 @@ Package rerunfilecheck Info: File `ShashankResume.out' has not changed.
 (rerunfilecheck)             Checksum: 5817740042ABC6185E84C64ADB6CAA27;634.
  ) 
 Here is how much of TeX's memory you used:
- 11087 strings out of 469006
- 176076 string characters out of 5454814
- 646213 words of memory out of 5000000
+ 11098 strings out of 469006
+ 176204 string characters out of 5454814
+ 646200 words of memory out of 5000000
  39622 multiletter control sequences out of 15000+600000
- 657599 words of font info for 89 fonts, out of 8000000 for 9000
+ 658036 words of font info for 94 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,5n,79p,1011b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></u
@@ -408,7 +408,7 @@ texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texliv
 e/2026basic/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026b
 asic/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026basic/
 texmf-dist/fonts/type1/public/pdftex/pdftexspace.pfb>
-Output written on ShashankResume.pdf (2 pages, 170581 bytes).
+Output written on ShashankResume.pdf (2 pages, 175305 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream

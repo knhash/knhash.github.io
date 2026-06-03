@@ -46,21 +46,21 @@
 \providecommand{\VARIANT}{master}
 
 % --- master (default / balanced) ---
-\def\SummaryPara{Senior Machine Learning Engineer with 6 years building real-time recommendation and ranking systems. Served personalized content to \textbf{100M DAU} at \textbf{sub-50ms p99}, lifting \textbf{conversion +12\%} and engagement +5\%. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}
+\def\SummaryPara{Senior Machine Learning Engineer with 6 years building real-time recommendation and ranking systems. Served personalized content to \textbf{100M DAU} at \textbf{sub-50ms p99}, lifting \textbf{conversion +12\%} and engagement +5\%. MS in CS (HPC specialization), Georgia Tech, May 2026.}
 
 % --- recsys / ranking ---
 \ifthenelse{\equal{\VARIANT}{recsys}}{%
-  \def\SummaryPara{Senior Machine Learning Engineer specializing in recommendations, candidate generation, retrieval, and ranking. Owned cold-start personalization for a \textbf{100M DAU} feed at \textbf{sub-50ms p99}, lifting \textbf{conversion +12\%}; designed bandit, Elo, and lookalike models for sparse users. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}%
+  \def\SummaryPara{Senior Machine Learning Engineer specializing in recommendations, candidate generation, retrieval, and ranking. Owned cold-start personalization for a \textbf{100M DAU} feed at \textbf{sub-50ms p99}, lifting \textbf{conversion +12\%}; designed bandit, Elo, and lookalike models for sparse users. MS in CS (HPC specialization), Georgia Tech, May 2026.}%
 }{}
 
 % --- ML platform / systems ---
 \ifthenelse{\equal{\VARIANT}{platform}}{%
-  \def\SummaryPara{Senior Machine Learning Engineer focused on ML platform and systems: low-latency serving, feature stores, streaming, and MLOps. Built serving and retraining infrastructure delivering \textbf{100M DAU} at \textbf{sub-50ms p99}, and standardized deployment, on-call, and automated canary across the team. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}%
+  \def\SummaryPara{Senior Machine Learning Engineer focused on ML platform and systems: low-latency serving, feature stores, streaming, and MLOps. Built serving and retraining infrastructure delivering \textbf{100M DAU} at \textbf{sub-50ms p99}, and standardized deployment, on-call, and automated canary across the team. MS in CS (HPC specialization), Georgia Tech, May 2026.}%
 }{}
 
 % --- ML infra / HPC ---
 \ifthenelse{\equal{\VARIANT}{hpc}}{%
-  \def\SummaryPara{Senior Machine Learning Engineer working across HPC and ML systems: GPU and parallel computing, analog compute-in-memory, and large-scale data pipelines. Cut a pipeline over billions of events from roughly 5 hours to about 20 minutes, and researches drift correction for analog ML accelerators. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}%
+  \def\SummaryPara{Senior Machine Learning Engineer working across HPC and ML systems: GPU and parallel computing, analog compute-in-memory, and large-scale data pipelines. Cut a pipeline over billions of events from 5 hours to 20 minutes, with active research on drift correction for analog ML accelerators. MS in CS (HPC specialization), Georgia Tech, May 2026.}%
 }{}
 
 \begin{document}
@@ -82,7 +82,7 @@ Seattle, WA \contactsep Authorized to work in the US (STEM OPT, 36 months); no i
 
 \section{Experience}
 \begin{itemize}[leftmargin=0pt, label={}]
-  \resumeEntry{Senior Machine Learning Engineer}{\href{https://walmart.com/}{Walmart}}{Dec 2024 -- Jul 2025}
+  \resumeEntry{Senior Machine Learning Engineer}{\href{https://walmart.com/}{Walmart}}{Dec 2024 -- Jul 2025 (concurrent with MS)}
   \begin{itemize}
     \item{Cut per-experiment compute cost by \textbf{40\%} on floor-price and adtech recommendation ML pipelines by profiling PySpark bottlenecks, rewriting shuffle-heavy transformations, and right-sizing batch processing.}
     \item{Built a \textbf{Text2SQL agentic system} with plain-English querying, visualizations, and active chat, giving non-technical teams self-serve analytics over business and ML pipeline data.}
@@ -92,9 +92,10 @@ Seattle, WA \contactsep Authorized to work in the US (STEM OPT, 36 months); no i
   \resumeEntry{Machine Learning Engineer III}{\href{https://glance.com/}{\mbox{Glance (InMobi)}}}{Jul 2022 -- Dec 2024}
   \begin{itemize}
     \item{\textbf{Founding engineer} on the rebuilt Glance feed personalization platform serving \textbf{100M DAU}; owned cold-start and sparse-user personalization end to end.}
-    \item{Designed the sparse-user modeling stack: multinomial Thompson-sampling bandits, an \textbf{Elo-style exploration} scheme adapted from game matchmaking, and \textbf{lookalike models} (SVD/K-Means, then node2vec on app-ownership signals) that beat production baselines on time spent and reward; \textbf{+18.38\%} time spent for cold users.}
+    \item{Designed the sparse-user modeling stack: multinomial Thompson-sampling bandits, \textbf{Elo-style exploration} adapted from game matchmaking, and \textbf{lookalike models} (SVD/K-Means, then node2vec on app-ownership signals) that beat production baselines on time spent and reward; \textbf{+18.38\%} time spent for cold users.}
     \item{Delivered content at \textbf{sub-50ms p99} via low-latency serving and streaming pipelines (prediction services, Vertex AI feature store, Kafka, ELK logging, Airflow retraining); \textbf{+12\% conversion} and \textbf{+5\% engagement}.}
-    \item{Cut a rewards pipeline over \textbf{billions of clicks} from roughly 5 hours to about 20 minutes; standardized deployment, on-call, and automated canary across the team, mentored engineers, and led an org-wide paper-reading session.}
+    \item{Built and optimized a rewards pipeline over \textbf{billions of clicks}, cutting runtime from \textbf{5 hours to 20 minutes}.}
+    \item{Standardized deployment, on-call, and automated canary across the team; mentored engineers and led an org-wide paper-reading session.}
   \end{itemize}
 
   \resumeEntry{Data Scientist II}{\href{https://glance.com/}{\mbox{Glance (InMobi)}}}{May 2021 -- Jun 2022}

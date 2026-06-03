@@ -14,15 +14,15 @@ Seattle, WA · Authorized to work in the US (STEM OPT, 36 months); no immediate 
 
 ## Summary (swappable per variant)
 
-- **Master:** Senior Machine Learning Engineer with 6 years building real-time recommendation and ranking systems. Served personalized content to 100M DAU at sub-50ms p99, lifting conversion +12% and engagement +5%. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.
+- **Master:** Senior Machine Learning Engineer with 6 years building real-time recommendation and ranking systems. Served personalized content to 100M DAU at sub-50ms p99, lifting conversion +12% and engagement +5%. MS in CS (HPC specialization), Georgia Tech, May 2026.
 - **Recsys / ranking:** Senior MLE specializing in recommendations, candidate generation, retrieval, and ranking. Owned cold-start personalization for a 100M DAU feed at sub-50ms p99, lifting conversion +12%; designed bandit, Elo, and lookalike models for sparse users.
 - **ML platform / systems:** Senior MLE focused on ML platform and systems: low-latency serving, feature stores, streaming, and MLOps. Built serving and retraining infrastructure delivering 100M DAU at sub-50ms p99; standardized deployment, on-call, and automated canary across the team.
-- **ML infra / HPC:** Senior MLE across HPC and ML systems: GPU and parallel computing, analog compute-in-memory, and large-scale data pipelines. Cut a pipeline over billions of events from roughly 5 hours to about 20 minutes; researches drift correction for analog ML accelerators.
+- **ML infra / HPC:** Senior MLE across HPC and ML systems: GPU and parallel computing, analog compute-in-memory, and large-scale data pipelines. Cut a pipeline over billions of events from 5 hours to 20 minutes, with active research on drift correction for analog ML accelerators.
 
 ## Experience
 
 ### Senior Machine Learning Engineer
-**[Walmart](https://walmart.com/)** · *Dec 2024 -- Jul 2025*
+**[Walmart](https://walmart.com/)** · *Dec 2024 -- Jul 2025 (concurrent with MS)*
 
 - Cut per-experiment compute cost by **40%** on floor-price and adtech recommendation ML pipelines by profiling PySpark bottlenecks, rewriting shuffle-heavy transformations, and right-sizing batch processing.
 - Built a **Text2SQL agentic system** (plain-English querying, visualizations, active chat) giving non-technical teams self-serve analytics over business and ML pipeline data.
@@ -34,7 +34,7 @@ Seattle, WA · Authorized to work in the US (STEM OPT, 36 months); no immediate 
 - **Founding engineer** on the rebuilt Glance feed personalization platform serving **100M DAU**; owned cold-start and sparse-user personalization end to end (the team split the feed problem into sparse vs dense users; owned the sparse side).
 - Designed the sparse-user modeling stack: multinomial **Thompson-sampling bandits** (category-sampling layer, bubble-popularity fallback, time-of-day variants), an **Elo-style exploration** scheme adapted from game matchmaking (rank early users by inferred capability to drive exploration), and **lookalike models** (clustering with SVD/K-Means, then node2vec on app-ownership signals) that beat pacing and production baselines on time spent and reward for cold and sparse users; **+18.38%** time spent for cold users, **+11.68%** overall.
 - Delivered content at **sub-50ms p99** via low-latency serving and streaming pipelines (prediction services, Vertex AI feature store, Kafka, ELK logging, Airflow retraining); **+12% conversion**, **+5% engagement**.
-- Built and optimized a lock-screen rewards summary pipeline (gcat) over **billions of clicks**, cutting runtime from roughly **5 hours to about 20 minutes**.
+- Built and optimized a lock-screen rewards summary pipeline (gcat) over **billions of clicks**, cutting runtime from **5 hours to 20 minutes**.
 - Drove engineering health: standardized **on-call** responsibilities, cleaned up the end-to-end prediction-service deployment cycle to reduce developer mistakes, contributed to the Model Controller refactor, set up an **automated canary** used across the team (plus Neptune metrics in the deploy cycle), and built a solutions-first debugging culture.
 - Leadership / influence: **mentored** a junior engineer (Ritika) on lookalike modeling; **led an org-wide paper-reading session** ("multiplying matrices without multiplying"); wrote an externally-published blog "building recommender systems in production"; cross-functional point of contact with Data Analytics, Product, and Engineering, and for Xiaomi India and Game Centre within Feed; submitted a lookalike paper to CODS.
 

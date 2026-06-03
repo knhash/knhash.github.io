@@ -7,6 +7,7 @@
 \usepackage{microtype}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{ifthen}
 \usepackage[hidelinks]{hyperref}
 \let\oldhref\href
 \renewcommand{\href}[2]{\oldhref{#1}{\uline{#2}}}
@@ -17,6 +18,7 @@
 
 
 \pdfgentounicode=1
+\pdfinterwordspaceon
 \pagestyle{empty}
 \raggedbottom
 \hyphenpenalty=10000
@@ -32,65 +34,99 @@
 \newcommand{\contactsep}{\hspace{0.45em}\textbar\hspace{0.45em}}
 \newcommand{\resumeEntry}[3]{\item{\textbf{#1}, #2 \textbar{} \textit{#3}}}
 
+% ============================================================================
+% VARIANT CONTENT -- edit here per cluster / per application.
+% \VARIANT can be: master | recsys | platform | hpc
+% Build a variant locally with, e.g.:
+%   pdflatex "\def\VARIANT{recsys}\input{ShashankResume.tex}"
+% Only \SummaryPara changes per variant (it front-loads cluster keywords for the
+% skimmer and ATS); the Technical Skills section is comprehensive and shared.
+% Tweak \SummaryPara per posting to mirror specific JD terms.
+% ============================================================================
+\providecommand{\VARIANT}{master}
+
+% --- master (default / balanced) ---
+\def\SummaryPara{Senior Machine Learning Engineer with 6 years building real-time recommendation and ranking systems. Served personalized content to \textbf{100M DAU} at \textbf{sub-50ms p99}, lifting \textbf{conversion +12\%} and engagement +5\%. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}
+
+% --- recsys / ranking ---
+\ifthenelse{\equal{\VARIANT}{recsys}}{%
+  \def\SummaryPara{Senior Machine Learning Engineer specializing in recommendations, candidate generation, retrieval, and ranking. Owned cold-start personalization for a \textbf{100M DAU} feed at \textbf{sub-50ms p99}, lifting \textbf{conversion +12\%}; designed bandit, Elo, and lookalike models for sparse users. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}%
+}{}
+
+% --- ML platform / systems ---
+\ifthenelse{\equal{\VARIANT}{platform}}{%
+  \def\SummaryPara{Senior Machine Learning Engineer focused on ML platform and systems: low-latency serving, feature stores, streaming, and MLOps. Built serving and retraining infrastructure delivering \textbf{100M DAU} at \textbf{sub-50ms p99}, and standardized deployment, on-call, and automated canary across the team. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}%
+}{}
+
+% --- ML infra / HPC ---
+\ifthenelse{\equal{\VARIANT}{hpc}}{%
+  \def\SummaryPara{Senior Machine Learning Engineer working across HPC and ML systems: GPU and parallel computing, analog compute-in-memory, and large-scale data pipelines. Cut a pipeline over billions of events from roughly 5 hours to about 20 minutes, and researches drift correction for analog ML accelerators. Holds an MS in CS (HPC specialization) from Georgia Tech, May 2026.}%
+}{}
+
 \begin{document}
 
 \begin{center}
 {\fontsize{24}{28}\selectfont\bfseries Shashank Srinivasan}\\[17pt]
 \small
-\href{tel:+14045194936}{+1-404-519-4936}\contactsep
+\href{tel:+14045194936}{+1 404 519 4936}\contactsep
 \href{mailto:contact@knhash.in}{contact@knhash.in}\contactsep
 \href{https://knhash.in}{knhash.in}\contactsep
 \href{https://github.com/knhash}{github.com/knhash}\contactsep
-\href{https://linkedin.com/in/knhash}{linkedin.com/in/knhash}\contactsep
-Seattle, WA
+\href{https://linkedin.com/in/knhash}{linkedin.com/in/knhash} \\
+\vspace{5pt}
+Seattle, WA \contactsep Authorized to work in the US (STEM OPT, 36 months); no immediate sponsorship required
 \end{center}
 \vspace{5pt}
 
-\noindent ML Engineer with 6 years shipping real-time recommendation systems at 100M+ DAU scale. MS in CS at Georgia Tech with HPC specialization and analog compute-in-memory research.
+\noindent \SummaryPara
 
 \section{Experience}
 \begin{itemize}[leftmargin=0pt, label={}]
   \resumeEntry{Senior Machine Learning Engineer}{\href{https://walmart.com/}{Walmart}}{Dec 2024 -- Jul 2025}
   \begin{itemize}
-    \item{\textit{Transitioned to full-time MS study.}}
-    \item{Cut per-experiment compute cost by \textbf{40\%} on floor price planning and adtech recommendations ML pipelines by profiling PySpark bottlenecks, rewriting shuffle-heavy transformations, and right-sizing batch processing.}
-    \item{Accelerated business and ML pipeline analytics for non-technical teams by building a \textbf{Text2SQL agentic system} with plain-English querying, visualizations, and active chat for self-serve insights.}
-    \item{Improved production ML reliability and release velocity by building an \textbf{observability framework} and standardizing model build, test, and deployment workflows with GitHub Actions.}
+    \item{Cut per-experiment compute cost by \textbf{40\%} on floor-price and adtech recommendation ML pipelines by profiling PySpark bottlenecks, rewriting shuffle-heavy transformations, and right-sizing batch processing.}
+    \item{Built a \textbf{Text2SQL agentic system} with plain-English querying, visualizations, and active chat, giving non-technical teams self-serve analytics over business and ML pipeline data.}
+    \item{Improved production ML reliability and release velocity by building an \textbf{observability framework} and standardizing model build, test, and deployment with GitHub Actions.}
   \end{itemize}
 
-  \resumeEntry{Machine Learning Engineer III}{\href{https://glance.com/}{Glance-InMobi}}{May 2021 -- Nov 2024}
+  \resumeEntry{Machine Learning Engineer III}{\href{https://glance.com/}{\mbox{Glance (InMobi)}}}{Jul 2022 -- Dec 2024}
   \begin{itemize}
-    \item{Delivered personalized content to \textbf{100M DAU} at \textbf{sub-50ms p99 latency} by building low-latency ML serving and streaming pipelines with prediction services, Vertex AI feature store, Kafka, ELK logging, and Airflow retraining.}
-    \item{Increased engagement by \textbf{5\%} and conversion by \textbf{12\%} with recommendation models including multi-armed bandits, Elo ratings, GBMs, and graph-based collaborative filtering.}
-    \item{Boosted time spent by \textbf{11.68\%} overall and \textbf{18.38\%} for cold-start users by co-authoring lookalike modeling research using SVD, K-Means, and bandit-based exploration.}
-    \item{Owned ML automation across streaming pipelines, model controllers, rollback triggers, and event-driven personalization, improving release reliability for recommender launches.}
-    \item{Built \textbf{real-time quiz generation} over live video for YouTube Live Streams.}
+    \item{\textbf{Founding engineer} on the rebuilt Glance feed personalization platform serving \textbf{100M DAU}; owned cold-start and sparse-user personalization end to end.}
+    \item{Designed the sparse-user modeling stack: multinomial Thompson-sampling bandits, an \textbf{Elo-style exploration} scheme adapted from game matchmaking, and \textbf{lookalike models} (SVD/K-Means, then node2vec on app-ownership signals) that beat production baselines on time spent and reward; \textbf{+18.38\%} time spent for cold users.}
+    \item{Delivered content at \textbf{sub-50ms p99} via low-latency serving and streaming pipelines (prediction services, Vertex AI feature store, Kafka, ELK logging, Airflow retraining); \textbf{+12\% conversion} and \textbf{+5\% engagement}.}
+    \item{Cut a rewards pipeline over \textbf{billions of clicks} from roughly 5 hours to about 20 minutes; standardized deployment, on-call, and automated canary across the team, mentored engineers, and led an org-wide paper-reading session.}
   \end{itemize}
 
-  \resumeEntry{Data Scientist}{\href{https://www.brightmoney.co/}{Bright Money}}{Jun 2019 -- Apr 2021}
+  \resumeEntry{Data Scientist II}{\href{https://glance.com/}{\mbox{Glance (InMobi)}}}{May 2021 -- Jun 2022}
   \begin{itemize}
-    \item{\textbf{Founded the data science function} at an early-stage fintech and built ML systems for debt management, cash-flow forecasting, affordability scoring, and overdraft prediction.}
-    \item{Launched \emph{Debt Manager} on Airflow and Django, driving adoption to \textbf{10K+ users} and \textbf{\$100K+ daily transaction volume} through automated financial analysis and payment scheduling.}
-    \item{Developed bill identification, income forecasting, expense forecasting, and account-balance prediction models for product retention and risk workflows.}
+    \item{Built Glance's \textbf{first live-commerce recommendation system} (Roposo) on graph embeddings at sub-50ms, and the feed team's first Python prediction service (sub-100ms, in two weeks): \textbf{+6.54\%} lift over control and the best-performing model in production.}
+    \item{Shipped real-time, NLP-based \textbf{quiz generation over live video} (GCP), demoed at the company AI Demo Day; integrated OEM and OTT content with external partners (Docubay, EpicON, Zee5).}
+  \end{itemize}
+
+  \resumeEntry{Founding Data Scientist}{\href{https://www.brightmoney.co/}{\mbox{Bright Money}}}{Jun 2019 -- Apr 2021}
+  \begin{itemize}
+    \item{Founded the data science function and built \textbf{Debt Manager}, Bright's flagship AI product that analyzes a user's finances and autonomously schedules debt payments; on Airflow and Django, it served \textbf{20K+ users/day} at \textbf{\$100K+ daily transaction volume} and drove close to \textbf{100\% of revenue} by 2020.}
+    \item{Shipped multiple 0-to-1 ML products: bill identification, affordability scoring, overdraft prediction, and liability inference for risk and retention workflows.}
+    \item{Built time-series forecasting for income, expense, and account balance (Prophet, SARIMA) and segmentation models powering activation, retention, and monetization.}
   \end{itemize}
 \end{itemize}
 
+\pagebreak
+
 \section{Education}
 \begin{itemize}[leftmargin=0pt, label={}]
-  \resumeEntry{Master of Science, Computer Science}{\href{https://www.gatech.edu/}{Georgia Institute of Technology}}{May 2026}
+  \resumeEntry{Master of Science, Computer Science}{\href{https://www.gatech.edu/}{\mbox{Georgia Institute of Technology}}}{Aug 2024 -- May 2026}
   \begin{itemize}
     \item{Specialization: High Performance Computing.}
     \item{Research: Analog compute-in-memory error mitigation with Prof.\ Hyesoon Kim}
     \item{Coursework: GPU Hardware \& Software, High-Performance Parallel Computing, HPC Architecture, Scientific ML, Deep Learning, Designing for Curiosity.}
   \end{itemize}
-  \resumeEntry{Bachelor of Engineering, Computer Science}{\href{https://www.sirmvit.edu/}{Sir M. Visvesvaraya Institute of Technology}}{May 2018}
+  \resumeEntry{Bachelor of Engineering, Computer Science}{\href{https://www.sirmvit.edu/}{\mbox{Sir M. Visvesvaraya Institute of Technology}}}{May 2018}
   \begin{itemize}
     \item{First Class with Distinction.}
     \item{Thesis: \href{https://knhash.github.io/files/ImageRegenerationWithGenerativeModels.pdf}{Image Regeneration with Generative Models}; used CapsNet as a GAN discriminator for semantic inpainting on MNIST and face images.}
   \end{itemize}
 \end{itemize}
-
-\newpage
 
 \section{Selected Systems \& Research}
 \begin{itemize}[leftmargin=0pt, label={}]
@@ -108,10 +144,10 @@ Seattle, WA
 
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0pt, label={}]
-  \item{\textbf{Languages:} Python, C/C++, PySpark, SQL, Go, Shell}
-  \item{\textbf{ML Systems:} Recommendation Systems, LLMs, LangChain, Agentic Workflows, PyTorch, scikit-learn, XGBoost/LightGBM, Deep Learning, MLOps, A/B Testing}
-  \item{\textbf{HPC \& AI Infrastructure:} CUDA, MPI, OpenMP, GPU Profiling (Nsight Systems, nvprof), Distributed Systems, Scientific ML, Spark, Kafka, Airflow, Argo, Docker, Kubernetes, Vertex AI, Prometheus, Grafana}
-  \item{\textbf{Cloud \& Data:} GCP, AWS, Azure, PostgreSQL, Django, Linux, Git}
+  \item{\textbf{Languages:} Python, C/C++, Go, SQL, PySpark, Shell}
+  \item{\textbf{Artificial Intelligence \& Machine Learning:} Recommendation Systems, Candidate Generation, Retrieval \& Ranking, Multi-Armed Bandits, Collaborative Filtering, Graph ML (node2vec, embeddings), Deep Learning, NLP, LLMs \& Agentic Workflows (LangChain), Reinforcement Learning, Time-Series Forecasting (Prophet, SARIMA), A/B Testing; PyTorch, scikit-learn, XGBoost/LightGBM}
+  \item{\textbf{MLOps \& Infrastructure:} Docker, Kubernetes, Airflow, Argo, Kafka, Spark, Vertex AI Feature Store, Neptune, GitHub Actions (CI/CD), ELK, Prometheus, Grafana; CUDA, MPI, OpenMP, GPU Profiling (Nsight Systems, nvprof), Distributed Systems, Scientific ML (PINNs)}
+  \item{\textbf{Cloud \& Data:} GCP, AWS, Azure, PostgreSQL, Cosmos DB, Firebase, Tableau, Metabase, Django, Linux, Git}
 \end{itemize}
 
 \end{document}

@@ -18,17 +18,24 @@ jobs:
       - name: Install TeXLive
         run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-latex-recommended lmodern latexmk
 
-      - name: Compile LaTeX and copy to files/
+      - name: Compile LaTeX (master + cluster variants) and copy to files/
         run: |
           cd resume
           latexmk -C # Clean all build artifacts to force rebuild
+          # Master (default \VARIANT) -> ShashankResume.pdf (public link, unchanged)
           latexmk -pdf -interaction=nonstopmode ShashankResume.tex
           cp ShashankResume.pdf ../files/ShashankResume.pdf
+          # Cluster variants: recsys / platform / hpc (2 passes each for hyperref)
+          for V in recsys platform hpc; do
+            pdflatex -interaction=nonstopmode -jobname=ShashankResume-$V "\\def\\VARIANT{$V}\\input{ShashankResume.tex}"
+            pdflatex -interaction=nonstopmode -jobname=ShashankResume-$V "\\def\\VARIANT{$V}\\input{ShashankResume.tex}"
+            cp ShashankResume-$V.pdf ../files/ShashankResume-$V.pdf
+          done
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add files/ShashankResume.pdf
+          git add files/ShashankResume.pdf files/ShashankResume-recsys.pdf files/ShashankResume-platform.pdf files/ShashankResume-hpc.pdf
           git diff --cached --quiet || git commit -m "Update resume PDF [skip ci]"
           git push

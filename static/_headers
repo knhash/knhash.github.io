@@ -1,0 +1,7 @@
+/*.pdf
+  Content-Disposition: inline
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+/media/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=31536000, immutable

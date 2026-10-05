@@ -1,0 +1,76 @@
+path,target,note
+/,https://knhash.in/
+/blog/midnight-muse,https://knhash.in/blog/midnight-muse/
+/blog/night-time-sounds,https://knhash.in/blog/night-time-sounds/
+/blog/intern-log-day-55,https://knhash.in/blog/intern-log-day-55/
+/blog/who-is-mr-pratap,https://knhash.in/blog/who-is-mr-pratap/
+/blog/bored,https://knhash.in/blog/bored/
+/blog/a-short-affair,https://knhash.in/blog/a-short-affair/
+/blog/vector-logos,https://knhash.in/blog/,FALLBACK: post missing on Bearblog
+/blog/rise,https://knhash.in/blog/rise/
+/blog/the-odd-vendor,https://knhash.in/blog/the-odd-vendor/
+/blog/recommender-system-in-prod,https://knhash.in/blog/recommender-system-in-prod/
+/blog/from-forestry-cms,https://knhash.in/blog/from-forestry-cms/
+/blog/i-also-want-to-do-something-with-stable-diffusion,https://knhash.in/blog/i-also-want-to-do-something-with-stable-diffusion/
+/blog/proj-repeated-selection-consensus-protocol,https://knhash.in/blog/proj-repeated-selection-consensus-protocol/
+/blog/streaks-ratios-not-absolutes,https://knhash.in/blog/streaks-ratios-not-absolutes/
+/blog/let-me-help-you-please,https://knhash.in/blog/let-me-help-you-please/
+/blog/you-are-not-running-out-of-time,https://knhash.in/blog/you-are-not-running-out-of-time/
+/blog/trusted-circle,https://knhash.in/blog/trusted-circle/
+/blog/small-wins-at-the-office,https://knhash.in/blog/small-wins-at-the-office/
+/blog/ramukaka,https://knhash.in/blog/ramukaka/
+/blog/the-great-traffic-surge,https://knhash.in/blog/the-great-traffic-surge/
+/blog/crypto-santa,https://knhash.in/blog/crypto-santa/
+/blog/on-friends,https://knhash.in/blog/on-friends/
+/blog/efficient-chess-board-representation,https://knhash.in/blog/efficient-chess-board-representation/
+/blog/sticky-toffee,https://knhash.in/blog/sticky-toffee/
+/blog/explore-lookalike,https://knhash.in/blog/explore-lookalike/
+/a-short-affair,https://knhash.in/a-short-affair/
+/bored,https://knhash.in/bored/
+/crypto-santa,https://knhash.in/blog/crypto-santa/
+/dont-be-a-duck,https://knhash.in/dont-be-a-duck/
+/efficient-chess-board-representation,https://knhash.in/efficient-chess-board-representation/
+/explore-lookalike,https://knhash.in/explore-lookalike/
+/from-forestry-cms,https://knhash.in/from-forestry-cms/
+/game-feed,https://knhash.in/game-feed/
+/gentle-guide-to-self-hosting,https://knhash.in/gentle-guide-to-self-hosting/
+/grandmas-tea,https://knhash.in/grandmas-tea/
+/homemade-pi,https://knhash.in/homemade-pi/
+/i-also-want-to-do-something-with-stable-diffusion,https://knhash.in/i-also-want-to-do-something-with-stable-diffusion/
+/insomnia,https://knhash.in/insomnia/
+/intern-log-day-55,https://knhash.in/intern-log-day-55/
+/let-me-help-you-please,https://knhash.in/let-me-help-you-please/
+/midnight-muse,https://knhash.in/midnight-muse/
+/night-time-sounds,https://knhash.in/night-time-sounds/
+/on-awkward-washroom-encounters,https://knhash.in/on-awkward-washroom-encounters/
+/on-friends,https://knhash.in/on-friends/
+/parchment-theme,https://knhash.in/parchment-theme/
+/ramukaka,https://knhash.in/ramukaka/
+/recommender-system-in-prod,https://knhash.in/recommender-system-in-prod/
+/repeated-selection-consensus-protocol,https://knhash.in/repeated-selection-consensus-protocol/
+/rise,https://knhash.in/rise/
+/small-wins-at-the-office,https://knhash.in/small-wins-at-the-office/
+/sticky-toffee,https://knhash.in/sticky-toffee/
+/streaks-ratios-not-absolutes,https://knhash.in/streaks-ratios-not-absolutes/
+/the-great-traffic-surge,https://knhash.in/the-great-traffic-surge/
+/the-odd-vendor,https://knhash.in/the-odd-vendor/
+/trusted-circle,https://knhash.in/trusted-circle/
+/who-is-mr-pratap,https://knhash.in/who-is-mr-pratap/
+/you-are-not-running-out-of-time,https://knhash.in/you-are-not-running-out-of-time/
+/about,https://knhash.in/,FALLBACK: no about page on Bearblog
+/blog,https://knhash.in/blog/
+/guestbook,https://knhash.in/guestbook/
+/mindy,https://knhash.in/mindy/
+/now,https://knhash.in/now/
+/resume,https://knhash.in/resume/
+/shanks-sunday-sessions,https://knhash.in/saturday-sessions/
+/workshop,https://knhash.in/den/
+/logo,https://knhash.in/den/
+/tagged/cooking,https://knhash.in/blog/,FALLBACK: tag index
+/tagged/design,https://knhash.in/blog/,FALLBACK: tag index
+/tagged/fiction,https://knhash.in/blog/,FALLBACK: tag index
+/tagged/general,https://knhash.in/blog/,FALLBACK: tag index
+/tagged/poem,https://knhash.in/blog/,FALLBACK: tag index
+/tagged/project,https://knhash.in/blog/,FALLBACK: tag index
+/tagged/raw-thoughts,https://knhash.in/blog/,FALLBACK: tag index
+/tagged/recommendation-systems,https://knhash.in/blog/,FALLBACK: tag index

@@ -50,7 +50,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   deploy-cloudflare:
     # files.knhash.in and media.knhash.in. Skipped until the CLOUDFLARE_* secrets exist.

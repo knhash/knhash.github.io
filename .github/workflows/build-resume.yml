@@ -69,11 +69,11 @@ jobs:
           path: build
       - name: Deploy files.knhash.in
         if: env.CLOUDFLARE_API_TOKEN != ''
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           command: pages deploy build/files --project-name=knhash-files --branch=main
       - name: Deploy media.knhash.in
         if: env.CLOUDFLARE_API_TOKEN != ''
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           command: pages deploy build/media --project-name=knhash-media --branch=main

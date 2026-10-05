@@ -1,44 +1,32 @@
-# knhash.github.io
-Personal blog with bearblog
+# knhash.in file host
 
-> Now moved to Bearblog. Find it at [https://knhash.in](https://knhash.in) or [https://knhash.bearblog.dev](https://knhash.bearblog.dev)
+Static files, media, the resume (LaTeX) and old-URL redirects for the Bearblog at https://knhash.in.
+The blog itself lives on Bearblog; this repo only serves what Bearblog can't.
 
+## Layout
+- `resume/ShashankResume.tex`: resume source (`\VARIANT` = master | recsys | platform | hpc). `ShashankResume.md` is the content reservoir.
+- `files/` (PDFs), `media/` and `logos/` (images): public assets. Names are public URLs, so don't rename them.
+- `redirects.csv`: every legacy path -> its latest URL on knhash.in. Add a line to add a redirect.
+- `static/`: `_headers` / `_redirects` for the two Cloudflare sites.
+- `scripts/`: `gen-redirects.py`, `check-urls.sh`.
 
-# Steps to set up develop environment 
+## Hosts
+| Host | Serves |
+|---|---|
+| `files.knhash.in` | PDFs. `/resume.pdf` is always the latest resume; also `/resume-{recsys,platform,hpc}.pdf` |
+| `media.knhash.in` | images |
+| `knhash.github.io` | legacy `/files/...`, `/media/...` and old-URL redirects, same content |
+| `knhash.in` | the Bearblog. Old `/files/*.pdf` paths are Bearblog redirect pages (alias) to files.knhash.in |
 
-### Clone the repository  
-`git clone https://github.com/knhash/knhash.github.io.git`
-
-### Install all pre-requisites  
-https://jekyllrb.com/docs/installation/  
-
-#### > Under Ubuntu Linux:
-https://jekyllrb.com/docs/installation/ubuntu/  
-```
-sudo apt update
-sudo apt upgrade
-sudo apt-get install ruby-full build-essential zlib1g-dev
-echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-gem install jekyll bundler
-```
-
-### Install all necessary gems
-```
-cd knhash.github.io
-bundle install
+## Build locally
+Needs TeX Live (`brew install --cask mactex-no-gui`) or the Docker image `texlive/texlive`.
+```bash
+make site     # -> build/files, build/media, build/legacy
+make clean
 ```
 
-### Run development server
-Uncomment the following line in `_config.yml`:  
-`theme: jekyll-bear-theme`  
-and comment the line after it:  
-`remote_theme: knhash/jekyllBear`  
+## Deploy
+Push to `master`. GitHub Actions builds everything and deploys to GitHub Pages and, when the `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` secrets exist, to Cloudflare Pages projects `knhash-files` and `knhash-media`.
+Built PDFs are never committed. PRs only build.
 
-> Remember to revert these changes before going to prod
-
-```
-bundle exec jekyll serve --livereload
-```
+Link check: `scripts/check-urls.sh`.

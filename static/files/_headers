@@ -1,0 +1,4 @@
+/*.pdf
+  Content-Disposition: inline
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300

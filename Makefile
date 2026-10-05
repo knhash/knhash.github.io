@@ -1,10 +1,10 @@
-# Build the resume PDFs and assemble the deployable site in build/site.
-#   make resume   build 4 PDFs into build/pdf
-#   make site     resume + static files + redirect stubs -> build/site
-#   make clean
+# make resume   build the 4 resume PDFs into build/pdf
+# make site     build three deployable folders:
+#   build/files   -> files.knhash.in  (PDFs, flat)
+#   build/media   -> media.knhash.in  (images)
+#   build/legacy  -> knhash.github.io (old /files, /media paths + redirect stubs)
 VARIANTS := recsys platform hpc
 PDFDIR   := build/pdf
-SITE     := build/site
 
 .PHONY: all resume site clean
 all: site
@@ -19,14 +19,24 @@ resume:
 	done
 
 site: resume
-	rm -rf $(SITE) && mkdir -p $(SITE)/files
-	cp -R files media logos keybase.txt robots.txt $(SITE)/
-	cp -R static/. $(SITE)/
-	for f in ShashankResume ShashankResume-recsys ShashankResume-platform ShashankResume-hpc; do \
-	  cp $(PDFDIR)/$$f.pdf $(SITE)/files/$$f.pdf; done
-	cp $(PDFDIR)/ShashankResume.pdf $(SITE)/resume.pdf
-	for V in $(VARIANTS); do cp $(PDFDIR)/ShashankResume-$$V.pdf $(SITE)/resume-$$V.pdf; done
-	python3 scripts/gen-redirects.py $(SITE)
+	rm -rf build/files build/media build/legacy
+	mkdir -p build/files build/media build/legacy/files
+	# files.knhash.in
+	cp files/*.pdf build/files/
+	cp $(PDFDIR)/ShashankResume*.pdf build/files/
+	cp build/files/ShashankResume.pdf build/files/resume.pdf
+	for V in $(VARIANTS); do cp build/files/ShashankResume-$$V.pdf build/files/resume-$$V.pdf; done
+	cp static/files/_headers static/files/_redirects build/files/
+	# media.knhash.in
+	cp -R media/. build/media/
+	cp -R logos build/media/logos
+	cp static/media/_headers build/media/
+	# knhash.github.io (legacy paths keep working, always latest)
+	cp -R build/files/*.pdf build/legacy/files/
+	cp -R media logos keybase.txt robots.txt build/legacy/
+	cp build/files/resume*.pdf build/legacy/
+	touch build/legacy/.nojekyll
+	python3 scripts/gen-redirects.py build/legacy
 
 clean:
 	rm -rf build

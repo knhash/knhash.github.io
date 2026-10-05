@@ -1,33 +1,31 @@
 #!/usr/bin/env bash
-# Verify old and new public URLs. Usage: scripts/check-urls.sh [BASE_URL ...]
-# Default checks the live GitHub Pages host (and files.knhash.in if it resolves).
-# For each path in redirects.csv: the stub must exist (200) and its target must return 200.
-set -u
+# Link check for the live hosts. Usage: scripts/check-urls.sh
+# - knhash.github.io: every legacy redirect stub resolves to a 200 target, files and media still served
+# - files.knhash.in / media.knhash.in: resume PDFs and every file in the repo
 cd "$(dirname "$0")/.."
-UA='Mozilla/5.0'
-bases=("$@"); [ ${#bases[@]} -eq 0 ] && bases=(https://knhash.github.io)
-fail=0
+UA='Mozilla/5.0'; fail=0
 code() { curl -sL -m 30 -A "$UA" -o /dev/null -w '%{http_code}' "$1"; }
-body() { curl -sL -m 30 -A "$UA" "$1"; }
+bad() { echo "FAIL $1 ($2)"; fail=1; }
 
-for base in "${bases[@]}"; do
-  echo "== $base"
-  while IFS=, read -r path target _; do
-    [ "$path" = path ] && continue
-    final=$(curl -sL -m 30 -A "$UA" -o /dev/null -w '%{url_effective}' "$base$path")
-    # follow meta refresh manually (curl does not)
-    meta=$(body "$base$path" | grep -oiE 'url=[^"]+' | head -1 | cut -c5-)
-    c=$(code "${meta:-$base$path}")
-    [ "$c" = 200 ] || { echo "FAIL $path -> ${meta:-none} ($c)"; fail=1; }
-  done < redirects.csv
-  for f in resume.pdf resume-recsys.pdf resume-platform.pdf resume-hpc.pdf files/ShashankResume.pdf files/ShashankResume-recsys.pdf files/ShashankResume-platform.pdf files/ShashankResume-hpc.pdf; do
-    c=$(code "$base/$f"); [ "$c" = 200 ] || { echo "FAIL $f ($c)"; fail=1; }
-  done
+echo "== legacy redirects (github.io)"
+while IFS=, read -r path target _; do
+  [ "$path" = path ] && continue
+  meta=$(curl -sL -m 30 -A "$UA" "https://knhash.github.io$path" | grep -oiE 'url=[^"]+' | head -1 | cut -c5-)
+  [ "$meta" = "$target" ] || bad "$path stub target '$meta' != '$target'" -
+  c=$(code "$target"); [ "$c" = 200 ] || bad "$path -> $target" "$c"
+done < redirects.csv
+
+echo "== files"
+for f in resume.pdf resume-recsys.pdf resume-platform.pdf resume-hpc.pdf $(cd files && ls *.pdf); do
+  [[ $f == resume* ]] || { c=$(code "https://knhash.github.io/files/$f"); [ "$c" = 200 ] || bad "github.io/files/$f" "$c"; }
+  c=$(code "https://files.knhash.in/$f"); [ "$c" = 200 ] || bad "files.knhash.in/$f" "$c"
 done
-# every file the repo ships must still be reachable at the legacy host path
-for p in $(git ls-files files media | head -400); do
-  [ -z "${LEGACY:-}" ] && break
-  c=$(code "https://knhash.github.io/$p"); [ "$c" = 200 ] || { echo "FAIL legacy /$p ($c)"; fail=1; }
-done
+
+echo "== media"
+while read -r p; do
+  c=$(code "https://media.knhash.in/${p#media/}"); [ "$c" = 200 ] || bad "media.knhash.in/${p#media/}" "$c"
+  c=$(code "https://knhash.github.io/$p"); [ "$c" = 200 ] || bad "github.io/$p" "$c"
+done < <(git ls-files media)
+
 [ $fail -eq 0 ] && echo "all ok" || echo "FAILURES"
 exit $fail

@@ -15,6 +15,7 @@ path,target,note
 /blog/proj-repeated-selection-consensus-protocol,https://knhash.in/blog/proj-repeated-selection-consensus-protocol/
 /blog/streaks-ratios-not-absolutes,https://knhash.in/blog/streaks-ratios-not-absolutes/
 /blog/let-me-help-you-please,https://knhash.in/blog/let-me-help-you-please/
+/blog/let-me-help-you-please.,https://knhash.in/blog/let-me-help-you-please/,old URL had a trailing dot
 /blog/you-are-not-running-out-of-time,https://knhash.in/blog/you-are-not-running-out-of-time/
 /blog/trusted-circle,https://knhash.in/blog/trusted-circle/
 /blog/small-wins-at-the-office,https://knhash.in/blog/small-wins-at-the-office/
@@ -57,7 +58,6 @@ path,target,note
 /trusted-circle,https://knhash.in/trusted-circle/
 /who-is-mr-pratap,https://knhash.in/who-is-mr-pratap/
 /you-are-not-running-out-of-time,https://knhash.in/you-are-not-running-out-of-time/
-/about,https://knhash.in/,FALLBACK: no about page on Bearblog
 /blog,https://knhash.in/blog/
 /guestbook,https://knhash.in/guestbook/
 /mindy,https://knhash.in/mindy/
@@ -66,11 +66,3 @@ path,target,note
 /shanks-sunday-sessions,https://knhash.in/saturday-sessions/
 /workshop,https://knhash.in/den/
 /logo,https://knhash.in/den/
-/tagged/cooking,https://knhash.in/blog/,FALLBACK: tag index
-/tagged/design,https://knhash.in/blog/,FALLBACK: tag index
-/tagged/fiction,https://knhash.in/blog/,FALLBACK: tag index
-/tagged/general,https://knhash.in/blog/,FALLBACK: tag index
-/tagged/poem,https://knhash.in/blog/,FALLBACK: tag index
-/tagged/project,https://knhash.in/blog/,FALLBACK: tag index
-/tagged/raw-thoughts,https://knhash.in/blog/,FALLBACK: tag index
-/tagged/recommendation-systems,https://knhash.in/blog/,FALLBACK: tag index

@@ -29,13 +29,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: site
-          path: build/site
+          path: build
 
       - name: Upload Pages artifact
         if: github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build/site
+          path: build/legacy
 
   deploy-github-pages:
     # Keeps knhash.github.io/files/..., /media/... and old-URL redirects alive, always serving the latest build.
@@ -53,7 +53,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   deploy-cloudflare:
-    # files.knhash.in. Skipped until the CLOUDFLARE_* secrets exist.
+    # files.knhash.in and media.knhash.in. Skipped until the CLOUDFLARE_* secrets exist.
     if: github.ref == 'refs/heads/master'
     needs: build
     runs-on: ubuntu-latest
@@ -66,9 +66,14 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: site
-          path: site
-      - name: Deploy to Cloudflare Pages
+          path: build
+      - name: Deploy files.knhash.in
         if: env.CLOUDFLARE_API_TOKEN != ''
         uses: cloudflare/wrangler-action@v3
         with:
-          command: pages deploy site --project-name=knhash-files --branch=main
+          command: pages deploy build/files --project-name=knhash-files --branch=main
+      - name: Deploy media.knhash.in
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        uses: cloudflare/wrangler-action@v3
+        with:
+          command: pages deploy build/media --project-name=knhash-media --branch=main

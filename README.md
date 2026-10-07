@@ -9,6 +9,7 @@ The blog itself lives on Bearblog; this repo only serves what Bearblog can't.
 - `redirects.csv`: every legacy path -> its latest URL on knhash.in. Add a line to add a redirect.
 - `static/`: `_headers` / `_redirects` for the two Cloudflare sites.
 - `scripts/`: `gen-redirects.py`, `check-urls.sh`.
+- `theme/knhash.css`: the Bearblog theme. Source of truth for Dashboard → Themes → Custom CSS (Bearblog keeps no history, and "Apply" on a built-in theme overwrites it). Edit here, paste there, Publish.
 
 ## Hosts
 | Host | Serves |

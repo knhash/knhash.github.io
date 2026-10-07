@@ -66,13 +66,13 @@ Seattle, WA · Authorized to work in the US (STEM OPT, 36 months); no immediate 
 **[Sir M. Visvesvaraya Institute of Technology](https://www.sirmvit.edu/)**, Bengaluru, India · *May 2018*
 
 - First Class with Distinction.
-- Thesis: [Image Regeneration with Generative Models](https://knhash.github.io/files/ImageRegenerationWithGenerativeModels.pdf).
+- Thesis: [Image Regeneration with Generative Models](https://files.knhash.in/ImageRegenerationWithGenerativeModels.pdf).
 - Electives: Pattern Recognition, Clouds & Clusters, Artificial Intelligence.
 
 ## Selected Systems & Research
 
 - **Embedded Drift Sentinel** (under review at ASPLOS 2027): Companion-crossbar architecture for online drift correction in analog compute-in-memory accelerators. Improved day-360 ImageNet top-1 accuracy by +14 pp on average over GDC across ResNet-18/34/50 and GoogLeNet on a 360-day PCM drift horizon (ResNet-50: 68% vs 53% GDC, vs 17% uncorrected); eliminates main-array probe downtime at 0.3-1.7% cell overhead.
-- **[Physics-Informed RL for Plasma Control](https://knhash.github.io/files/PIRLforPlasma.pdf):** PPO policies trained in TORAX (auto-differentiable 1D core transport simulator) on a 50-parameter partially-observed state for ITER tokamak fusion control; 1.7 ms average inference (3.5 ms max), under the 50 ms real-time threshold.
+- **[Physics-Informed RL for Plasma Control](https://files.knhash.in/PIRLforPlasma.pdf):** PPO policies trained in TORAX (auto-differentiable 1D core transport simulator) on a 50-parameter partially-observed state for ITER tokamak fusion control; 1.7 ms average inference (3.5 ms max), under the 50 ms real-time threshold.
 - **Deep Learning Segmentation of Meibomian Glands:** Published CNN-based meibography segmentation in [Biomedical Signal Processing and Control](https://www.sciencedirect.com/science/article/abs/pii/S174680941930357X); custom augmentation and gland-health metrics validated against clinical expert annotations across tabletop and prototype handheld imagers.
 - **Automated Debt Management (patents):** R&D contributor; [US20220261886A1](https://patents.google.com/patent/US20220261886A1), [US20230075411A1](https://patents.google.com/patent/US20230075411A1/).
 - **[GhostGame.io](https://kienme.medium.com/building-ghostgame-io-a-multiplayer-word-game-449f13c55657):** Browser-based multiplayer word game on Firebase/GCP (Firestore, Cloud Functions).
@@ -93,10 +93,10 @@ Cluster keyword sets to mirror into the variant summary (`\SummaryPara`) per JD:
 
 ## Honors & Teaching
 
-- **[ACM ICPC 2015](https://knhash.github.io/files/ICPC_2015.pdf):** Qualified to regional level; honorable mention.
-- **Letter of Commendation, Minister of HRD** for [AISSCE board exam](https://knhash.github.io/files/12th.pdf).
-- **Section Leader, Code in Place, Stanford University:** Taught Python to 30+ students per cohort in [2021](https://knhash.in/files/CodeInPlace.pdf), [2023](https://knhash.in/files/CodeInPlace2023.pdf), and [2024](https://knhash.in/files/CodeInPlace2024.pdf).
-- **Certifications:** [Neural Networks & Deep Learning (deeplearning.ai)](https://knhash.github.io/files/NeuralNetworksAndDeepLearning.pdf), [Machine Learning (Stanford / Coursera)](https://knhash.github.io/files/CourseraML.pdf), [Android Developer Nanodegree (Google / Udacity)](https://knhash.github.io/files/UdacityAND.pdf).
+- **[ACM ICPC 2015](https://files.knhash.in/ICPC_2015.pdf):** Qualified to regional level; honorable mention.
+- **Letter of Commendation, Minister of HRD** for [AISSCE board exam](https://files.knhash.in/12th.pdf).
+- **Section Leader, Code in Place, Stanford University:** Taught Python to 30+ students per cohort in [2021](https://files.knhash.in/CodeInPlace.pdf), [2023](https://files.knhash.in/CodeInPlace2023.pdf), and [2024](https://files.knhash.in/CodeInPlace2024.pdf).
+- **Certifications:** [Neural Networks & Deep Learning (deeplearning.ai)](https://files.knhash.in/NeuralNetworksAndDeepLearning.pdf), [Machine Learning (Stanford / Coursera)](https://files.knhash.in/CourseraML.pdf), [Android Developer Nanodegree (Google / Udacity)](https://files.knhash.in/UdacityAND.pdf).
 
 ## Raw accomplishment bank (superset, from 2021/2022 reviews)
 

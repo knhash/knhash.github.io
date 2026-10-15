@@ -3,10 +3,12 @@
 #   build/files   -> files.knhash.in  (PDFs, flat)
 #   build/media   -> media.knhash.in  (images)
 #   build/legacy  -> knhash.github.io (old /files, /media paths + redirect stubs)
+# make theme    serve the theme preview on localhost:8765 (runs snapshot first if needed)
+# make snapshot download the site's pages into build/theme (~1 min)
 VARIANTS := recsys platform hpc
 PDFDIR   := build/pdf
 
-.PHONY: all resume site clean
+.PHONY: all resume site theme snapshot clean
 all: site
 
 resume:
@@ -32,7 +34,7 @@ site: resume
 	cp -R logos build/media/logos
 	cp static/media/_headers build/media/
 	cp static/legacy/assets/favicon.ico static/legacy/assets/apple-touch-icon.png build/media/
-	# knhash.github.io (legacy paths keep working, always latest)
+	# knhash.github.io: legacy paths
 	cp -R build/files/*.pdf build/legacy/files/
 	cp -R media logos keybase.txt robots.txt build/legacy/
 	cp build/files/resume*.pdf build/legacy/
@@ -41,6 +43,12 @@ site: resume
 	cp static/legacy/assets/* build/legacy/assets/
 	touch build/legacy/.nojekyll
 	python3 scripts/gen-redirects.py build/legacy
+
+theme: build/theme/index.html
+	python3 scripts/theme-serve.py
+
+build/theme/index.html snapshot:
+	python3 scripts/theme-snapshot.py build/theme
 
 clean:
 	rm -rf build

@@ -1,15 +1,17 @@
 # knhash.in file host
 
-Static files, media, the resume (LaTeX) and old-URL redirects for the Bearblog at https://knhash.in.
-The blog itself lives on Bearblog; this repo only serves what Bearblog can't.
+Static files, media, the resume (LaTeX), old-URL redirects and the theme for https://knhash.in (Bearblog).
 
 ## Layout
-- `resume/ShashankResume.tex`: resume source (`\VARIANT` = master | recsys | platform | hpc). `ShashankResume.md` is the content reservoir.
-- `files/` (PDFs), `media/` and `logos/` (images): public assets. Names are public URLs, so don't rename them.
+- `resume/ShashankResume.tex`: resume source (`\VARIANT` = master | recsys | platform | hpc). `ShashankResume.md` has the full content.
+- `files/` (PDFs), `media/` and `logos/` (images): public assets. File names are URLs; don't rename.
 - `redirects.csv`: every legacy path -> its latest URL on knhash.in. Add a line to add a redirect.
 - `static/`: `_headers` / `_redirects` for the two Cloudflare sites.
-- `scripts/`: `gen-redirects.py`, `check-urls.sh`.
-- `theme/knhash.css`: the Bearblog theme. Source of truth for Dashboard → Themes → Custom CSS (Bearblog keeps no history, and "Apply" on a built-in theme overwrites it). Edit here, paste there, Publish.
+- `scripts/`: `gen-redirects.py`, `check-urls.sh`, and `theme-serve.py` / `theme-snapshot.py` for the theme preview.
+- `theme/knhash.css`: Bearblog custom CSS (Dashboard → Themes). Bearblog keeps no history; applying a built-in theme overwrites it.
+- `theme/footer.html`: Bearblog footer directive (Settings → Header and footer directives).
+- `theme/guestbook.html`: body of the Guestbook page.
+- Theme preview: `make theme`, then http://localhost:8765/build/theme/. CSS changes apply on save, footer changes on reload. `make snapshot` re-downloads the pages (~1 min).
 
 ## Hosts
 | Host | Serves |

@@ -1,0 +1,73 @@
+<form class="note" onsubmit="sendMsg(event)">
+  <label for="msg-text">Leave an anonymous note, direct to my phone.</label>
+  <input id="msg-text" type="text" autocomplete="off">
+  <button>Send</button>
+</form>
+<small id="msg-status" aria-live="polite"></small>
+<p>— Maximize fun, always —</p>
+<style>
+    footer > span:has(a[href="https://bearblog.dev"]) {
+      display: none;
+    }
+  </style>
+
+<script>
+// /blog/ has no editable body, so its title is added here
+if (document.body.classList.contains('blog')) {
+  const title = document.createElement('h1');
+  title.textContent = 'All writing';
+  document.querySelector('main').prepend(title);
+}
+
+async function sendMsg(event) {
+  event.preventDefault();
+  var input = document.getElementById('msg-text');
+  var status = document.getElementById('msg-status');
+  var text = input.value.trim();
+  if (!text) return;
+  try {
+    var res = await fetch('https://ntfy.knhash.in/ShankSpace', {
+      method: 'POST',
+      body: window.location.href,
+      headers: {
+        'Title': text,
+        'Tags': 'envelope',
+        'X-URL': window.location.href
+      }
+    });
+    if (!res.ok) throw new Error(res.status);
+    input.value = '';
+    status.textContent = 'Sent!';
+  } catch(e) {
+    status.textContent = 'Failed, try again.';
+  }
+  setTimeout(() => { status.textContent = ''; }, 2500);
+}
+
+/*
+ Plugin name: Post reading time
+ Description: Adds an estimate of the reading time to the top of a post
+ Author: Herman Martinus
+ Author URI: https://herman.bearblog.dev
+*/
+
+(function() {
+    'use strict';
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const date = document.querySelector('main time')?.closest('p');
+        if (document.body.classList.contains('post') && date) {
+        const main = document.querySelector('main');
+        const content = main.cloneNode(true);
+        content.querySelectorAll('script, style, form').forEach(el => el.remove()); // skip Bear's inline upvote/analytics code
+        const text = content.textContent.trim();
+        const charCount = text.length;
+        const readingTime = Math.ceil(charCount / 1200); // 1200 characters per minute
+        const span = document.createElement('span');
+        span.className = 'reading-time';
+        span.textContent = `Reading time: ${readingTime} minute${readingTime === 1 ? '' : 's'}`;
+        date.append(span);
+        }
+    });
+})();
+</script>

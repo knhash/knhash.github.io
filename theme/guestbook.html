@@ -1,0 +1,27 @@
+<script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/165/script.js"></script>
+<div id="guestbooks___guestbook-form-container">
+  <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/165/submit" method="post" style="display: grid; gap: 1em; margin-top: 1em;">
+    <div style="display: flex; flex-wrap: wrap; gap: 1em;">
+      <label style="flex: 1 1 12em; display: grid;">Name
+        <input type="text" id="name" name="name" required>
+      </label>
+      <label style="flex: 1 1 12em; display: grid;">Website (optional)
+        <input type="url" id="website" name="website">
+      </label>
+    </div>
+    <label style="display: grid;">Message (plain text only)
+      <textarea id="text" name="text" rows="3" required style="resize: vertical;"></textarea>
+    </label>
+    <div style="display: flex; align-items: center; gap: 1em;">
+      <div id="guestbooks___challenge-answer-container" style="flex: 1;"></div>
+      <input type="submit" value="Submit">
+    </div>
+    <div id="guestbooks___error-message"></div>
+  </form>
+</div>
+<div id="guestbooks___guestbook-made-with" style="text-align: right;">
+    <small>Lovingly made with <a target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
+</div>
+<hr style="margin: 1em 0;"/>
+<h3 id="guestbooks___guestbook-messages-header">Messages</h3>
+<div id="guestbooks___guestbook-messages-container"></div>

@@ -38,7 +38,7 @@ jobs:
           path: build/legacy
 
   deploy-github-pages:
-    # Keeps knhash.github.io/files/..., /media/... and old-URL redirects alive, always serving the latest build.
+    # knhash.github.io: legacy /files, /media and redirect stubs.
     if: github.ref == 'refs/heads/master'
     needs: build
     runs-on: ubuntu-latest
@@ -53,7 +53,7 @@ jobs:
         uses: actions/deploy-pages@v5
 
   deploy-cloudflare:
-    # files.knhash.in and media.knhash.in. Skipped until the CLOUDFLARE_* secrets exist.
+    # files.knhash.in and media.knhash.in; runs only when the CLOUDFLARE_* secrets are set.
     if: github.ref == 'refs/heads/master'
     needs: build
     runs-on: ubuntu-latest

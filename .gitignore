@@ -8,3 +8,4 @@ resume/*.fls
 resume/*.fdb_latexmk
 resume/*.synctex.gz
 resume/*.pdf
+__pycache__/

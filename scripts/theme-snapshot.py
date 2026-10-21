@@ -110,7 +110,8 @@ def main():
         # Keep the .upvote-button rules Bearblog appends after the custom CSS.
         css = m.group(1)
         # Match Bearblog's ".upvote-button {", not the theme's "button.upvote-button {".
-        appended = css[css.find(".upvote-button {"):] if ".upvote-button {" in css else ""
+        bear = re.search(r"(?<![\w-])\.upvote-button \{", css)
+        appended = css[bear.start():] if bear else ""
         return f'<link rel="stylesheet" href="{css_href}" data-theme>\n<style>{appended}</style>\n{LIVE_RELOAD}'
 
     # Delete old pages only after every fetch has succeeded.

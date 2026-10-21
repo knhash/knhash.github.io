@@ -72,11 +72,11 @@
 
 :root {
   color-scheme: light dark;
-  --paper: light-dark(#fbfaf7, #151514);
-  --ink: light-dark(#2b2b28, #e4e3de);
-  --muted: light-dark(#6e6e68, #9c9b94);
-  --rule: light-dark(#e3e1da, #2e2e2b);
-  --accent: light-dark(#217844, #31b466);
+  --paper: light-dark(#f4f5f1, #1b1410);
+  --ink: light-dark(#3a2619, #ebe2d6);
+  --muted: light-dark(#7b6350, #a69786);
+  --rule: light-dark(#d9d1c5, #3a2e25);
+  --accent: light-dark(#1d5c48, #5fae8f);
   --serif: "IBM Plex Serif", Georgia, serif;
   --mono: "iA Writer Mono", ui-monospace, monospace;
 }

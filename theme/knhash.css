@@ -1,16 +1,102 @@
+@font-face {
+  font-family: "iA Writer Quattro";
+  src: url("https://media.knhash.in/fonts/ia-writer-quattro-c658867/iAWriterQuattroS-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Quattro";
+  src: url("https://media.knhash.in/fonts/ia-writer-quattro-c658867/iAWriterQuattroS-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Quattro";
+  src: url("https://media.knhash.in/fonts/ia-writer-quattro-c658867/iAWriterQuattroS-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Quattro";
+  src: url("https://media.knhash.in/fonts/ia-writer-quattro-c658867/iAWriterQuattroS-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Mono";
+  src: url("https://media.knhash.in/fonts/ia-writer-mono-c658867/iAWriterMonoS-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Mono";
+  src: url("https://media.knhash.in/fonts/ia-writer-mono-c658867/iAWriterMonoS-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("https://media.knhash.in/fonts/ibm-plex-serif-2.0.0/IBMPlexSerif-Regular-Latin1.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("https://media.knhash.in/fonts/ibm-plex-serif-2.0.0/IBMPlexSerif-Italic-Latin1.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("https://media.knhash.in/fonts/ibm-plex-serif-2.0.0/IBMPlexSerif-Medium-Latin1.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light dark;
-  --accent: light-dark(#217844, #31b466);
-  --muted: light-dark(#757570, #808079);
+  --paper: light-dark(#f4f5f1, #1b1410);
+  --ink: light-dark(#3a2619, #ebe2d6);
+  --muted: light-dark(#7b6350, #a69786);
+  --rule: light-dark(#d9d1c5, #3a2e25);
+  --accent: light-dark(#1d5c48, #5fae8f);
+  --serif: "IBM Plex Serif", Georgia, serif;
+  --mono: "iA Writer Mono", ui-monospace, monospace;
+}
+
+html {
+  background: var(--paper);
 }
 
 body {
   max-width: 45em;
   margin: auto;
   padding: 1rem;
-  font-family: system-ui, sans-serif;
-  line-height: 1.75;
+  font-family: "iA Writer Quattro", system-ui, sans-serif;
+  color: var(--ink);
+  line-height: 1.65;
   overflow-wrap: break-word;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 25%, transparent);
 }
 
 header {
@@ -22,12 +108,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.5em;
-  color: CanvasText;
-}
-
-header nav p {
-  margin-top: 0;
+  font-size: 1.25em;
 }
 
 header h1::before {
@@ -50,29 +131,72 @@ header a {
   text-decoration: none;
 }
 
+header a.title, header a.title:visited {
+  color: var(--ink);
+}
+
+header nav p {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+}
+
+nav a, nav a:visited {
+  color: var(--muted);
+  font-variant-caps: small-caps;
+  letter-spacing: .04em;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  font-weight: 500;
   line-height: 1.2;
 }
 
-h2 {
-  font-size: 1.375em;
+main h1 {
+  font-size: 2.25em;
+  font-weight: 400;
+  letter-spacing: -.015em;
+  margin-block: .5em;
 }
 
-a, header a:visited {
+h2 {
+  font-size: 1.5em;
+  margin-block: 1.75em .5em;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-block: 1.75em .5em;
+}
+
+.home main h3 {
+  font-family: inherit;
+  font-size: .8125em;
+  font-weight: 400;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+a {
   color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  text-underline-offset: .2em;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
 }
 
 a:visited {
   color: var(--muted);
-}
-
-nav a {
-  font-variant-caps: small-caps;
-  letter-spacing: .06em;
-}
-
-nav a + a {
-  margin-left: .75em;
 }
 
 ul.blog-posts {
@@ -83,8 +207,8 @@ ul.blog-posts {
 ul.blog-posts li {
   display: flex;
   align-items: baseline;
-  gap: 1em;
-  margin-bottom: .5em;
+  gap: .75em;
+  margin-bottom: .35em;
 }
 
 ul.blog-posts li::before {
@@ -92,20 +216,55 @@ ul.blog-posts li::before {
   position: absolute;
 }
 
-ul.blog-posts span {
-  flex: none;
-  font-family: monospace, monospace;
+ul.blog-posts a {
+  order: -1;
+  color: var(--ink);
+}
+
+ul.blog-posts a:visited {
+  color: var(--muted);
+}
+
+ul.blog-posts a:hover {
+  color: var(--accent);
 }
 
 ul.blog-posts a:not(:hover) {
   text-decoration: none;
 }
 
+ul.blog-posts li::after {
+  content: "";
+  flex: 1 1 2em;
+  min-width: 2em;
+  border-bottom: 1px dotted var(--muted);
+  opacity: .5;
+}
+
+ul.blog-posts span {
+  order: 1;
+  flex: none;
+  font-size: .8125em;
+  color: var(--muted);
+}
+
+ul.blog-posts time {
+  font-family: var(--mono);
+}
+
+@media (max-width: 36em) {
+  ul.blog-posts span, ul.blog-posts li::after {
+    display: none;
+  }
+}
+
 p:has(> i > time) {
   display: flex;
   flex-wrap: wrap;
   column-gap: 1em;
-  font-family: monospace, monospace;
+  font-family: var(--mono);
+  font-size: .875em;
+  color: var(--muted);
 }
 
 p > i:has(> time) {
@@ -114,6 +273,44 @@ p > i:has(> time) {
 
 .reading-time {
   margin-left: auto;
+}
+
+blockquote {
+  padding-left: 1em;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+}
+
+blockquote:has(> p > a[href*="resume"]) {
+  padding: 0;
+  border: 0;
+}
+
+blockquote a[href*="resume"] {
+  display: inline-flex;
+  align-items: baseline;
+  gap: .5em;
+  padding: .3em .9em;
+  border: 1px solid var(--rule);
+  border-radius: .25em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+blockquote a[href*="resume"]::before {
+  content: "●" / "";
+  color: var(--accent);
+  font-size: .75em;
+}
+
+blockquote a[href*="resume"]:hover {
+  border-color: var(--accent);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin-block: 2.5em;
 }
 
 button.upvote-button {
@@ -137,21 +334,11 @@ button.upvote-button:disabled {
   color: var(--accent) !important;
 }
 
-blockquote {
-  padding-left: 1em;
-  border-left: 2px solid var(--muted);
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid var(--muted);
-}
-
 footer {
   text-align: center;
-  margin-top: 1.5em;
-  padding-block: 1.5em;
-  border-top: 1px solid var(--muted);
+  margin-top: 3em;
+  padding-block: 2em;
+  border-top: 1px solid var(--rule);
 }
 
 footer p, footer small {
@@ -163,7 +350,8 @@ img {
 }
 
 code, pre {
-  font-family: monospace, monospace;
+  font-family: var(--mono);
+  font-size: .9375em;
 }
 
 pre {
@@ -194,12 +382,14 @@ button, input, select {
 
 :where(button, select, textarea, input:not([type=checkbox], [type=radio], [type=range], [type=color], [type=file])) {
   padding: .5em .75em;
-  border: 1px solid var(--muted);
+  border: 1px solid var(--rule);
+  border-radius: .25em;
+  color: inherit;
+  background: none;
 }
 
 :where(button, input[type=submit]) {
   color: var(--accent);
-  background: none;
 }
 
 :where(button:not(:disabled):is(:hover, :active), input[type=submit]:not(:disabled):is(:hover, :active)) {
@@ -222,6 +412,7 @@ input, textarea {
 
 .note label {
   flex-basis: 100%;
+  color: var(--ink);
 }
 
 .note input {

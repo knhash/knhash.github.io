@@ -1,7 +1,7 @@
 # make resume   build the 4 resume PDFs into build/pdf
 # make site     build three deployable folders:
 #   build/files   -> files.knhash.in  (PDFs, flat)
-#   build/media   -> media.knhash.in  (images)
+#   build/media   -> media.knhash.in  (images, fonts)
 #   build/legacy  -> knhash.github.io (old /files, /media paths + redirect stubs)
 # make theme    serve the theme preview on localhost:8765 (runs snapshot first if needed)
 # make snapshot download the site's pages into build/theme (~1 min)

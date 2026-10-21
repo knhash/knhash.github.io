@@ -382,7 +382,7 @@ button, input, select {
 
 :where(button, select, textarea, input:not([type=checkbox], [type=radio], [type=range], [type=color], [type=file])) {
   padding: .5em .75em;
-  border: 1px solid var(--rule);
+  border: 1px solid var(--muted);
   border-radius: .25em;
   color: inherit;
   background: none;

@@ -12,11 +12,35 @@
   </style>
 
 <script>
-// /blog/ has no editable body, so its title is added here
+// /blog/ has no editable body, so its title and year headings are added here
 if (document.body.classList.contains('blog')) {
+  const main = document.querySelector('main');
   const title = document.createElement('h1');
   title.textContent = 'All writing';
-  document.querySelector('main').prepend(title);
+  main.prepend(title);
+
+  const list = main.querySelector('ul.blog-posts');
+  let year, group;
+  for (const post of list.querySelectorAll(':scope > li')) {
+    const y = new Date(post.querySelector('time').dateTime).getFullYear();
+    if (y !== year) {
+      year = y;
+      const heading = document.createElement('h2');
+      heading.textContent = year;
+      group = document.createElement('ul');
+      group.className = list.className;
+      list.before(heading, group);
+    }
+    group.append(post);
+  }
+  list.remove();
+
+  // Bearblog writes the dates after this script runs; the heading has the year
+  document.addEventListener('DOMContentLoaded', () => {
+    for (const time of main.querySelectorAll('ul.blog-posts time')) {
+      time.textContent = time.textContent.replace(/,? \d{4}$/, '');
+    }
+  });
 }
 
 async function sendMsg(event) {

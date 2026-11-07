@@ -8,8 +8,9 @@ Static files, media, the resume (LaTeX), old-URL redirects and the theme for htt
 - `redirects.csv`: every legacy path -> its latest URL on knhash.in. Add a line to add a redirect.
 - `static/`: `_headers` / `_redirects` for the two Cloudflare sites.
 - `scripts/`: `gen-redirects.py`, `check-urls.sh`, and `theme-serve.py` / `theme-snapshot.py` for the theme preview.
-- `theme/knhash.css`: Bearblog custom CSS (Dashboard → Themes). Bearblog keeps no history; applying a built-in theme overwrites it.
+- `theme/knhash.css`: Bearblog custom CSS (Dashboard → Themes). System fonts only, no header or nav (empty the nav in Dashboard → Nav). Bearblog keeps no history; applying a built-in theme overwrites it.
 - `theme/footer.html`: Bearblog footer directive (Settings → Header and footer directives).
+- `theme/home.md`: homepage body (Dashboard → Home). Not part of the preview snapshot.
 - `theme/guestbook.html`: body of the Guestbook page.
 - Theme preview: `make theme`, then http://localhost:8765/build/theme/. CSS changes apply on save, footer changes on reload. `make snapshot` re-downloads the pages (~1 min).
 

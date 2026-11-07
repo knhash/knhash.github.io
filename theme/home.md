@@ -10,6 +10,13 @@ Elsewhere, I am `@knhash`: [email](mailto:contact@knhash.in) is the best way to 
 
 Around here, you'll find a [den](/den/) of projects and contraptions, and a [guestbook](/guestbook/) for leaving a note.
 
+<form class="note" onsubmit="sendMsg(event)">
+  <label for="msg-text">Or anonymously, direct to my phone:</label>
+  <input id="msg-text" type="text" autocomplete="off">
+  <button>Send</button>
+</form>
+<small id="msg-status" aria-live="polite"></small>
+
 ---
 
 {{ posts }}

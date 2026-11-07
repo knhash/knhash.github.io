@@ -277,10 +277,6 @@ input, textarea {
   min-width: 0;
 }
 
-body:not(.home) form.note, body:not(.home) #msg-status {
-  display: none;
-}
-
 .note {
   display: flex;
   flex-wrap: wrap;

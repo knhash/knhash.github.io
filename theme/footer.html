@@ -1,10 +1,4 @@
 <p class="footer-top"><a href="/">&larr; Back to home</a><span class="footer-rule"></span></p>
-<form class="note" onsubmit="sendMsg(event)">
-  <label for="msg-text">Or anonymously, direct to my phone:</label>
-  <input id="msg-text" type="text" autocomplete="off">
-  <button>Send</button>
-</form>
-<small id="msg-status" aria-live="polite"></small>
 <p>— Maximize fun, always —</p>
 <style>
     footer > span:has(a[href="https://bearblog.dev"]) {
@@ -13,13 +7,6 @@
   </style>
 
 <script>
-// Homepage: the note form moves to the end of the intro
-if (document.body.classList.contains('home')) {
-  const rule = document.querySelector('main hr');
-  const form = document.querySelector('form.note');
-  if (rule && form) rule.before(form, document.getElementById('msg-status'));
-}
-
 // /blog/ has no editable body, so its title is added here; the homepage lists the newest year without a heading
 if (document.body.classList.contains('blog') || document.body.classList.contains('home')) {
   const main = document.querySelector('main');

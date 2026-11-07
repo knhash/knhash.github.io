@@ -22,6 +22,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             body = open("theme/knhash.css", "rb").read().replace(b"https://media.knhash.in/", b"/media/")
             return self.send_body(body, "text/css; charset=utf-8")
         # Replace the footer directive in snapshot pages with theme/footer.html.
+        if path.endswith("/") and os.path.isfile(self.translate_path(path + "index.html")):
+            path += "index.html"
+            self.path = path
         page = self.translate_path(self.path)  # decoded, confined to the repo root
         if path.startswith("/build/theme/") and path.endswith(".html") and os.path.isfile(page) and os.path.isfile("theme/footer.html"):
             with open(page, encoding="utf-8") as f:

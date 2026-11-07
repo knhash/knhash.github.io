@@ -1,9 +1,4 @@
-<form class="note" onsubmit="sendMsg(event)">
-  <label for="msg-text">Leave an anonymous note, direct to my phone.</label>
-  <input id="msg-text" type="text" autocomplete="off">
-  <button>Send</button>
-</form>
-<small id="msg-status" aria-live="polite"></small>
+<p class="footer-top"><a href="/">&larr; Back to home</a><span class="footer-rule"></span></p>
 <p>— Maximize fun, always —</p>
 <style>
     footer > span:has(a[href="https://bearblog.dev"]) {
@@ -12,24 +7,32 @@
   </style>
 
 <script>
-// /blog/ has no editable body, so its title and year headings are added here
-if (document.body.classList.contains('blog')) {
+// /blog/ has no editable body, so its title is added here; the homepage lists the newest year without a heading
+if (document.body.classList.contains('blog') || document.body.classList.contains('home')) {
   const main = document.querySelector('main');
-  const title = document.createElement('h1');
-  title.textContent = 'All writing';
-  main.prepend(title);
+  const home = document.body.classList.contains('home');
+  if (!home) {
+    const title = document.createElement('h1');
+    title.textContent = 'All writing';
+    main.prepend(title);
+  }
 
   const list = main.querySelector('ul.blog-posts');
   let year, group;
   for (const post of list.querySelectorAll(':scope > li')) {
     const y = new Date(post.querySelector('time').dateTime).getFullYear();
     if (y !== year) {
+      const first = year === undefined;
       year = y;
-      const heading = document.createElement('h2');
-      heading.textContent = year;
       group = document.createElement('ul');
       group.className = list.className;
-      list.before(heading, group);
+      if (home && first) {
+        list.before(group);
+      } else {
+        const heading = document.createElement('h2');
+        heading.textContent = year;
+        list.before(heading, group);
+      }
     }
     group.append(post);
   }
@@ -38,7 +41,7 @@ if (document.body.classList.contains('blog')) {
   // Bearblog writes the dates after this script runs; the heading has the year
   document.addEventListener('DOMContentLoaded', () => {
     for (const time of main.querySelectorAll('ul.blog-posts time')) {
-      time.textContent = time.textContent.replace(/,? \d{4}$/, '');
+      time.textContent = time.textContent.replace(/,?\s*\d{4}\s*$/, '');
     }
   });
 }

@@ -6,7 +6,7 @@ Static files, media, the resume (LaTeX), old-URL redirects and the theme for htt
 - `resume/ShashankResume.tex`: resume source (`\VARIANT` = master | recsys | platform | hpc). `ShashankResume.md` has the full content.
 - `files/` (PDFs), `media/` and `logos/` (images): public assets. File names are URLs; don't rename.
 - `redirects.csv`: every legacy path -> its latest URL on knhash.in. Add a line to add a redirect.
-- `static/`: `_headers` / `_redirects` for the two Cloudflare sites.
+- `static/`: `_headers` / `_redirects` for the two Cloudflare sites, plus the brand icons in `static/media/` (`favicon.ico`, `apple-touch-icon.png`) served at `media.knhash.in/` and reused for the legacy `/assets/` paths.
 - `scripts/`: `gen-redirects.py`, `check-urls.sh`, and `theme-serve.py` / `theme-snapshot.py` for the theme preview.
 - `theme/knhash.css`: Bearblog custom CSS (Dashboard → Themes). System fonts only, no header or nav (empty the nav in Dashboard → Nav). Bearblog keeps no history; applying a built-in theme overwrites it.
 - `theme/footer.html`: Bearblog footer directive (Settings → Header and footer directives).

@@ -32,15 +32,14 @@ site: resume
 	# media.knhash.in
 	cp -R media/. build/media/
 	cp -R logos build/media/logos
-	cp static/media/_headers build/media/
-	cp static/legacy/assets/favicon.ico static/legacy/assets/apple-touch-icon.png build/media/
+	cp -R static/media/. build/media/
 	# knhash.github.io: legacy paths
 	cp -R build/files/*.pdf build/legacy/files/
 	cp -R media logos keybase.txt robots.txt build/legacy/
 	cp build/files/resume*.pdf build/legacy/
 	# oldest layout: /assets/*.pdf and /assets/resume.pdf
 	mkdir -p build/legacy/assets && cp build/legacy/files/*.pdf build/legacy/assets/ && cp build/files/resume.pdf build/legacy/assets/resume.pdf
-	cp static/legacy/assets/* build/legacy/assets/
+	cp static/media/favicon.ico static/media/apple-touch-icon.png build/legacy/assets/
 	touch build/legacy/.nojekyll
 	python3 scripts/gen-redirects.py build/legacy
 

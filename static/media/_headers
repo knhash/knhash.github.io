@@ -1,11 +1,3 @@
 /*
   Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=31536000, immutable
-
-# Brand icons change occasionally; keep them short-lived so updates propagate.
-/favicon.ico
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=3600, must-revalidate
-/apple-touch-icon.png
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=3600, must-revalidate
+  Cache-Control: public, max-age=86400, must-revalidate
